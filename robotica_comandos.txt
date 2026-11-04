@@ -7,7 +7,7 @@ QT_ENABLE_HIGHDPI_SCALING=0 ros2 launch turtlebot3_navigation2 navigation2.launc
   map:=$(ros2 pkg prefix turtlebot3_navigation2)/share/turtlebot3_navigation2/map/map.yaml
 
 
-	CODIGO	
+		
 Iniciar Ross :
 source /opt/ros/lyrical/setup.bash
 source /opt/ros/<distro>/setup.bash
