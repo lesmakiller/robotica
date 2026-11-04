@@ -1,0 +1,84 @@
+gazebo turtelbox
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+ros2 navegation
+ros2 run reactive_nav reactive_navigator
+
+QT_ENABLE_HIGHDPI_SCALING=0 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True \
+  map:=$(ros2 pkg prefix turtlebot3_navigation2)/share/turtlebot3_navigation2/map/map.yaml
+
+
+	CODIGO	
+Iniciar Ross :
+source /opt/ros/lyrical/setup.bash
+source /opt/ros/<distro>/setup.bash
+
+Verifica que el dato realmente cambió en el tópico
+ros2 topic echo /imu --once
+
+1. Verifica que realmente guardaste el cambio
+cat ~/ros2_ws/src/imu_orientation/imu_orientation/imu_simulator.py
+
+chag directory (cd)
+debian pakage (dpkg)
+advance package tool (apt)
+
+git clone 
+sudo apt install./ name
+sudo dpkg -i
+xdg-open *nombre*
+nombre*
+fix broken install
+
+para ver los nodos 
+ros2 node list
+ros2 topic info
+
+fastfetch
+Presiona Ctrl + Alt + T
+
+dconf read /org/gnome/Ptyxis/default-profile-uuid
+remplazando <TU_UUID> en el codigo por la dado anteriormente 
+dconf write /org/gnome/Ptyxis/Profiles/<TU_UUID>/opacity 0.85
+
+echo "fastfetch" >> ~/.bashrc
+para que aparesca siempre el menu astfetch
+
+arreglar parpadeo 
+QT_ENABLE_HIGHDPI_SCALING=0 ros2 run rviz2 rviz2
+
+nano actividad4_cap3.py
+python3 actividad4_cap3.py
+
+                  ACTIVIDAD 
+	terminal 1 
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+terminal 2 prueba de teclado 
+ros2 run turtlebot3_teleop teleop_keyboard
+
+	para correr el el ross
+cd ~/ros2_ws && colcon build --packages-select lab_robotica && source install/setup.bash
+ros2 run lab_robotica go_to_goal
+	en otra terminal verificar
+ros2 topic info /cmd_vel
+
+	la otra froma como en el taller
+ Terminal 1
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+Terminal 2
+ros2 topic echo /odom
+ros2 run lab_roboƟca go_to_goal
+
+	Si Gazebo parpadea o va lento
+QT_QPA_PLATFORM=xcb ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+				actividad5
+cd ~/ros2_ws/src
+ros2 pkg create lab_robotica --build-type ament_python --dependencies rclpy geometry_msgs nav_msgs
+nano lab_robotica/lab_robotica/go_to_goal.py
+
+pegamos el codigo 
+
+Registra el nodo en ~/ros2_ws/src/lab_robotica/setup.py:
+'console_scripts': [
+    'go_to_goal = lab_robotica.go_to_goal:main',
+],
