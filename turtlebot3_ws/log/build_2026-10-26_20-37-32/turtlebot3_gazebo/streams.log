@@ -1,0 +1,439 @@
+[0.032s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo
+[0.045s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.045s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.046s]   CMake.
+[0.046s] 
+[0.046s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.046s]   to tell CMake that the project requires at least <min> but has been updated
+[0.046s]   to work with policies introduced by <max> or earlier.
+[0.046s] 
+[0.046s] [0m
+[0.132s] -- The C compiler identification is GNU 15.2.0
+[0.223s] -- The CXX compiler identification is GNU 15.2.0
+[0.234s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.558s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.300s] -- Found ros_gz_sim: 3.0.10 (/opt/ros/lyrical/share/ros_gz_sim/cmake)
+[1.370s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.389s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.564s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.976s] -- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+[2.011s] -- Found sensor_msgs: 5.9.3 (/opt/ros/lyrical/share/sensor_msgs/cmake)
+[2.043s] -- Found gz_math_vendor: 0.4.5 (/opt/ros/lyrical/share/gz_math_vendor/cmake)
+[2.060s] -- Looking for gz-math -- found version 9.3.0
+[2.068s] -- Searching for dependencies of gz-math
+[2.070s] -- Looking for gz-utils -- found version 4.0.0
+[2.070s] -- Searching for dependencies of gz-utils
+[2.076s] -- Found gz_sim_vendor: 0.4.6 (/opt/ros/lyrical/share/gz_sim_vendor/cmake)
+[2.147s] -- Looking for gz-sim -- found version 10.5.0
+[2.147s] -- Searching for dependencies of gz-sim
+[2.149s] -- Looking for sdformat -- found version 16.1.0
+[2.149s] -- Searching for dependencies of sdformat
+[2.158s] -- Checking for module 'tinyxml2'
+[2.183s] --   Found tinyxml2, version 11.0.0
+[2.243s] -- Looking for gz-math -- found version 9.3.0
+[2.243s] -- Looking for gz-utils -- found version 4.0.0
+[2.244s] -- Searching for dependencies of gz-utils
+[2.244s] -- Searching for <gz-utils> component [cli]
+[2.246s] -- Looking for gz-utils-cli -- found version 4.0.0
+[2.247s] -- Searching for dependencies of gz-utils-cli
+[2.250s] -- Looking for gz-plugin -- found version 4.0.0
+[2.251s] -- Searching for dependencies of gz-plugin
+[2.251s] -- Looking for gz-utils -- found version 4.0.0
+[2.252s] -- Searching for <gz-plugin> component [loader]
+[2.254s] -- Looking for gz-plugin-loader -- found version 4.0.0
+[2.254s] -- Searching for dependencies of gz-plugin-loader
+[2.255s] -- Searching for <gz-plugin> component [register]
+[2.257s] -- Looking for gz-plugin-register -- found version 4.0.0
+[2.257s] -- Searching for dependencies of gz-plugin-register
+[2.260s] -- Looking for gz-transport -- found version 15.1.0
+[2.260s] -- Searching for dependencies of gz-transport
+[2.433s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12")
+[2.452s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.460s] -- Checking for module 'libzmq >= 4'
+[2.487s] --   Found libzmq, version 4.3.5
+[2.573s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[2.585s] -- Checking for module 'uuid'
+[2.615s] --   Found uuid, version 2.41.3
+[2.679s] -- Found UUID: TRUE
+[2.679s] -- Looking for gz-utils -- found version 4.0.0
+[2.682s] -- Looking for gz-msgs -- found version 12.0.2
+[2.683s] -- Searching for dependencies of gz-msgs
+[2.717s] -- Looking for gz-utils -- found version 4.0.0
+[2.718s] -- Looking for gz-math -- found version 9.3.0
+[2.730s] -- Searching for <gz-transport> component [log]
+[2.732s] -- Looking for gz-transport-log -- found version 15.1.0
+[2.733s] -- Searching for dependencies of gz-transport-log
+[2.734s] -- Searching for <gz-transport> component [parameters]
+[2.736s] -- Looking for gz-transport-parameters -- found version 15.1.0
+[2.736s] -- Searching for dependencies of gz-transport-parameters
+[2.739s] -- Looking for gz-msgs -- found version 12.0.2
+[2.742s] -- Looking for gz-common -- found version 7.4.0
+[2.742s] -- Searching for dependencies of gz-common
+[2.742s] -- Looking for gz-utils -- found version 4.0.0
+[2.743s] -- Searching for dependencies of gz-utils
+[2.743s] -- Searching for <gz-utils> component [log]
+[2.746s] -- Looking for gz-utils-log -- found version 4.0.0
+[2.746s] -- Searching for dependencies of gz-utils-log
+[2.754s] -- Found Threads: TRUE
+[2.773s] -- Searching for <gz-common> component [av]
+[2.776s] -- Looking for gz-common-av -- found version 7.4.0
+[2.776s] -- Searching for dependencies of gz-common-av
+[2.784s] -- Checking for module 'libswscale'
+[2.812s] --   Found libswscale, version 9.1.100
+[2.879s] -- Found SWSCALE: TRUE
+[2.888s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.919s] --   Found libavdevice, version 62.1.100
+[3.008s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100")
+[3.019s] -- Checking for module 'libavformat'
+[3.049s] --   Found libavformat, version 62.3.100
+[3.125s] -- Found AVFORMAT: TRUE
+[3.134s] -- Checking for module 'libavcodec'
+[3.162s] --   Found libavcodec, version 62.11.100
+[3.237s] -- Found AVCODEC: TRUE
+[3.245s] -- Checking for module 'libavutil'
+[3.271s] --   Found libavutil, version 60.8.100
+[3.337s] -- Found AVUTIL: TRUE
+[3.339s] -- Searching for <gz-common> component [events]
+[3.342s] -- Looking for gz-common-events -- found version 7.4.0
+[3.343s] -- Searching for dependencies of gz-common-events
+[3.343s] -- Looking for gz-math -- found version 9.3.0
+[3.345s] -- Searching for <gz-common> component [graphics]
+[3.348s] -- Looking for gz-common-graphics -- found version 7.4.0
+[3.348s] -- Searching for dependencies of gz-common-graphics
+[3.349s] -- Looking for gz-math -- found version 9.3.0
+[3.358s] -- Found GzAssimp: TRUE (found version "6.0.4")
+[3.359s] -- Searching for <gz-common> component [io]
+[3.362s] -- Looking for gz-common-io -- found version 7.4.0
+[3.363s] -- Searching for dependencies of gz-common-io
+[3.364s] -- Searching for <gz-common> component [profiler]
+[3.367s] -- Looking for gz-common-profiler -- found version 7.4.0
+[3.367s] -- Searching for dependencies of gz-common-profiler
+[3.368s] -- Searching for <gz-common> component [testing]
+[3.371s] -- Looking for gz-common-testing -- found version 7.4.0
+[3.372s] -- Searching for dependencies of gz-common-testing
+[3.377s] -- Looking for gz-fuel_tools -- found version 11.0.0
+[3.377s] -- Searching for dependencies of gz-fuel_tools
+[3.581s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.18.0")
+[3.598s] -- Checking for module 'jsoncpp'
+[3.627s] --   Found jsoncpp, version 1.9.6
+[3.691s] -- Found JSONCPP: TRUE
+[3.716s] -- Checking for module 'yaml-0.1'
+[3.740s] --   Found yaml-0.1, version 0.2.5
+[3.806s] -- Found YAML: TRUE
+[3.816s] -- Checking for module 'libzip'
+[3.844s] --   Found libzip, version 1.11.4
+[3.917s] -- Found ZIP: TRUE
+[3.918s] -- Looking for gz-utils -- found version 4.0.0
+[3.918s] -- Looking for gz-common -- found version 7.4.0
+[3.919s] -- Looking for gz-math -- found version 9.3.0
+[3.920s] -- Looking for gz-msgs -- found version 12.0.2
+[3.924s] -- Looking for gz-gui -- found version 10.1.0
+[3.924s] -- Searching for dependencies of gz-gui
+[3.964s] -- Looking for gz-utils -- found version 4.0.0
+[3.965s] -- Looking for gz-math -- found version 9.3.0
+[3.965s] -- Looking for gz-common -- found version 7.4.0
+[3.966s] -- Looking for gz-plugin -- found version 4.0.0
+[3.966s] -- Looking for gz-transport -- found version 15.1.0
+[3.969s] -- Looking for gz-rendering -- found version 10.0.2
+[3.969s] -- Searching for dependencies of gz-rendering
+[3.969s] -- Looking for gz-math -- found version 9.3.0
+[3.970s] -- Searching for dependencies of gz-math
+[3.970s] -- Looking for gz-utils -- found version 4.0.0
+[3.971s] -- Searching for <gz-math> component [eigen3]
+[3.974s] -- Looking for gz-math-eigen3 -- found version 9.3.0
+[3.974s] -- Searching for dependencies of gz-math-eigen3
+[3.989s] -- Looking for gz-common -- found version 7.4.0
+[3.989s] -- Searching for dependencies of gz-common
+[3.990s] -- Looking for gz-utils -- found version 4.0.0
+[4.001s] -- Searching for <gz-common> component [graphics]
+[4.001s] -- Searching for <gz-common> component [events]
+[4.001s] -- Searching for <gz-common> component [geospatial]
+[4.005s] -- Looking for gz-common-geospatial -- found version 7.4.0
+[4.005s] -- Searching for dependencies of gz-common-geospatial
+[4.006s] -- Looking for gz-math -- found version 9.3.0
+[4.006s] -- Looking for gz-common -- found version 7.4.0
+[4.009s] -- Looking for gz-plugin -- found version 4.0.0
+[4.009s] -- Searching for dependencies of gz-plugin
+[4.010s] -- Looking for gz-utils -- found version 4.0.0
+[4.010s] -- Searching for <gz-plugin> component [all]
+[4.013s] -- Looking for all libraries of gz-plugin -- found version 4.0.0
+[4.014s] -- Looking for gz-plugin -- found version 4.0.0
+[4.016s] -- Looking for gz-utils -- found version 4.0.0
+[4.051s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL
+[4.052s] -- Looking for gz-msgs -- found version 12.0.2
+[4.083s] -- Performing Test HAVE_STDATOMIC
+[4.298s] -- Performing Test HAVE_STDATOMIC - Success
+[4.300s] -- Found WrapAtomic: TRUE
+[4.359s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[4.360s] -- Found WrapOpenGL: TRUE
+[4.419s] -- Found WrapVulkanHeaders: /usr/include
+[4.574s] -- Looking for gz-physics -- found version 9.5.2
+[4.574s] -- Searching for dependencies of gz-physics
+[4.574s] -- Looking for gz-common -- found version 7.4.0
+[4.575s] -- Looking for gz-math -- found version 9.3.0
+[4.575s] -- Looking for gz-plugin -- found version 4.0.0
+[4.576s] -- Looking for gz-utils -- found version 4.0.0
+[4.577s] -- Searching for <gz-physics> component [heightmap]
+[4.579s] -- Looking for gz-physics-heightmap -- found version 9.5.2
+[4.580s] -- Searching for dependencies of gz-physics-heightmap
+[4.580s] -- Looking for gz-common -- found version 7.4.0
+[4.581s] -- Searching for <gz-physics> component [mesh]
+[4.583s] -- Looking for gz-physics-mesh -- found version 9.5.2
+[4.583s] -- Searching for dependencies of gz-physics-mesh
+[4.584s] -- Looking for gz-common -- found version 7.4.0
+[4.585s] -- Searching for <gz-physics> component [sdf]
+[4.587s] -- Looking for gz-physics-sdf -- found version 9.5.2
+[4.587s] -- Searching for dependencies of gz-physics-sdf
+[4.588s] -- Looking for sdformat -- found version 16.1.0
+[4.591s] -- Looking for gz-sensors -- found version 10.1.1
+[4.592s] -- Searching for dependencies of gz-sensors
+[4.620s] -- Looking for gz-math -- found version 9.3.0
+[4.620s] -- Looking for gz-common -- found version 7.4.0
+[4.620s] -- Looking for gz-transport -- found version 15.1.0
+[4.621s] -- Looking for gz-rendering -- found version 10.0.2
+[4.621s] -- Looking for gz-msgs -- found version 12.0.2
+[4.622s] -- Looking for sdformat -- found version 16.1.0
+[4.623s] -- Searching for <gz-sensors> component [air_pressure]
+[4.624s] -- Looking for gz-sensors-air_pressure -- found version 10.1.1
+[4.624s] -- Searching for dependencies of gz-sensors-air_pressure
+[4.625s] -- Searching for <gz-sensors> component [air_speed]
+[4.627s] -- Looking for gz-sensors-air_speed -- found version 10.1.1
+[4.627s] -- Searching for dependencies of gz-sensors-air_speed
+[4.628s] -- Searching for <gz-sensors> component [altimeter]
+[4.630s] -- Looking for gz-sensors-altimeter -- found version 10.1.1
+[4.630s] -- Searching for dependencies of gz-sensors-altimeter
+[4.631s] -- Searching for <gz-sensors> component [imu]
+[4.632s] -- Looking for gz-sensors-imu -- found version 10.1.1
+[4.633s] -- Searching for dependencies of gz-sensors-imu
+[4.634s] -- Searching for <gz-sensors> component [force_torque]
+[4.635s] -- Looking for gz-sensors-force_torque -- found version 10.1.1
+[4.636s] -- Searching for dependencies of gz-sensors-force_torque
+[4.637s] -- Searching for <gz-sensors> component [logical_camera]
+[4.639s] -- Looking for gz-sensors-logical_camera -- found version 10.1.1
+[4.640s] -- Searching for dependencies of gz-sensors-logical_camera
+[4.641s] -- Searching for <gz-sensors> component [magnetometer]
+[4.643s] -- Looking for gz-sensors-magnetometer -- found version 10.1.1
+[4.643s] -- Searching for dependencies of gz-sensors-magnetometer
+[4.645s] -- Searching for <gz-sensors> component [navsat]
+[4.647s] -- Looking for gz-sensors-navsat -- found version 10.1.1
+[4.647s] -- Searching for dependencies of gz-sensors-navsat
+[4.649s] -- Searching for <gz-sensors> component [dvl]
+[4.651s] -- Looking for gz-sensors-dvl -- found version 10.1.1
+[4.651s] -- Searching for dependencies of gz-sensors-dvl
+[4.652s] -- Looking for gz-sensors -- found version 10.1.1
+[4.652s] -- Searching for dependencies of gz-sensors
+[4.691s] -- Looking for gz-math -- found version 9.3.0
+[4.692s] -- Looking for gz-common -- found version 7.4.0
+[4.693s] -- Looking for gz-transport -- found version 15.1.0
+[4.694s] -- Looking for gz-rendering -- found version 10.0.2
+[4.694s] -- Looking for gz-msgs -- found version 12.0.2
+[4.695s] -- Looking for sdformat -- found version 16.1.0
+[4.696s] -- Searching for <gz-sensors> component [rendering]
+[4.698s] -- Looking for gz-sensors-rendering -- found version 10.1.1
+[4.699s] -- Searching for dependencies of gz-sensors-rendering
+[4.703s] -- Searching for <gz-sensors> component [rendering]
+[4.703s] -- Searching for <gz-sensors> component [lidar]
+[4.705s] -- Looking for gz-sensors-lidar -- found version 10.1.1
+[4.705s] -- Searching for dependencies of gz-sensors-lidar
+[4.706s] -- Looking for gz-sensors -- found version 10.1.1
+[4.708s] -- Searching for <gz-sensors> component [gpu_lidar]
+[4.710s] -- Looking for gz-sensors-gpu_lidar -- found version 10.1.1
+[4.710s] -- Searching for dependencies of gz-sensors-gpu_lidar
+[4.711s] -- Looking for gz-sensors -- found version 10.1.1
+[4.713s] -- Searching for <gz-sensors> component [camera]
+[4.715s] -- Looking for gz-sensors-camera -- found version 10.1.1
+[4.715s] -- Searching for dependencies of gz-sensors-camera
+[4.716s] -- Looking for gz-sensors -- found version 10.1.1
+[4.718s] -- Searching for <gz-sensors> component [boundingbox_camera]
+[4.720s] -- Looking for gz-sensors-boundingbox_camera -- found version 10.1.1
+[4.720s] -- Searching for dependencies of gz-sensors-boundingbox_camera
+[4.722s] -- Searching for <gz-sensors> component [segmentation_camera]
+[4.724s] -- Looking for gz-sensors-segmentation_camera -- found version 10.1.1
+[4.724s] -- Searching for dependencies of gz-sensors-segmentation_camera
+[4.726s] -- Searching for <gz-sensors> component [depth_camera]
+[4.728s] -- Looking for gz-sensors-depth_camera -- found version 10.1.1
+[4.728s] -- Searching for dependencies of gz-sensors-depth_camera
+[4.729s] -- Looking for gz-sensors -- found version 10.1.1
+[4.731s] -- Searching for <gz-sensors> component [rgbd_camera]
+[4.733s] -- Looking for gz-sensors-rgbd_camera -- found version 10.1.1
+[4.733s] -- Searching for dependencies of gz-sensors-rgbd_camera
+[4.734s] -- Looking for gz-sensors -- found version 10.1.1
+[4.735s] -- Searching for <gz-sensors> component [thermal_camera]
+[4.738s] -- Looking for gz-sensors-thermal_camera -- found version 10.1.1
+[4.738s] -- Searching for dependencies of gz-sensors-thermal_camera
+[4.739s] -- Looking for gz-sensors -- found version 10.1.1
+[4.740s] -- Searching for <gz-sensors> component [wide_angle_camera]
+[4.742s] -- Looking for gz-sensors-wide_angle_camera -- found version 10.1.1
+[4.743s] -- Searching for dependencies of gz-sensors-wide_angle_camera
+[4.746s] -- Looking for gz-rendering -- found version 10.0.2
+[4.747s] -- Looking for gz-math -- found version 9.3.0
+[4.748s] -- Looking for gz-utils -- found version 4.0.0
+[4.782s] -- Looking for gz-plugin -- found version 4.0.0
+[4.935s] -- Configuring done (4.9s)
+[4.979s] -- Generating done (0.0s)
+[5.063s] -- Build files have been written to: /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo
+[5.087s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo
+[5.088s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[5.168s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m
+[5.169s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[5.172s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[5.175s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[7.442s] [ 62%] [1m[32mLinking CXX shared library libobstacle1.so[0m
+[7.555s] [ 75%] [1m[32mLinking CXX shared library libobstacle2.so[0m
+[7.668s] [ 75%] Built target obstacle1
+[7.778s] [ 75%] Built target obstacle2
+[7.991s] [ 87%] [1m[32mLinking CXX shared library libobstacles.so[0m
+[8.214s] [ 87%] Built target obstacles
+[17.934s] [100%] [1m[32mLinking CXX executable turtlebot3_drive[0m
+[18.414s] [100%] Built target turtlebot3_drive
+[18.431s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[18.434s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo
+[18.448s] -- Install configuration: ""
+[18.448s] -- Execute custom install script
+[18.449s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[18.465s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/libobstacles.so
+[18.485s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/libobstacle1.so
+[18.504s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/libobstacle2.so
+[18.522s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[18.538s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[18.557s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[18.570s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[18.583s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[18.603s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[18.618s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[18.634s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[18.647s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[18.661s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[18.673s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[18.685s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[18.697s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf
+[18.709s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config
+[18.721s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf
+[18.733s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl
+[18.746s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[18.758s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[18.770s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[18.782s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[18.794s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[18.806s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae
+[18.818s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg
+[18.829s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl
+[18.840s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae
+[18.852s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg
+[18.865s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[18.877s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[18.889s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[18.901s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[18.913s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[18.923s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[18.938s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[18.950s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[18.963s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[18.978s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[18.992s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/textures/wood.png
+[19.008s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[19.023s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[19.036s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[19.049s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[19.061s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[19.073s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[19.087s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[19.100s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[19.111s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/textures/wood.png
+[19.123s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/materials/textures/Maple.jpg
+[19.136s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/materials/textures/Wood_Floor_Dark.jpg
+[19.148s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/meshes/cafe_table.dae
+[19.161s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/model-1_4.sdf
+[19.176s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/model.config
+[19.190s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/cafe_table/model.sdf
+[19.204s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/first_2015_trash_can/meshes/trash_can.dae
+[19.218s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/first_2015_trash_can/model.config
+[19.233s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/first_2015_trash_can/model.sdf
+[19.252s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/materials/scripts/mailbox.material
+[19.265s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/materials/textures/Mailbox_Diffuse.png
+[19.280s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/materials/textures/Mailbox_Diffuse.tga.orig
+[19.293s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/materials/textures/Mailbox_Spec.png
+[19.305s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/meshes/mailbox.dae
+[19.318s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/model-1_3.sdf
+[19.330s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/model-1_4.sdf
+[19.342s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/model.config
+[19.354s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/mailbox/model.sdf
+[19.366s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[19.378s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[19.390s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/materials/scripts/table_lightmap.material
+[19.402s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/materials/textures/marble.png
+[19.415s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/materials/textures/table_lightmap.png
+[19.432s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/meshes/table_lightmap.dae
+[19.449s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/model-1_4.sdf
+[19.464s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/model.config
+[19.483s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/table_marble/model.sdf
+[19.498s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/textures/bricks.png
+[19.513s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/textures/wood.png
+[19.529s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[19.548s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[19.564s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[19.581s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[19.597s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[19.612s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[19.627s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[19.644s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[19.659s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[19.674s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[19.689s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[19.705s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//params/turtlebot3_burger_bridge.yaml
+[19.722s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//params/turtlebot3_burger_cam_bridge.yaml
+[19.738s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//params/turtlebot3_waffle_bridge.yaml
+[19.757s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//params/turtlebot3_waffle_pi_bridge.yaml
+[19.773s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[19.790s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[19.806s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[19.824s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf
+[19.839s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[19.856s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[19.872s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[19.889s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world
+[19.904s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[19.920s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[19.934s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[19.949s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[19.968s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[19.985s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[20.001s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp
+[20.016s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp
+[20.031s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp
+[20.046s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp
+[20.060s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp
+[20.075s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[20.094s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[20.111s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[20.129s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[20.146s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[20.164s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[20.186s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[20.203s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[20.222s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.fish
+[20.237s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[20.253s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[20.268s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[20.282s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[20.295s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[20.307s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.319s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.332s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[20.344s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[20.358s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[20.373s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo

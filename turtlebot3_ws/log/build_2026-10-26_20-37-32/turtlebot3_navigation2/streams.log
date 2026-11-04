@@ -1,0 +1,62 @@
+[0.030s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2
+[0.046s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.046s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.047s]   CMake.
+[0.047s] 
+[0.047s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.047s]   to tell CMake that the project requires at least <min> but has been updated
+[0.047s]   to work with policies introduced by <max> or earlier.
+[0.047s] 
+[0.047s] [0m
+[0.136s] -- The C compiler identification is GNU 15.2.0
+[0.227s] -- The CXX compiler identification is GNU 15.2.0
+[0.240s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.548s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.402s] -- Configuring done (1.4s)
+[1.406s] -- Generating done (0.0s)
+[1.407s] -- Build files have been written to: /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2
+[1.414s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2
+[1.415s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.476s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.477s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2
+[1.490s] -- Install configuration: ""
+[1.490s] -- Execute custom install script
+[1.491s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.505s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.519s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.533s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.546s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.559s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.572s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.587s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.598s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.614s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.628s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.642s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.653s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.668s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.680s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.695s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.708s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.721s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.733s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.748s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.fish
+[1.759s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.774s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.786s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.799s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.810s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.823s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.837s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.851s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.864s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2

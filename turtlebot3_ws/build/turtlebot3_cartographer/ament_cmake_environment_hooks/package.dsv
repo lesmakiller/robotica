@@ -1,0 +1,5 @@
+source;share/turtlebot3_cartographer/local_setup.bash
+source;share/turtlebot3_cartographer/local_setup.dsv
+source;share/turtlebot3_cartographer/local_setup.fish
+source;share/turtlebot3_cartographer/local_setup.sh
+source;share/turtlebot3_cartographer/local_setup.zsh

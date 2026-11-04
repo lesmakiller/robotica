@@ -1,0 +1,4 @@
+[console_scripts]
+go_to_goal = lab_robotica.go_to_goal:main
+line_follower = lab_robotica.line_follower:main
+pure_pursuit = lab_robotica.pure_pursuit:main

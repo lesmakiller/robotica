@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

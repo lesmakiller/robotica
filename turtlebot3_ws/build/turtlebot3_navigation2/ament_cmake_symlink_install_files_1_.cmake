@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2" FILES "/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

@@ -1,0 +1,24 @@
+[0.830s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/build --no-deps symlink_data
+[1.054s] running develop
+[1.182s] running egg_info
+[1.196s] creating lab_robotica.egg-info
+[1.196s] writing lab_robotica.egg-info/PKG-INFO
+[1.196s] writing dependency_links to lab_robotica.egg-info/dependency_links.txt
+[1.196s] writing entry points to lab_robotica.egg-info/entry_points.txt
+[1.196s] writing requirements to lab_robotica.egg-info/requires.txt
+[1.197s] writing top-level names to lab_robotica.egg-info/top_level.txt
+[1.197s] writing manifest file 'lab_robotica.egg-info/SOURCES.txt'
+[1.230s] reading manifest file 'lab_robotica.egg-info/SOURCES.txt'
+[1.231s] writing manifest file 'lab_robotica.egg-info/SOURCES.txt'
+[1.248s] running build_ext
+[1.248s] Creating /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages/lab-robotica.egg-link (link to .)
+[1.248s] Installing go_to_goal script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+[1.248s] Installing line_follower script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+[1.248s] Installing pure_pursuit script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+[1.248s] 
+[1.249s] Installed /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica
+[1.249s] running symlink_data
+[1.249s] creating /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/share/ament_index/resource_index/packages
+[1.249s] symbolically linking /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/resource/lab_robotica -> /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/share/ament_index/resource_index/packages
+[1.249s] symbolically linking /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/package.xml -> /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/share/lab_robotica
+[1.286s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica/build --no-deps symlink_data

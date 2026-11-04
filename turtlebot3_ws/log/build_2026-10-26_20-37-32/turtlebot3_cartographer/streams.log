@@ -1,0 +1,54 @@
+[0.032s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer
+[0.050s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.051s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.051s]   CMake.
+[0.051s] 
+[0.051s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.051s]   to tell CMake that the project requires at least <min> but has been updated
+[0.052s]   to work with policies introduced by <max> or earlier.
+[0.052s] 
+[0.052s] [0m
+[0.143s] -- The C compiler identification is GNU 15.2.0
+[0.244s] -- The CXX compiler identification is GNU 15.2.0
+[0.257s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.204s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.400s] -- Configuring done (1.4s)
+[1.404s] -- Generating done (0.0s)
+[1.406s] -- Build files have been written to: /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer
+[1.415s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer
+[1.417s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.474s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.487s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer
+[1.495s] -- Install configuration: ""
+[1.496s] -- Execute custom install script
+[1.496s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.507s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.517s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.528s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.540s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.552s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.563s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.575s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.589s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.600s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.614s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.628s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.fish
+[1.641s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.654s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.667s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.680s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.692s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.705s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.716s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.731s] -- Symlinking: /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.748s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example:/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer

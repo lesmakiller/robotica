@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2" FILES "/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_navigation2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_navigation2/environment")

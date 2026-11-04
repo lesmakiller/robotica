@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/imu_orientation/imu_orientation.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_orientation/imu_orientation.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_orientation/imu_orientation.egg-info/entry_points.txt
+writing requirements to ../../build/imu_orientation/imu_orientation.egg-info/requires.txt
+writing top-level names to ../../build/imu_orientation/imu_orientation.egg-info/top_level.txt
+reading manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying imu_orientation/__init__.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+copying imu_orientation/imu_integrator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+copying imu_orientation/imu_simulator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+copying imu_orientation/py.typed -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+running install
+running install_lib
+running install_data
+copying resource/imu_orientation -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/ament_index/resource_index/packages
+copying package.xml -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/imu_orientation
+running install_egg_info
+removing '/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/imu_orientation/imu_orientation.egg-info to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info
+running install_scripts
+Installing imu_integrator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+Installing imu_simulator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+pose_publisher = pose_lab.pose_publisher:main
+tf_broadcaster = pose_lab.tf_broadcaster:main

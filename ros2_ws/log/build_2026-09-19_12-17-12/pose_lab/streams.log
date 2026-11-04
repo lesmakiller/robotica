@@ -1,0 +1,28 @@
+[1.179s] Invoking command in '/home/lesmakiller-u/ros2_ws/src/pose_lab': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/pose_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_lab build --build-base /home/lesmakiller-u/ros2_ws/build/pose_lab/build install --record /home/lesmakiller-u/ros2_ws/build/pose_lab/install.log --install-scripts $base/lib/pose_lab --single-version-externally-managed install_data
+[1.489s] running egg_info
+[1.508s] writing ../../build/pose_lab/pose_lab.egg-info/PKG-INFO
+[1.509s] writing dependency_links to ../../build/pose_lab/pose_lab.egg-info/dependency_links.txt
+[1.509s] writing entry points to ../../build/pose_lab/pose_lab.egg-info/entry_points.txt
+[1.509s] writing requirements to ../../build/pose_lab/pose_lab.egg-info/requires.txt
+[1.509s] writing top-level names to ../../build/pose_lab/pose_lab.egg-info/top_level.txt
+[1.550s] reading manifest file '../../build/pose_lab/pose_lab.egg-info/SOURCES.txt'
+[1.551s] writing manifest file '../../build/pose_lab/pose_lab.egg-info/SOURCES.txt'
+[1.551s] running build
+[1.551s] running build_py
+[1.551s] copying pose_lab/tf_broadcaster.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+[1.552s] copying pose_lab/pose_publisher.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+[1.552s] copying pose_lab/__init__.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+[1.552s] copying pose_lab/py.typed -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+[1.552s] running install
+[1.558s] running install_lib
+[1.577s] running install_data
+[1.577s] copying resource/pose_lab -> /home/lesmakiller-u/ros2_ws/install/pose_lab/share/ament_index/resource_index/packages
+[1.577s] copying package.xml -> /home/lesmakiller-u/ros2_ws/install/pose_lab/share/pose_lab
+[1.578s] running install_egg_info
+[1.597s] removing '/home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab-0.0.0-py3.14.egg-info' (and everything under it)
+[1.597s] Copying ../../build/pose_lab/pose_lab.egg-info to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab-0.0.0-py3.14.egg-info
+[1.598s] running install_scripts
+[1.697s] Installing pose_publisher script to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/pose_lab
+[1.698s] Installing tf_broadcaster script to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/pose_lab
+[1.698s] writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/pose_lab/install.log'
+[1.748s] Invoked command in '/home/lesmakiller-u/ros2_ws/src/pose_lab' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/pose_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_lab build --build-base /home/lesmakiller-u/ros2_ws/build/pose_lab/build install --record /home/lesmakiller-u/ros2_ws/build/pose_lab/install.log --install-scripts $base/lib/pose_lab --single-version-externally-managed install_data

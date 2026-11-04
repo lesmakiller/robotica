@@ -1,0 +1,271 @@
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_example' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/reactive_nav' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_simulations' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_fake_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/dynamixel_sdk_examples' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793064924112524800.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lesmakiller-u/robotica/turtlebot3_ws/install/dynamixel_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+Starting >>> turtlebot3_msgs
+Starting >>> dynamixel_sdk
+Starting >>> turtlebot3_description
+Starting >>> dynamixel_sdk_custom_interfaces
+Starting >>> turtlebot3_cartographer
+Starting >>> turtlebot3_gazebo
+Starting >>> turtlebot3_navigation2
+Starting >>> turtlebot3_teleop
+Starting >>> lab_robotica
+Starting >>> reactive_nav
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/lib/python3/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+--- stderr: turtlebot3_cartographer
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_cartographer [2.15s]
+--- stderr: turtlebot3_description
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_description [2.34s]
+--- stderr: turtlebot3_navigation2
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_navigation2 [2.35s]
+--- stderr: turtlebot3_teleop
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/lib/python3/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+---
+Finished <<< turtlebot3_teleop [4.62s]
+Finished <<< reactive_nav [5.18s]
+Finished <<< lab_robotica [5.23s]
+--- stderr: dynamixel_sdk
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< dynamixel_sdk [7.67s]
+--- stderr: dynamixel_sdk_custom_interfaces
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< dynamixel_sdk_custom_interfaces [15.4s]
+Starting >>> dynamixel_sdk_examples
+--- stderr: turtlebot3_msgs
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_msgs [24.3s]
+Starting >>> turtlebot3_node
+Starting >>> turtlebot3_example
+Starting >>> turtlebot3_fake_node
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/lib/python3/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+--- stderr: turtlebot3_gazebo
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_gazebo [25.8s]
+--- stderr: turtlebot3_example
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/lib/python3/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+---
+Finished <<< turtlebot3_example [2.62s]
+--- stderr: dynamixel_sdk_examples
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< dynamixel_sdk_examples [14.1s]
+--- stderr: turtlebot3_fake_node
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_fake_node [20.8s]
+Starting >>> turtlebot3_simulations
+--- stderr: turtlebot3_simulations
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_simulations [1.63s]
+--- stderr: turtlebot3_node
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+In file included from /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20,
+                 from /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17:
+/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4: warning: #warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [-Wcpp]
+   41 |   #warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    ^~~~~~~
+In file included from /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:20,
+                 from /home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_node/src/node_main.cpp:26:
+/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4: warning: #warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [-Wcpp]
+   41 |   #warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    ^~~~~~~
+---
+Finished <<< turtlebot3_node [31.8s]
+Starting >>> turtlebot3_bringup
+--- stderr: turtlebot3_bringup
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3_bringup [2.22s]
+Starting >>> turtlebot3
+--- stderr: turtlebot3
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+---
+Finished <<< turtlebot3 [1.89s]
+
+Summary: 17 packages finished [1min 1s]
+  15 packages had stderr output: dynamixel_sdk dynamixel_sdk_custom_interfaces dynamixel_sdk_examples turtlebot3 turtlebot3_bringup turtlebot3_cartographer turtlebot3_description turtlebot3_example turtlebot3_fake_node turtlebot3_gazebo turtlebot3_msgs turtlebot3_navigation2 turtlebot3_node turtlebot3_simulations turtlebot3_teleop

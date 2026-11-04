@@ -1,0 +1,37 @@
+[1.535s] Invoking command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.762s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.762s]   warnings.warn(msg)
+[1.821s] /usr/lib/python3/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[1.821s] !!
+[1.822s] 
+[1.822s]         ********************************************************************************
+[1.822s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[1.822s] 
+[1.822s]         License :: OSI Approved :: Apache Software License
+[1.822s] 
+[1.822s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[1.822s]         ********************************************************************************
+[1.823s] 
+[1.823s] !!
+[1.823s]   self._finalize_license_expression()
+[1.970s] running develop
+[2.210s] running egg_info
+[2.238s] creating turtlebot3_teleop.egg-info
+[2.238s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.238s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.238s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.238s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.238s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.239s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.294s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.295s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.324s] running build_ext
+[2.324s] Creating /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.325s] Installing teleop_keyboard script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.325s] 
+[2.325s] Installed /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop
+[2.325s] running symlink_data
+[2.325s] creating /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.326s] symbolically linking /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.326s] symbolically linking /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/package.xml -> /home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[2.385s] Invoked command in '/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

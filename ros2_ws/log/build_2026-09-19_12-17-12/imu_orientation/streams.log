@@ -1,0 +1,28 @@
+[1.176s] Invoking command in '/home/lesmakiller-u/ros2_ws/src/imu_orientation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/imu_orientation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_orientation build --build-base /home/lesmakiller-u/ros2_ws/build/imu_orientation/build install --record /home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log --install-scripts $base/lib/imu_orientation --single-version-externally-managed install_data
+[1.486s] running egg_info
+[1.505s] writing ../../build/imu_orientation/imu_orientation.egg-info/PKG-INFO
+[1.505s] writing dependency_links to ../../build/imu_orientation/imu_orientation.egg-info/dependency_links.txt
+[1.505s] writing entry points to ../../build/imu_orientation/imu_orientation.egg-info/entry_points.txt
+[1.506s] writing requirements to ../../build/imu_orientation/imu_orientation.egg-info/requires.txt
+[1.506s] writing top-level names to ../../build/imu_orientation/imu_orientation.egg-info/top_level.txt
+[1.546s] reading manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+[1.548s] writing manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+[1.548s] running build
+[1.548s] running build_py
+[1.549s] copying imu_orientation/__init__.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[1.549s] copying imu_orientation/imu_integrator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[1.549s] copying imu_orientation/imu_simulator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[1.550s] copying imu_orientation/py.typed -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[1.550s] running install
+[1.555s] running install_lib
+[1.575s] running install_data
+[1.575s] copying resource/imu_orientation -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/ament_index/resource_index/packages
+[1.575s] copying package.xml -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/imu_orientation
+[1.576s] running install_egg_info
+[1.594s] removing '/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info' (and everything under it)
+[1.595s] Copying ../../build/imu_orientation/imu_orientation.egg-info to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info
+[1.596s] running install_scripts
+[1.692s] Installing imu_integrator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+[1.692s] Installing imu_simulator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+[1.693s] writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log'
+[1.745s] Invoked command in '/home/lesmakiller-u/ros2_ws/src/imu_orientation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/imu_orientation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_orientation build --build-base /home/lesmakiller-u/ros2_ws/build/imu_orientation/build install --record /home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log --install-scripts $base/lib/imu_orientation --single-version-externally-managed install_data

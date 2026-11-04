@@ -1,0 +1,26 @@
+[1.749s] Invoking command in '/home/lesmakiller-u/ros2_ws/src/lab_robotica': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/lab_robotica/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/lab_robotica/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab_robotica build --build-base /home/lesmakiller-u/ros2_ws/build/lab_robotica/build install --record /home/lesmakiller-u/ros2_ws/build/lab_robotica/install.log --install-scripts $base/lib/lab_robotica --single-version-externally-managed install_data
+[2.285s] running egg_info
+[2.322s] writing ../../build/lab_robotica/lab_robotica.egg-info/PKG-INFO
+[2.322s] writing dependency_links to ../../build/lab_robotica/lab_robotica.egg-info/dependency_links.txt
+[2.322s] writing entry points to ../../build/lab_robotica/lab_robotica.egg-info/entry_points.txt
+[2.322s] writing requirements to ../../build/lab_robotica/lab_robotica.egg-info/requires.txt
+[2.322s] writing top-level names to ../../build/lab_robotica/lab_robotica.egg-info/top_level.txt
+[2.394s] reading manifest file '../../build/lab_robotica/lab_robotica.egg-info/SOURCES.txt'
+[2.394s] writing manifest file '../../build/lab_robotica/lab_robotica.egg-info/SOURCES.txt'
+[2.394s] running build
+[2.395s] running build_py
+[2.395s] copying lab_robotica/__init__.py -> /home/lesmakiller-u/ros2_ws/build/lab_robotica/build/lib/lab_robotica
+[2.396s] copying lab_robotica/go_to_goal.py -> /home/lesmakiller-u/ros2_ws/build/lab_robotica/build/lib/lab_robotica
+[2.396s] copying lab_robotica/py.typed -> /home/lesmakiller-u/ros2_ws/build/lab_robotica/build/lib/lab_robotica
+[2.396s] running install
+[2.403s] running install_lib
+[2.453s] running install_data
+[2.454s] copying resource/lab_robotica -> /home/lesmakiller-u/ros2_ws/install/lab_robotica/share/ament_index/resource_index/packages
+[2.454s] copying package.xml -> /home/lesmakiller-u/ros2_ws/install/lab_robotica/share/lab_robotica
+[2.454s] running install_egg_info
+[2.502s] removing '/home/lesmakiller-u/ros2_ws/install/lab_robotica/lib/python3.14/site-packages/lab_robotica-0.0.0-py3.14.egg-info' (and everything under it)
+[2.502s] Copying ../../build/lab_robotica/lab_robotica.egg-info to /home/lesmakiller-u/ros2_ws/install/lab_robotica/lib/python3.14/site-packages/lab_robotica-0.0.0-py3.14.egg-info
+[2.502s] running install_scripts
+[2.661s] Installing go_to_goal script to /home/lesmakiller-u/ros2_ws/install/lab_robotica/lib/lab_robotica
+[2.662s] writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/lab_robotica/install.log'
+[2.732s] Invoked command in '/home/lesmakiller-u/ros2_ws/src/lab_robotica' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/lab_robotica/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/lab_robotica/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab_robotica build --build-base /home/lesmakiller-u/ros2_ws/build/lab_robotica/build install --record /home/lesmakiller-u/ros2_ws/build/lab_robotica/install.log --install-scripts $base/lib/lab_robotica --single-version-externally-managed install_data

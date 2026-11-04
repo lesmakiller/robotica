@@ -1,0 +1,177 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"set_target_properties",
+			"__find_dependency_common",
+			"find_dependency"
+		],
+		"files" : 
+		[
+			"/opt/ros/lyrical/opt/gz_utils_vendor/lib/cmake/gz-utils/gz-utils-config.cmake",
+			"/opt/ros/lyrical/opt/gz_math_vendor/lib/cmake/gz-math/gz-math-config.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/lyrical/opt/gz_utils_vendor/lib/cmake/gz-utils-log/gz-utils-log-config.cmake",
+			"/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake",
+			"/opt/ros/lyrical/opt/gz_common_vendor/lib/cmake/gz-common/gz-common-config.cmake",
+			"/opt/ros/lyrical/opt/gz_sim_vendor/lib/cmake/gz-sim/gz-sim-config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 96,
+				"parent" : 7
+			},
+			{
+				"file" : 5,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 92,
+				"parent" : 9
+			},
+			{
+				"file" : 0,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 125,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 93,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 130,
+				"parent" : 15
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "gz-utils::requested::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils-cli::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils-log::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils-cli::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "gz-utils::gz-utils-log::@6890427a1f51a3e7e1df"
+		}
+	],
+	"local" : true,
+	"name" : "gz-utils::requested",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

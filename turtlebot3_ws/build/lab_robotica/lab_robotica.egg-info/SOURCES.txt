@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+lab_robotica/__init__.py
+lab_robotica/common.py
+lab_robotica/go_to_goal.py
+lab_robotica/line_follower.py
+lab_robotica/pure_pursuit.py
+lab_robotica/py.typed
+lab_robotica.egg-info/PKG-INFO
+lab_robotica.egg-info/SOURCES.txt
+lab_robotica.egg-info/dependency_links.txt
+lab_robotica.egg-info/entry_points.txt
+lab_robotica.egg-info/requires.txt
+lab_robotica.egg-info/top_level.txt
+lab_robotica.egg-info/zip-safe
+resource/lab_robotica

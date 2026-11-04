@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing lab_robotica.egg-info/PKG-INFO
+writing dependency_links to lab_robotica.egg-info/dependency_links.txt
+writing entry points to lab_robotica.egg-info/entry_points.txt
+writing requirements to lab_robotica.egg-info/requires.txt
+writing top-level names to lab_robotica.egg-info/top_level.txt
+reading manifest file 'lab_robotica.egg-info/SOURCES.txt'
+writing manifest file 'lab_robotica.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages/lab-robotica.egg-link (link to .)
+Installing go_to_goal script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+Installing line_follower script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+Installing pure_pursuit script to /home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/lab_robotica
+
+Installed /home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica
+running symlink_data

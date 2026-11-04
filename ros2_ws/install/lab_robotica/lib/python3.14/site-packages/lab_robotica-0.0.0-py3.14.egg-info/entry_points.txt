@@ -1,0 +1,4 @@
+[console_scripts]
+follow_line = lab_robotica.follow_line:main
+follow_path = lab_robotica.follow_path:main
+go_to_goal = lab_robotica.go_to_goal:main

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/pose_lab/pose_lab.egg-info/PKG-INFO
+writing dependency_links to ../../build/pose_lab/pose_lab.egg-info/dependency_links.txt
+writing entry points to ../../build/pose_lab/pose_lab.egg-info/entry_points.txt
+writing requirements to ../../build/pose_lab/pose_lab.egg-info/requires.txt
+writing top-level names to ../../build/pose_lab/pose_lab.egg-info/top_level.txt
+reading manifest file '../../build/pose_lab/pose_lab.egg-info/SOURCES.txt'
+writing manifest file '../../build/pose_lab/pose_lab.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pose_lab/tf_broadcaster.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+copying pose_lab/pose_publisher.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+copying pose_lab/__init__.py -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+copying pose_lab/py.typed -> /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab
+running install
+running install_lib
+copying /home/lesmakiller-u/ros2_ws/build/pose_lab/build/lib/pose_lab/tf_broadcaster.py -> /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab
+byte-compiling /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab/tf_broadcaster.py to tf_broadcaster.cpython-314.pyc
+running install_data
+copying resource/pose_lab -> /home/lesmakiller-u/ros2_ws/install/pose_lab/share/ament_index/resource_index/packages
+copying package.xml -> /home/lesmakiller-u/ros2_ws/install/pose_lab/share/pose_lab
+running install_egg_info
+removing '/home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/pose_lab/pose_lab.egg-info to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/python3.14/site-packages/pose_lab-0.0.0-py3.14.egg-info
+running install_scripts
+Installing pose_publisher script to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/pose_lab
+Installing tf_broadcaster script to /home/lesmakiller-u/ros2_ws/install/pose_lab/lib/pose_lab
+writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/pose_lab/install.log'

@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_turtlebot3_drive_FILE /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo/turtlebot3_drive)
+set(__QT_DEPLOY_TARGET_turtlebot3_drive_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_obstacles_FILE /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo/libobstacles.so)
+set(__QT_DEPLOY_TARGET_obstacles_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_obstacle1_FILE /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo/libobstacle1.so)
+set(__QT_DEPLOY_TARGET_obstacle1_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_obstacle2_FILE /home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo/libobstacle2.so)
+set(__QT_DEPLOY_TARGET_obstacle2_TYPE SHARED_LIBRARY)

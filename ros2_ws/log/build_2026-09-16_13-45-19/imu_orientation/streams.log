@@ -1,0 +1,30 @@
+[0.433s] Invoking command in '/home/lesmakiller-u/ros2_ws/src/imu_orientation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/imu_orientation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_orientation build --build-base /home/lesmakiller-u/ros2_ws/build/imu_orientation/build install --record /home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log --install-scripts $base/lib/imu_orientation --single-version-externally-managed install_data
+[0.587s] running egg_info
+[0.597s] writing ../../build/imu_orientation/imu_orientation.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/imu_orientation/imu_orientation.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/imu_orientation/imu_orientation.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/imu_orientation/imu_orientation.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/imu_orientation/imu_orientation.egg-info/top_level.txt
+[0.619s] reading manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+[0.619s] writing manifest file '../../build/imu_orientation/imu_orientation.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.620s] copying imu_orientation/__init__.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[0.620s] copying imu_orientation/imu_integrator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[0.620s] copying imu_orientation/imu_simulator.py -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[0.620s] copying imu_orientation/py.typed -> /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation
+[0.620s] running install
+[0.623s] running install_lib
+[0.633s] copying /home/lesmakiller-u/ros2_ws/build/imu_orientation/build/lib/imu_orientation/imu_integrator.py -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation
+[0.633s] byte-compiling /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation/imu_integrator.py to imu_integrator.cpython-314.pyc
+[0.634s] running install_data
+[0.635s] copying resource/imu_orientation -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/ament_index/resource_index/packages
+[0.635s] copying package.xml -> /home/lesmakiller-u/ros2_ws/install/imu_orientation/share/imu_orientation
+[0.635s] running install_egg_info
+[0.644s] removing '/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info' (and everything under it)
+[0.645s] Copying ../../build/imu_orientation/imu_orientation.egg-info to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages/imu_orientation-0.0.0-py3.14.egg-info
+[0.645s] running install_scripts
+[0.697s] Installing imu_integrator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+[0.697s] Installing imu_simulator script to /home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/imu_orientation
+[0.697s] writing list of installed files to '/home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log'
+[0.720s] Invoked command in '/home/lesmakiller-u/ros2_ws/src/imu_orientation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/ros2_ws/build/imu_orientation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/ros2_ws/install/imu_orientation/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_orientation build --build-base /home/lesmakiller-u/ros2_ws/build/imu_orientation/build install --record /home/lesmakiller-u/ros2_ws/build/imu_orientation/install.log --install-scripts $base/lib/imu_orientation --single-version-externally-managed install_data

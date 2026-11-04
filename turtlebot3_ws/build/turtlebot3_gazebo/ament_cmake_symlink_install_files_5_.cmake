@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo" FILES "/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_gazebo/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_gazebo/environment")

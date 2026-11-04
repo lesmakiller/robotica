@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot3_cartographer")
