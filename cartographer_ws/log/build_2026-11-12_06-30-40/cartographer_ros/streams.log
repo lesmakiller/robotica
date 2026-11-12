@@ -1,0 +1,108 @@
+[0.050s] Invoking command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib /usr/bin/cmake --build /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros -- -j12 -l12
+[0.113s] [0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+[0.113s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.113s]   CMake.
+[0.113s] 
+[0.114s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.114s]   to tell CMake that the project requires at least <min> but has been updated
+[0.114s]   to work with policies introduced by <max> or earlier.
+[0.114s] 
+[0.114s] [0m
+[0.132s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.507s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[0.541s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found AMD headers in: /usr/include/suitesparse
+[1.063s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[1.063s] -- Found CAMD headers in: /usr/include/suitesparse
+[1.063s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[1.064s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[1.064s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[1.064s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[1.064s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[1.064s] -- Found COLAMD headers in: /usr/include/suitesparse
+[1.064s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[1.064s] -- Found SPQR headers in: /usr/include/suitesparse
+[1.064s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[1.064s] -- Found Config headers in: /usr/include/suitesparse
+[1.064s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[1.066s] -- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[1.066s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[1.076s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[1.078s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[1.083s] -- Found required Ceres dependency: glog
+[1.084s] -- Found required Ceres dependency: gflags
+[1.085s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[1.089s] [33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):
+[1.089s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.089s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.089s]   set the policy and suppress this warning.
+[1.089s] 
+[1.089s] Call Stack (most recent call first):
+[1.089s]   CMakeLists.txt:33 (find_package)
+[1.089s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.089s] [0m
+[1.099s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[1.184s] -- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+[1.244s] -- Could NOT find boost_system (missing: boost_system_DIR)
+[1.250s] -- looking for PCL_COMMON
+[1.252s] -- Found pcl_conversions: 2.10.0 (/opt/ros/lyrical/share/pcl_conversions/cmake)
+[1.303s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.305s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.336s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Found ros_environment: 4.5.1 (/opt/ros/lyrical/share/ros_environment/cmake)
+[1.484s] -- Found rosbag2_cpp: 0.33.4 (/opt/ros/lyrical/share/rosbag2_cpp/cmake)
+[1.501s] -- Found tf2: 0.45.10 (/opt/ros/lyrical/share/tf2/cmake)
+[1.505s] -- Found tf2_eigen: 0.45.10 (/opt/ros/lyrical/share/tf2_eigen/cmake)
+[1.633s] -- Found urdf: 2.13.2 (/opt/ros/lyrical/share/urdf/cmake)
+[1.641s] -- Found visualization_msgs: 5.9.3 (/opt/ros/lyrical/share/visualization_msgs/cmake)
+[1.832s] -- Configuring done (1.7s)
+[1.964s] -- Generating done (0.1s)
+[2.073s] -- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros
+[2.269s] [  2%] [1m[32mLinking CXX shared library libcartographer_ros.so[0m
+[5.441s] [ 57%] Built target cartographer_ros
+[5.486s] [ 60%] [1m[32mLinking CXX executable cartographer_assets_writer[0m
+[5.486s] [ 62%] [1m[32mLinking CXX executable cartographer_node[0m
+[5.487s] [ 65%] [1m[32mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[5.495s] [ 68%] [1m[32mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[5.500s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[5.505s] [ 77%] [1m[32mLinking CXX executable cartographer_occupancy_grid_node[0m
+[5.505s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node.cpp.o[0m
+[5.509s] [ 80%] [1m[32mLinking CXX executable cartographer_rosbag_validate[0m
+[7.817s] In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+[7.817s]                  from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+[7.818s]                  from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32[m[K,
+[7.818s]                  from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32[m[K,
+[7.818s]                  from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:28[m[K:
+[7.818s] [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.818s]    40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+[7.818s]       |    [01;35m[K^~~~~~~[m[K
+[7.962s] In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53[m[K:
+[7.963s] [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.963s]    41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+[7.963s]       |    [01;35m[K^~~~~~~[m[K
+[7.970s] In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55[m[K:
+[7.970s] [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[7.970s]    40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+[7.971s]       |    [01;35m[K^~~~~~~[m[K
+[8.095s] In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:33[m[K:
+[8.096s] [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[8.096s]    41 |   #[01;35m[Kwarning[m[K STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+[8.096s]       |    [01;35m[K^~~~~~~[m[K
+[8.099s] [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kurdf/model.hpp: No such file or directory
+[8.099s]    37 | #include [01;31m[K"urdf/model.hpp"[m[K
+[8.099s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.100s] compilation terminated.
+[8.127s] gmake[2]: *** [CMakeFiles/cartographer_offline_node.dir/build.make:93: CMakeFiles/cartographer_offline_node.dir/src/offline_node.cpp.o] Error 1
+[8.127s] gmake[2]: *** Waiting for unfinished jobs....
+[8.787s] [ 82%] Built target cartographer_pbstream_to_ros_map
+[8.888s] [ 85%] Built target cartographer_assets_writer
+[8.945s] [ 88%] Built target cartographer_node
+[9.790s] [ 91%] Built target cartographer_rosbag_validate
+[9.944s] [ 94%] Built target cartographer_pbstream_map_publisher
+[10.088s] [ 97%] Built target cartographer_occupancy_grid_node
+[13.549s] gmake[1]: *** [CMakeFiles/Makefile2:270: CMakeFiles/cartographer_offline_node.dir/all] Error 2
+[13.549s] gmake: *** [Makefile:146: all] Error 2
+[13.552s] Invoked command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros' returned '2': CMAKE_PREFIX_PATH=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib /usr/bin/cmake --build /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros -- -j12 -l12

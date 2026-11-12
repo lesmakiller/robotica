@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating localization_lab.egg-info
+writing localization_lab.egg-info/PKG-INFO
+writing dependency_links to localization_lab.egg-info/dependency_links.txt
+writing entry points to localization_lab.egg-info/entry_points.txt
+writing requirements to localization_lab.egg-info/requires.txt
+writing top-level names to localization_lab.egg-info/top_level.txt
+writing manifest file 'localization_lab.egg-info/SOURCES.txt'
+reading manifest file 'localization_lab.egg-info/SOURCES.txt'
+writing manifest file 'localization_lab.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/python3.14/site-packages/localization-lab.egg-link (link to .)
+Installing simple_controller script to /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/localization_lab
+
+Installed /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab
+running symlink_data
+creating /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/ament_index/resource_index/packages
+symbolically linking /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/resource/localization_lab -> /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/ament_index/resource_index/packages
+symbolically linking /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/package.xml -> /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/localization_lab
+creating /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/localization_lab/launch
+symbolically linking /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/launch/slam.launch.py -> /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/localization_lab/launch
+creating /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/localization_lab/config
+symbolically linking /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/config/mapper_params_online_async.yaml -> /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/share/localization_lab/config

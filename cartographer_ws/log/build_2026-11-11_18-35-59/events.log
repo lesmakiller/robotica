@@ -1,0 +1,911 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.000186] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000206] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.000228] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict({'cartographer': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer', 'cartographer_ros_msgs': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs'})}
+[0.000279] (cartographer_ros) JobStarted: {'identifier': 'cartographer_ros'}
+[0.015219] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'cmake'}
+[0.015974] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'build'}
+[0.016703] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', '--', '-j12', '-l12'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '0f81d1e5dfb1413faef87184cc962149', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[0.099446] (-) TimerEvent: {}
+[0.133719] (cartographer_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o\x1b[0m\n'}
+[0.134409] (cartographer_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o\x1b[0m\n'}
+[0.136614] (cartographer_ros) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o\x1b[0m\n'}
+[0.138322] (cartographer_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o\x1b[0m\n'}
+[0.138564] (cartographer_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o\x1b[0m\n'}
+[0.138789] (cartographer_ros) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o\x1b[0m\n'}
+[0.199586] (-) TimerEvent: {}
+[0.299881] (-) TimerEvent: {}
+[0.400183] (-) TimerEvent: {}
+[0.500493] (-) TimerEvent: {}
+[0.600787] (-) TimerEvent: {}
+[0.701094] (-) TimerEvent: {}
+[0.738035] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[0.738252] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:24\x1b[m\x1b[K,\n'}
+[0.738340] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/family.cpp:17\x1b[m\x1b[K:\n'}
+[0.738408] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.738474] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.738679] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.738757] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.738831] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:24\x1b[m\x1b[K:\n'}
+[0.738897] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.738960] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.739023] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.739084] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.739149] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.739220] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.739301] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.739368] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.739442] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.739515] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.739586] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcartographer_ros::metrics::Histogram::\x1b[01;32m\x1b[KHistogram\x1b[m\x1b[K(const std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&, const cartographer::metrics::Histogram::BucketBoundaries&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.739757] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.739876] (cartographer_ros) StderrLine: {'line': b'   34 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.739949] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.740016] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:24\x1b[m\x1b[K,\n'}
+[0.740085] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:17\x1b[m\x1b[K:\n'}
+[0.740160] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.740228] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.740316] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.740387] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Histogram::\x1b[01;32m\x1b[KObserve\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.740459] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:44:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.740541] (cartographer_ros) StderrLine: {'line': b'   44 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.740617] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.740681] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.740746] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.740812] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.740875] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.740936] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.740999] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.741065] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.741125] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.741185] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.741253] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.742308] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::map<double, double> cartographer_ros::metrics::Histogram::\x1b[01;32m\x1b[KCountsByBucket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.742462] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:50:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.742556] (cartographer_ros) StderrLine: {'line': b'   50 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.742633] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.742703] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.742785] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.742857] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.743587] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Histogram::\x1b[01;32m\x1b[KSum\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.743761] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:62:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.743871] (cartographer_ros) StderrLine: {'line': b'   62 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.743939] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.744005] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.744075] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.744142] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.744213] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Histogram::\x1b[01;32m\x1b[KCumulativeCount\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.744310] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/histogram.cpp:67:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.744388] (cartographer_ros) StderrLine: {'line': b'   67 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[0.744455] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.744517] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[0.744581] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[0.744654] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.745433] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24\x1b[m\x1b[K,\n'}
+[0.745571] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28\x1b[m\x1b[K,\n'}
+[0.745646] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32\x1b[m\x1b[K,\n'}
+[0.745711] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32\x1b[m\x1b[K,\n'}
+[0.745778] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:28\x1b[m\x1b[K:\n'}
+[0.745845] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.745914] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[0.745978] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.788919] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53\x1b[m\x1b[K:\n'}
+[0.789104] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.789198] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[0.789307] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.791861] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55\x1b[m\x1b[K:\n'}
+[0.792059] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.792152] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[0.792231] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.801252] (-) TimerEvent: {}
+[0.822358] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24\x1b[m\x1b[K,\n'}
+[0.822654] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28\x1b[m\x1b[K,\n'}
+[0.822759] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32\x1b[m\x1b[K,\n'}
+[0.822833] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17\x1b[m\x1b[K:\n'}
+[0.822900] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.822979] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[0.823051] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.823116] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:33\x1b[m\x1b[K:\n'}
+[0.823178] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.823254] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[0.823342] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.901377] (-) TimerEvent: {}
+[0.918520] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24\x1b[m\x1b[K,\n'}
+[0.918717] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28\x1b[m\x1b[K,\n'}
+[0.918798] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32\x1b[m\x1b[K,\n'}
+[0.918886] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32\x1b[m\x1b[K,\n'}
+[0.918953] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:17\x1b[m\x1b[K:\n'}
+[0.919018] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.919086] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[0.919148] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.950920] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53\x1b[m\x1b[K:\n'}
+[0.951111] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.951202] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[0.951297] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.952356] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55\x1b[m\x1b[K:\n'}
+[0.952516] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.952618] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[0.952695] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001513] (-) TimerEvent: {}
+[1.101827] (-) TimerEvent: {}
+[1.189799] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[1.190078] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24\x1b[m\x1b[K,\n'}
+[1.190169] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/family_factory.cpp:17\x1b[m\x1b[K:\n'}
+[1.190290] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.190380] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.190490] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.190562] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.190630] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:24\x1b[m\x1b[K:\n'}
+[1.190699] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.190766] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[1.190830] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.190894] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.190963] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.191033] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.191096] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.191162] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.191229] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[1.191312] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.192032] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.192165] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.192278] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.192359] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.192428] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.192496] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[1.192590] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.201927] (-) TimerEvent: {}
+[1.302326] (-) TimerEvent: {}
+[1.402716] (-) TimerEvent: {}
+[1.503103] (-) TimerEvent: {}
+[1.603493] (-) TimerEvent: {}
+[1.703748] (-) TimerEvent: {}
+[1.803993] (-) TimerEvent: {}
+[1.904372] (-) TimerEvent: {}
+[2.004744] (-) TimerEvent: {}
+[2.105098] (-) TimerEvent: {}
+[2.205460] (-) TimerEvent: {}
+[2.305704] (-) TimerEvent: {}
+[2.406077] (-) TimerEvent: {}
+[2.506448] (-) TimerEvent: {}
+[2.606830] (-) TimerEvent: {}
+[2.707197] (-) TimerEvent: {}
+[2.807449] (-) TimerEvent: {}
+[2.907826] (-) TimerEvent: {}
+[3.008187] (-) TimerEvent: {}
+[3.108499] (-) TimerEvent: {}
+[3.208879] (-) TimerEvent: {}
+[3.309125] (-) TimerEvent: {}
+[3.401116] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[3.401298] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24\x1b[m\x1b[K,\n'}
+[3.401372] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:33\x1b[m\x1b[K:\n'}
+[3.401451] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.401523] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.401591] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.401652] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.401711] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:28\x1b[m\x1b[K:\n'}
+[3.401770] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.401831] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.401894] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.401961] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.402024] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.402089] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.402148] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.402209] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.402414] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.402495] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.402561] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.402644] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.402713] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.402774] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.402834] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.402894] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.402953] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.409279] (-) TimerEvent: {}
+[3.509692] (-) TimerEvent: {}
+[3.509990] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[3.510206] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24\x1b[m\x1b[K,\n'}
+[3.510313] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:33\x1b[m\x1b[K:\n'}
+[3.510383] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.510462] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.510533] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.510597] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.510658] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:28\x1b[m\x1b[K:\n'}
+[3.510720] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.510782] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.510843] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.510905] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.510969] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.511036] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.511097] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.511156] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.511216] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.511296] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.511464] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.511574] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.511651] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.511714] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.511775] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.511837] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.511898] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.609932] (-) TimerEvent: {}
+[3.710308] (-) TimerEvent: {}
+[3.769018] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<int, cartographer_ros::MapBuilderBridge::LocalTrajectoryData> cartographer_ros::MapBuilderBridge::\x1b[01;32m\x1b[KGetLocalTrajectoryData\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.769210] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:242:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.769318] (cartographer_ros) StderrLine: {'line': b'  242 |       absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.769386] (cartographer_ros) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.769447] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:26\x1b[m\x1b[K:\n'}
+[3.769507] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.769568] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.769627] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.799642] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::MapBuilderBridge::\x1b[01;32m\x1b[KOnLocalSlamResult\x1b[m\x1b[K(int, cartographer::common::Time, cartographer::transform::Rigid3d, cartographer::sensor::RangeData)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.799841] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:539:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.799914] (cartographer_ros) StderrLine: {'line': b'  539 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.799978] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.800040] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.800100] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.800161] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.810410] (-) TimerEvent: {}
+[3.907868] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::\x1b[01;32m\x1b[KRunOfflineNode\x1b[m\x1b[K(const MapBuilderFactory&, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.908041] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:185:88:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::StaticTransformBroadcaster::\x1b[01;32m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K(NodeT&&) \x1b[35m\x1b[K[with NodeT = std::shared_ptr<rclcpp::Node>&; AllocatorT = std::allocator<void>; typename std::enable_if<rcpputils::is_pointer<T>::value, bool>::type <anonymous> = true]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use rclcpp::node_interfaces::NodeInterfaces instead of NodeT [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.908133] (cartographer_ros) StderrLine: {'line': b'  185 |   ::tf2_ros::StaticTransformBroadcaster static_tf_broadcaster(cartographer_offline_node\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.908196] (cartographer_ros) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.908271] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:44\x1b[m\x1b[K:\n'}
+[3.908336] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp:92:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.908401] (cartographer_ros) StderrLine: {'line': b'   92 |   explicit \x1b[01;36m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K(NodeT && node)\n'}
+[3.908461] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.910494] (-) TimerEvent: {}
+[3.959477] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:424:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin_some\x1b[m\x1b[K(const Node::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use SingleThreadedExecutor::spin_some instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.959692] (cartographer_ros) StderrLine: {'line': b'  424 |     \x1b[01;35m\x1b[Krclcpp::spin_some(cartographer_offline_node)\x1b[m\x1b[K;\n'}
+[3.959762] (cartographer_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.959826] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174\x1b[m\x1b[K,\n'}
+[3.959893] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/offline_node.h:25\x1b[m\x1b[K,\n'}
+[3.959955] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:17\x1b[m\x1b[K:\n'}
+[3.960015] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.960076] (cartographer_ros) StderrLine: {'line': b'  110 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(const rclcpp::Node::SharedPtr & node_ptr);\n'}
+[3.960135] (cartographer_ros) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.977297] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcartographer_ros::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const cartographer_ros::NodeOptions&, std::unique_ptr<cartographer::mapping::MapBuilderInterface>, std::shared_ptr<tf2_ros::Buffer>, rclcpp::Node::SharedPtr, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.977471] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:102:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.977548] (cartographer_ros) StderrLine: {'line': b'  102 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.977615] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.977677] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.977741] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[3.977804] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.001166] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleSubmapQuery\x1b[m\x1b[K(cartographer_ros_msgs::srv::SubmapQuery_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::SubmapQuery_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.001353] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:194:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.001442] (cartographer_ros) StderrLine: {'line': b'  194 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.001505] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.001566] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.001627] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.001687] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.003802] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleTrajectoryQuery\x1b[m\x1b[K(cartographer_ros_msgs::srv::TrajectoryQuery_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::TrajectoryQuery_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.003908] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:202:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.004002] (cartographer_ros) StderrLine: {'line': b'  202 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.004066] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.004126] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.004186] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.004257] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.008750] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KPublishSubmapList\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.008927] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:217:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.009002] (cartographer_ros) StderrLine: {'line': b'  217 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.009064] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.009125] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.009197] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.009267] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.010567] (-) TimerEvent: {}
+[4.015991] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KPublishLocalTrajectoryData\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.016186] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:250:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.016272] (cartographer_ros) StderrLine: {'line': b'  250 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.016340] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.016401] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.016462] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.016522] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.026437] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KPublishTrajectoryNodeList\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.026624] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:358:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.026813] (cartographer_ros) StderrLine: {'line': b'  358 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.026902] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.027057] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.027147] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.027214] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.027311] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KPublishLandmarkPosesList\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.027385] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:366:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.027457] (cartographer_ros) StderrLine: {'line': b'  366 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.027518] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.027580] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.027643] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.027702] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.027760] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KPublishConstraintList\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.027821] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:374:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.027885] (cartographer_ros) StderrLine: {'line': b'  374 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.027945] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.028003] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.028062] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.028121] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.067548] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KStartTrajectoryWithDefaultTopics\x1b[m\x1b[K(const cartographer_ros::TrajectoryOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.067727] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:639:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.067817] (cartographer_ros) StderrLine: {'line': b'  639 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.067893] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.067953] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.068013] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.068071] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.072639] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::Node::\x1b[01;32m\x1b[KAddOfflineTrajectory\x1b[m\x1b[K(const std::set<cartographer::mapping::TrajectoryBuilderInterface::SensorId>&, const cartographer_ros::TrajectoryOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.072818] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:668:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.072905] (cartographer_ros) StderrLine: {'line': b'  668 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.072972] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.073034] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.073095] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.073157] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.074928] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleGetTrajectoryStates\x1b[m\x1b[K(cartographer_ros_msgs::srv::GetTrajectoryStates_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::GetTrajectoryStates_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.075035] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:682:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.075113] (cartographer_ros) StderrLine: {'line': b'  682 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.075177] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.075236] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.075310] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.075374] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.078083] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleFinishTrajectory\x1b[m\x1b[K(cartographer_ros_msgs::srv::FinishTrajectory_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::FinishTrajectory_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.078258] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:712:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.078337] (cartographer_ros) StderrLine: {'line': b'  712 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.078400] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.078459] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.078519] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.078579] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.079771] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleWriteState\x1b[m\x1b[K(cartographer_ros_msgs::srv::WriteState_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::WriteState_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.079875] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:720:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.079963] (cartographer_ros) StderrLine: {'line': b'  720 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.080026] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.080095] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.080156] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.080215] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.081887] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KhandleReadMetrics\x1b[m\x1b[K(cartographer_ros_msgs::srv::ReadMetrics_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::ReadMetrics_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.082008] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:738:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.082089] (cartographer_ros) StderrLine: {'line': b'  738 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.082152] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.082212] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.082287] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.082350] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.082786] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KFinishAllTrajectories\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.082883] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:752:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.082960] (cartographer_ros) StderrLine: {'line': b'  752 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.083025] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.083086] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.083150] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.083212] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.083609] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_ros::Node::\x1b[01;32m\x1b[KFinishTrajectory\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.083710] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:763:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.083793] (cartographer_ros) StderrLine: {'line': b'  763 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.083860] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.083922] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.083988] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.084052] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.085039] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleOdometryMessage\x1b[m\x1b[K(int, const std::string&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.085206] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:791:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.085314] (cartographer_ros) StderrLine: {'line': b'  791 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.085380] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.085441] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.085502] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.085564] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.088363] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleNavSatFixMessage\x1b[m\x1b[K(int, const std::string&, const sensor_msgs::msg::NavSatFix_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.088601] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:806:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.088705] (cartographer_ros) StderrLine: {'line': b'  806 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.088872] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.088965] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.089031] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.089101] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.089160] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleLandmarkMessage\x1b[m\x1b[K(int, const std::string&, const cartographer_ros_msgs::msg::LandmarkList_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.089224] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:817:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.089305] (cartographer_ros) StderrLine: {'line': b'  817 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.089366] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.089425] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.089484] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.089543] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.089601] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleImuMessage\x1b[m\x1b[K(int, const std::string&, const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.089662] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:828:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.089731] (cartographer_ros) StderrLine: {'line': b'  828 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.089790] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.089853] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.089915] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.089973] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.092104] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleLaserScanMessage\x1b[m\x1b[K(int, const std::string&, const sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.092227] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:843:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.092405] (cartographer_ros) StderrLine: {'line': b'  843 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.092483] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.092640] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.092723] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.092872] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.092961] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandleMultiEchoLaserScanMessage\x1b[m\x1b[K(int, const std::string&, const sensor_msgs::msg::MultiEchoLaserScan_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.093041] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:854:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.093112] (cartographer_ros) StderrLine: {'line': b'  854 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.093259] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.093358] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.093427] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.093490] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.093550] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KHandlePointCloud2Message\x1b[m\x1b[K(int, const std::string&, const sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.093617] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:865:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.093690] (cartographer_ros) StderrLine: {'line': b'  865 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.093750] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.093811] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.093872] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.093932] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.093989] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KSerializeState\x1b[m\x1b[K(const std::string&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.094056] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:875:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.094134] (cartographer_ros) StderrLine: {'line': b'  875 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.094194] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.094262] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.094325] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.094385] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.094443] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::Node::\x1b[01;32m\x1b[KLoadState\x1b[m\x1b[K(const std::string&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.094503] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:883:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.094571] (cartographer_ros) StderrLine: {'line': b'  883 |   absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.094630] (cartographer_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.094689] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.094752] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[4.094810] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.110764] (-) TimerEvent: {}
+[4.211143] (-) TimerEvent: {}
+[4.311546] (-) TimerEvent: {}
+[4.411918] (-) TimerEvent: {}
+[4.512297] (-) TimerEvent: {}
+[4.612676] (-) TimerEvent: {}
+[4.713060] (-) TimerEvent: {}
+[4.813439] (-) TimerEvent: {}
+[4.913697] (-) TimerEvent: {}
+[5.013989] (-) TimerEvent: {}
+[5.114376] (-) TimerEvent: {}
+[5.214763] (-) TimerEvent: {}
+[5.315148] (-) TimerEvent: {}
+[5.415407] (-) TimerEvent: {}
+[5.515786] (-) TimerEvent: {}
+[5.616165] (-) TimerEvent: {}
+[5.716551] (-) TimerEvent: {}
+[5.816934] (-) TimerEvent: {}
+[5.917182] (-) TimerEvent: {}
+[6.017418] (-) TimerEvent: {}
+[6.117754] (-) TimerEvent: {}
+[6.218120] (-) TimerEvent: {}
+[6.318492] (-) TimerEvent: {}
+[6.418739] (-) TimerEvent: {}
+[6.519014] (-) TimerEvent: {}
+[6.619360] (-) TimerEvent: {}
+[6.719607] (-) TimerEvent: {}
+[6.819872] (-) TimerEvent: {}
+[6.920109] (-) TimerEvent: {}
+[7.020357] (-) TimerEvent: {}
+[7.120608] (-) TimerEvent: {}
+[7.220880] (-) TimerEvent: {}
+[7.321214] (-) TimerEvent: {}
+[7.421583] (-) TimerEvent: {}
+[7.521935] (-) TimerEvent: {}
+[7.622291] (-) TimerEvent: {}
+[7.722652] (-) TimerEvent: {}
+[7.823009] (-) TimerEvent: {}
+[7.923373] (-) TimerEvent: {}
+[8.023733] (-) TimerEvent: {}
+[8.124097] (-) TimerEvent: {}
+[8.224463] (-) TimerEvent: {}
+[8.324844] (-) TimerEvent: {}
+[8.425204] (-) TimerEvent: {}
+[8.525443] (-) TimerEvent: {}
+[8.625821] (-) TimerEvent: {}
+[8.726212] (-) TimerEvent: {}
+[8.826617] (-) TimerEvent: {}
+[8.926993] (-) TimerEvent: {}
+[9.027277] (-) TimerEvent: {}
+[9.127783] (-) TimerEvent: {}
+[9.228104] (-) TimerEvent: {}
+[9.328392] (-) TimerEvent: {}
+[9.428716] (-) TimerEvent: {}
+[9.529018] (-) TimerEvent: {}
+[9.629331] (-) TimerEvent: {}
+[9.729644] (-) TimerEvent: {}
+[9.829940] (-) TimerEvent: {}
+[9.930248] (-) TimerEvent: {}
+[10.030571] (-) TimerEvent: {}
+[10.130870] (-) TimerEvent: {}
+[10.231178] (-) TimerEvent: {}
+[10.331503] (-) TimerEvent: {}
+[10.431830] (-) TimerEvent: {}
+[10.532153] (-) TimerEvent: {}
+[10.632466] (-) TimerEvent: {}
+[10.732772] (-) TimerEvent: {}
+[10.833074] (-) TimerEvent: {}
+[10.933387] (-) TimerEvent: {}
+[11.033709] (-) TimerEvent: {}
+[11.134009] (-) TimerEvent: {}
+[11.234354] (-) TimerEvent: {}
+[11.334668] (-) TimerEvent: {}
+[11.434977] (-) TimerEvent: {}
+[11.535310] (-) TimerEvent: {}
+[11.635630] (-) TimerEvent: {}
+[11.735961] (-) TimerEvent: {}
+[11.836284] (-) TimerEvent: {}
+[11.936594] (-) TimerEvent: {}
+[12.036801] (-) TimerEvent: {}
+[12.137137] (-) TimerEvent: {}
+[12.237448] (-) TimerEvent: {}
+[12.337745] (-) TimerEvent: {}
+[12.438050] (-) TimerEvent: {}
+[12.538263] (-) TimerEvent: {}
+[12.638570] (-) TimerEvent: {}
+[12.738876] (-) TimerEvent: {}
+[12.839205] (-) TimerEvent: {}
+[12.939558] (-) TimerEvent: {}
+[13.039812] (-) TimerEvent: {}
+[13.140141] (-) TimerEvent: {}
+[13.240502] (-) TimerEvent: {}
+[13.340812] (-) TimerEvent: {}
+[13.441116] (-) TimerEvent: {}
+[13.541282] (-) TimerEvent: {}
+[13.641586] (-) TimerEvent: {}
+[13.741883] (-) TimerEvent: {}
+[13.842173] (-) TimerEvent: {}
+[13.942480] (-) TimerEvent: {}
+[14.042678] (-) TimerEvent: {}
+[14.142980] (-) TimerEvent: {}
+[14.243287] (-) TimerEvent: {}
+[14.343597] (-) TimerEvent: {}
+[14.443908] (-) TimerEvent: {}
+[14.544109] (-) TimerEvent: {}
+[14.644431] (-) TimerEvent: {}
+[14.744734] (-) TimerEvent: {}
+[14.845045] (-) TimerEvent: {}
+[14.945348] (-) TimerEvent: {}
+[15.045559] (-) TimerEvent: {}
+[15.145883] (-) TimerEvent: {}
+[15.246214] (-) TimerEvent: {}
+[15.346562] (-) TimerEvent: {}
+[15.446870] (-) TimerEvent: {}
+[15.547167] (-) TimerEvent: {}
+[15.647496] (-) TimerEvent: {}
+[15.747792] (-) TimerEvent: {}
+[15.848103] (-) TimerEvent: {}
+[15.948414] (-) TimerEvent: {}
+[16.048718] (-) TimerEvent: {}
+[16.149037] (-) TimerEvent: {}
+[16.249338] (-) TimerEvent: {}
+[16.349643] (-) TimerEvent: {}
+[16.449944] (-) TimerEvent: {}
+[16.550269] (-) TimerEvent: {}
+[16.650595] (-) TimerEvent: {}
+[16.750896] (-) TimerEvent: {}
+[16.851192] (-) TimerEvent: {}
+[16.951507] (-) TimerEvent: {}
+[17.051834] (-) TimerEvent: {}
+[17.152159] (-) TimerEvent: {}
+[17.252501] (-) TimerEvent: {}
+[17.352808] (-) TimerEvent: {}
+[17.453115] (-) TimerEvent: {}
+[17.553415] (-) TimerEvent: {}
+[17.653614] (-) TimerEvent: {}
+[17.753913] (-) TimerEvent: {}
+[17.854206] (-) TimerEvent: {}
+[17.954516] (-) TimerEvent: {}
+[18.054820] (-) TimerEvent: {}
+[18.155121] (-) TimerEvent: {}
+[18.255429] (-) TimerEvent: {}
+[18.355749] (-) TimerEvent: {}
+[18.456083] (-) TimerEvent: {}
+[18.556377] (-) TimerEvent: {}
+[18.656687] (-) TimerEvent: {}
+[18.756904] (-) TimerEvent: {}
+[18.857197] (-) TimerEvent: {}
+[18.957530] (-) TimerEvent: {}
+[19.057835] (-) TimerEvent: {}
+[19.158124] (-) TimerEvent: {}
+[19.258328] (-) TimerEvent: {}
+[19.358633] (-) TimerEvent: {}
+[19.458939] (-) TimerEvent: {}
+[19.559252] (-) TimerEvent: {}
+[19.659604] (-) TimerEvent: {}
+[19.759808] (-) TimerEvent: {}
+[19.860114] (-) TimerEvent: {}
+[19.960436] (-) TimerEvent: {}
+[20.060742] (-) TimerEvent: {}
+[20.161046] (-) TimerEvent: {}
+[20.261268] (-) TimerEvent: {}
+[20.361697] (-) TimerEvent: {}
+[20.461998] (-) TimerEvent: {}
+[20.562294] (-) TimerEvent: {}
+[20.662623] (-) TimerEvent: {}
+[20.762823] (-) TimerEvent: {}
+[20.863132] (-) TimerEvent: {}
+[20.963470] (-) TimerEvent: {}
+[21.063799] (-) TimerEvent: {}
+[21.164138] (-) TimerEvent: {}
+[21.264352] (-) TimerEvent: {}
+[21.364653] (-) TimerEvent: {}
+[21.464971] (-) TimerEvent: {}
+[21.565283] (-) TimerEvent: {}
+[21.665594] (-) TimerEvent: {}
+[21.765801] (-) TimerEvent: {}
+[21.866117] (-) TimerEvent: {}
+[21.966478] (-) TimerEvent: {}
+[22.066703] (-) TimerEvent: {}
+[22.167024] (-) TimerEvent: {}
+[22.267236] (-) TimerEvent: {}
+[22.367566] (-) TimerEvent: {}
+[22.422956] (cartographer_ros) StdoutLine: {'line': b'[ 20%] \x1b[1m\x1b[32mLinking CXX shared library libcartographer_ros.so\x1b[0m\n'}
+[22.467758] (-) TimerEvent: {}
+[22.568087] (-) TimerEvent: {}
+[22.668330] (-) TimerEvent: {}
+[22.768582] (-) TimerEvent: {}
+[22.868830] (-) TimerEvent: {}
+[22.969203] (-) TimerEvent: {}
+[23.069538] (-) TimerEvent: {}
+[23.169899] (-) TimerEvent: {}
+[23.270284] (-) TimerEvent: {}
+[23.370654] (-) TimerEvent: {}
+[23.470998] (-) TimerEvent: {}
+[23.571334] (-) TimerEvent: {}
+[23.671680] (-) TimerEvent: {}
+[23.772013] (-) TimerEvent: {}
+[23.872383] (-) TimerEvent: {}
+[23.972638] (-) TimerEvent: {}
+[24.072968] (-) TimerEvent: {}
+[24.173285] (-) TimerEvent: {}
+[24.273605] (-) TimerEvent: {}
+[24.345652] (cartographer_ros) StdoutLine: {'line': b'[ 60%] Built target cartographer_ros\n'}
+[24.361984] (cartographer_ros) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o\x1b[0m\n'}
+[24.362182] (cartographer_ros) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o\x1b[0m\n'}
+[24.362289] (cartographer_ros) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o\x1b[0m\n'}
+[24.363835] (cartographer_ros) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o\x1b[0m\n'}
+[24.364292] (cartographer_ros) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o\x1b[0m\n'}
+[24.368516] (cartographer_ros) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o\x1b[0m\n'}
+[24.369789] (cartographer_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o\x1b[0m\n'}
+[24.373705] (-) TimerEvent: {}
+[24.473971] (-) TimerEvent: {}
+[24.574251] (-) TimerEvent: {}
+[24.674538] (-) TimerEvent: {}
+[24.774823] (-) TimerEvent: {}
+[24.875098] (-) TimerEvent: {}
+[24.968104] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24\x1b[m\x1b[K,\n'}
+[24.968287] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28\x1b[m\x1b[K,\n'}
+[24.968372] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32\x1b[m\x1b[K,\n'}
+[24.968420] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32\x1b[m\x1b[K,\n'}
+[24.968467] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node_main.cpp:19\x1b[m\x1b[K:\n'}
+[24.968511] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.968562] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[24.968606] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.975218] (-) TimerEvent: {}
+[24.996157] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53\x1b[m\x1b[K:\n'}
+[24.996357] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.996436] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[24.996489] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[24.997537] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55\x1b[m\x1b[K:\n'}
+[24.997685] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.997754] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[24.997805] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.075331] (-) TimerEvent: {}
+[25.175617] (-) TimerEvent: {}
+[25.275887] (-) TimerEvent: {}
+[25.376170] (-) TimerEvent: {}
+[25.450054] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/rosbag_validate_main.cpp:38\x1b[m\x1b[K:\n'}
+[25.450248] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.450350] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[25.450410] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[25.476293] (-) TimerEvent: {}
+[25.576570] (-) TimerEvent: {}
+[25.676838] (-) TimerEvent: {}
+[25.777123] (-) TimerEvent: {}
+[25.877430] (-) TimerEvent: {}
+[25.977694] (-) TimerEvent: {}
+[26.077970] (-) TimerEvent: {}
+[26.178255] (-) TimerEvent: {}
+[26.278537] (-) TimerEvent: {}
+[26.378813] (-) TimerEvent: {}
+[26.479076] (-) TimerEvent: {}
+[26.579340] (-) TimerEvent: {}
+[26.679631] (-) TimerEvent: {}
+[26.779932] (-) TimerEvent: {}
+[26.880216] (-) TimerEvent: {}
+[26.980482] (-) TimerEvent: {}
+[27.080757] (-) TimerEvent: {}
+[27.181038] (-) TimerEvent: {}
+[27.281340] (-) TimerEvent: {}
+[27.381637] (-) TimerEvent: {}
+[27.481928] (-) TimerEvent: {}
+[27.582217] (-) TimerEvent: {}
+[27.646435] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[27.646649] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K GUARDED_BY(mutex_);\n'}
+[27.646728] (cartographer_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[27.646782] (cartographer_ros) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[27.646831] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex_\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[27.646882] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr client_ GUARDED_BY(\x1b[01;31m\x1b[Kmutex_\x1b[m\x1b[K);\n'}
+[27.646930] (cartographer_ros) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[27.646977] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGUARDED_BY\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.647051] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr client_ \x1b[01;31m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.647101] (cartographer_ros) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.659218] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:78:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[27.659457] (cartographer_ros) StderrLine: {'line': b'   78 |   ::rclcpp::Subscription<cartographer_ros_msgs::msg::SubmapList>::SharedPtr \x1b[01;31m\x1b[Ksubmap_list_subscriber_\x1b[m\x1b[K GUARDED_BY(mutex_);\n'}
+[27.659543] (cartographer_ros) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.659596] (cartographer_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[27.659649] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:78:112:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex_\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[27.659696] (cartographer_ros) StderrLine: {'line': b'   78 |   ::rclcpp::Subscription<cartographer_ros_msgs::msg::SubmapList>::SharedPtr submap_list_subscriber_ GUARDED_BY(\x1b[01;31m\x1b[Kmutex_\x1b[m\x1b[K);\n'}
+[27.659745] (cartographer_ros) StderrLine: {'line': b'      |                                                                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[27.659796] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:78:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGUARDED_BY\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.659856] (cartographer_ros) StderrLine: {'line': b'   78 |   ::rclcpp::Subscription<cartographer_ros_msgs::msg::SubmapList>::SharedPtr submap_list_subscriber_ \x1b[01;31m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.659908] (cartographer_ros) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.659956] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:78:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.660011] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.660071] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr client_ \x1b[01;36m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.660123] (cartographer_ros) StderrLine: {'line': b'      |                                                                                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.663819] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:79:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[27.664011] (cartographer_ros) StderrLine: {'line': b'   79 |   ::rclcpp::Publisher<::nav_msgs::msg::OccupancyGrid>::SharedPtr \x1b[01;31m\x1b[Koccupancy_grid_publisher_\x1b[m\x1b[K GUARDED_BY(mutex_);\n'}
+[27.664083] (cartographer_ros) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.664136] (cartographer_ros) StderrLine: {'line': b'      |                                                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[27.664184] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:79:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex_\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[27.664259] (cartographer_ros) StderrLine: {'line': b'   79 |   ::rclcpp::Publisher<::nav_msgs::msg::OccupancyGrid>::SharedPtr occupancy_grid_publisher_ GUARDED_BY(\x1b[01;31m\x1b[Kmutex_\x1b[m\x1b[K);\n'}
+[27.664318] (cartographer_ros) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[27.664369] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:79:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGUARDED_BY\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.664430] (cartographer_ros) StderrLine: {'line': b'   79 |   ::rclcpp::Publisher<::nav_msgs::msg::OccupancyGrid>::SharedPtr occupancy_grid_publisher_ \x1b[01;31m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.664482] (cartographer_ros) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.664536] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:79:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.664597] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.664646] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr client_ \x1b[01;36m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.664697] (cartographer_ros) StderrLine: {'line': b'      |                                                                                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.667461] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:80:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[27.667669] (cartographer_ros) StderrLine: {'line': b'   80 |   std::map<SubmapId, SubmapSlice> \x1b[01;31m\x1b[Ksubmap_slices_\x1b[m\x1b[K GUARDED_BY(mutex_);\n'}
+[27.667735] (cartographer_ros) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.667785] (cartographer_ros) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[27.667832] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:80:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex_\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[27.667882] (cartographer_ros) StderrLine: {'line': b'   80 |   std::map<SubmapId, SubmapSlice> submap_slices_ GUARDED_BY(\x1b[01;31m\x1b[Kmutex_\x1b[m\x1b[K);\n'}
+[27.667929] (cartographer_ros) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[27.667991] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:80:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGUARDED_BY\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.668050] (cartographer_ros) StderrLine: {'line': b'   80 |   std::map<SubmapId, SubmapSlice> submap_slices_ \x1b[01;31m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.668101] (cartographer_ros) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.668148] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:80:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.668210] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:77:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KGUARDED_BY\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[27.668287] (cartographer_ros) StderrLine: {'line': b'   77 |   ::rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr client_ \x1b[01;36m\x1b[KGUARDED_BY\x1b[m\x1b[K(mutex_);\n'}
+[27.668341] (cartographer_ros) StderrLine: {'line': b'      |                                                                                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.674554] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[27.674759] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:117:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.674858] (cartographer_ros) StderrLine: {'line': b'  117 |     absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[27.674920] (cartographer_ros) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[27.674972] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:23\x1b[m\x1b[K:\n'}
+[27.675024] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[27.675069] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[27.675119] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[27.682341] (-) TimerEvent: {}
+[27.691069] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::{anonymous}::Node::\x1b[01;32m\x1b[KDrawAndPublish\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.691331] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/occupancy_grid_node_main.cpp:183:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.691436] (cartographer_ros) StderrLine: {'line': b'  183 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[27.691494] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[27.691546] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[27.691595] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[27.691642] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[27.782461] (-) TimerEvent: {}
+[27.882760] (-) TimerEvent: {}
+[27.983071] (-) TimerEvent: {}
+[28.083409] (-) TimerEvent: {}
+[28.183739] (-) TimerEvent: {}
+[28.284073] (-) TimerEvent: {}
+[28.384409] (-) TimerEvent: {}
+[28.484730] (-) TimerEvent: {}
+[28.585049] (-) TimerEvent: {}
+[28.685361] (-) TimerEvent: {}
+[28.785691] (-) TimerEvent: {}
+[28.886021] (-) TimerEvent: {}
+[28.893804] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[28.894036] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24\x1b[m\x1b[K,\n'}
+[28.894114] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:33\x1b[m\x1b[K:\n'}
+[28.894174] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.894290] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.894357] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.894408] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.894459] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/absl/strings/internal/cordz_info.h:31\x1b[m\x1b[K,\n'}
+[28.894514] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/absl/strings/cord.h:92\x1b[m\x1b[K,\n'}
+[28.894562] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/absl/container/internal/hash_function_defaults.h:59\x1b[m\x1b[K,\n'}
+[28.894608] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/absl/container/hash_container_defaults.h:19\x1b[m\x1b[K,\n'}
+[28.894650] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/absl/container/flat_hash_map.h:43\x1b[m\x1b[K,\n'}
+[28.894701] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/include/cartographer/common/thread_pool.h:27\x1b[m\x1b[K,\n'}
+[28.894755] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/include/cartographer/mapping/map_builder.h:22\x1b[m\x1b[K,\n'}
+[28.894811] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node_main.cpp:18\x1b[m\x1b[K:\n'}
+[28.894874] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[28.894926] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[28.894974] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[28.895023] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.895076] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.895132] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.895178] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.895221] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[28.895283] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[28.895327] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[28.896944] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.897104] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[28.897181] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[28.897225] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[28.897281] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[28.897325] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[28.897365] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[28.986142] (-) TimerEvent: {}
+[29.077245] (cartographer_ros) StdoutLine: {'line': b'[ 82%] \x1b[1m\x1b[32mLinking CXX executable cartographer_offline_node\x1b[0m\n'}
+[29.086258] (-) TimerEvent: {}
+[29.174765] (cartographer_ros) StdoutLine: {'line': b'[ 85%] \x1b[1m\x1b[32mLinking CXX executable cartographer_pbstream_to_ros_map\x1b[0m\n'}
+[29.186358] (-) TimerEvent: {}
+[29.286727] (-) TimerEvent: {}
+[29.387124] (-) TimerEvent: {}
+[29.487574] (-) TimerEvent: {}
+[29.587998] (-) TimerEvent: {}
+[29.688455] (-) TimerEvent: {}
+[29.788908] (-) TimerEvent: {}
+[29.889349] (-) TimerEvent: {}
+[29.989791] (-) TimerEvent: {}
+[30.030613] (<colcon_parallel_executor.executor.parallel.ParallelExecutorExtension object at 0x708be86b0440>) ParallelStatus: {'processing': ('cartographer_ros',)}
+[30.089933] (-) TimerEvent: {}
+[30.190294] (-) TimerEvent: {}
+[30.290693] (-) TimerEvent: {}
+[30.391142] (-) TimerEvent: {}
+[30.491496] (-) TimerEvent: {}
+[30.591904] (-) TimerEvent: {}
+[30.692288] (-) TimerEvent: {}
+[30.792638] (-) TimerEvent: {}
+[30.892998] (-) TimerEvent: {}
+[30.993390] (-) TimerEvent: {}
+[31.066271] (cartographer_ros) StdoutLine: {'line': b'[ 85%] Built target cartographer_pbstream_to_ros_map\n'}
+[31.093516] (-) TimerEvent: {}
+[31.193845] (-) TimerEvent: {}
+[31.200079] (cartographer_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartographer_occupancy_grid_node.dir/build.make:79: CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o] Error 1\n'}
+[31.200334] (cartographer_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/cartographer_occupancy_grid_node.dir/all] Error 2\n'}
+[31.200377] (cartographer_ros) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[31.293971] (-) TimerEvent: {}
+[31.394327] (-) TimerEvent: {}
+[31.494644] (-) TimerEvent: {}
+[31.594353] (cartographer_ros) StdoutLine: {'line': b'[ 85%] Built target cartographer_offline_node\n'}
+[31.594713] (-) TimerEvent: {}
+[31.694922] (-) TimerEvent: {}
+[31.795213] (-) TimerEvent: {}
+[31.895492] (-) TimerEvent: {}
+[31.980016] (cartographer_ros) StdoutLine: {'line': b'[ 88%] \x1b[1m\x1b[32mLinking CXX executable cartographer_node\x1b[0m\n'}
+[31.995595] (-) TimerEvent: {}
+[32.095891] (-) TimerEvent: {}
+[32.109306] (cartographer_ros) StdoutLine: {'line': b'[ 91%] \x1b[1m\x1b[32mLinking CXX executable cartographer_pbstream_map_publisher\x1b[0m\n'}
+[32.196029] (-) TimerEvent: {}
+[32.296420] (-) TimerEvent: {}
+[32.396826] (-) TimerEvent: {}
+[32.497216] (-) TimerEvent: {}
+[32.597594] (-) TimerEvent: {}
+[32.697991] (-) TimerEvent: {}
+[32.798358] (-) TimerEvent: {}
+[32.898745] (-) TimerEvent: {}
+[32.999139] (-) TimerEvent: {}
+[33.099486] (-) TimerEvent: {}
+[33.199871] (-) TimerEvent: {}
+[33.207639] (cartographer_ros) StdoutLine: {'line': b'[ 94%] \x1b[1m\x1b[32mLinking CXX executable cartographer_assets_writer\x1b[0m\n'}
+[33.300010] (-) TimerEvent: {}
+[33.400430] (-) TimerEvent: {}
+[33.500879] (-) TimerEvent: {}
+[33.601257] (-) TimerEvent: {}
+[33.701623] (-) TimerEvent: {}
+[33.802121] (-) TimerEvent: {}
+[33.890121] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_node\n'}
+[33.902225] (-) TimerEvent: {}
+[33.980232] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_pbstream_map_publisher\n'}
+[34.002343] (-) TimerEvent: {}
+[34.102645] (-) TimerEvent: {}
+[34.202959] (-) TimerEvent: {}
+[34.303271] (-) TimerEvent: {}
+[34.403566] (-) TimerEvent: {}
+[34.503858] (-) TimerEvent: {}
+[34.588202] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_assets_writer\n'}
+[34.603978] (-) TimerEvent: {}
+[34.704290] (-) TimerEvent: {}
+[34.804600] (-) TimerEvent: {}
+[34.904909] (-) TimerEvent: {}
+[35.005205] (-) TimerEvent: {}
+[35.105526] (-) TimerEvent: {}
+[35.205738] (-) TimerEvent: {}
+[35.214035] (cartographer_ros) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking CXX executable cartographer_rosbag_validate\x1b[0m\n'}
+[35.305855] (-) TimerEvent: {}
+[35.406266] (-) TimerEvent: {}
+[35.506643] (-) TimerEvent: {}
+[35.606944] (-) TimerEvent: {}
+[35.707304] (-) TimerEvent: {}
+[35.807701] (-) TimerEvent: {}
+[35.908076] (-) TimerEvent: {}
+[36.008411] (-) TimerEvent: {}
+[36.108804] (-) TimerEvent: {}
+[36.209170] (-) TimerEvent: {}
+[36.251083] (cartographer_ros) StdoutLine: {'line': b'[ 97%] Built target cartographer_rosbag_validate\n'}
+[36.251761] (cartographer_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.253556] (cartographer_ros) CommandEnded: {'returncode': 2}
+[36.263258] (cartographer_ros) JobEnded: {'identifier': 'cartographer_ros', 'rc': 2}
+[36.273948] (-) EventReactorShutdown: {}

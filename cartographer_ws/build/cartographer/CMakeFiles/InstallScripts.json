@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/cmake_install.cmake",
+		"/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,231 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/libcartographer.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake",
+			"/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "cartographer::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "Ceres::ceres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Boost::iostreams::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gflags::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::algorithm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::debugging::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::flat_hash_map::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::meta::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::numeric::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::str_format::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::strings::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::synchronization::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::time::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::utility::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "Ceres::ceres::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/x86_64-linux-gnu/liblua5.2.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/x86_64-linux-gnu/libm.so"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Boost::iostreams::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "glog"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gflags::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "cairo"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::algorithm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::base::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::debugging::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::flat_hash_map::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::meta::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::numeric::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::str_format::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::strings::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::synchronization::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::time::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "absl::utility::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "pthread"
+		}
+	],
+	"local" : true,
+	"name" : "cartographer",
+	"nameOnDisk" : "libcartographer.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "STATIC_LIBRARY"
+}

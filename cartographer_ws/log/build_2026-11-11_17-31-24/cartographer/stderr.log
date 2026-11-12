@@ -1,0 +1,975 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:15 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:38 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.cc:17[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:67:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task[01;31m[K)[m[K
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_) override;
+      |                                              [01;31m[K^[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   73 |   void NotifyDependenciesCompleted(Task* task) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   68 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   76 |   bool [01;31m[Krunning_[m[K GUARDED_BY(mutex_) = true;
+      |        [01;31m[K^~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   76 |   bool running_ GUARDED_BY([01;31m[Kmutex_[m[K) = true;
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:42:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true[01;31m[K;[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   76 |   bool running_ [01;31m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   77 |   std::vector<std::thread> [01;31m[Kpool_[m[K GUARDED_BY(mutex_);
+      |                            [01;31m[K^~~~~[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   77 |   std::vector<std::thread> pool_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> [01;31m[Ktask_queue_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:79:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> [01;31m[Ktasks_not_ready_[m[K
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   80 |       GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   80 |       [01;31m[KGUARDED_BY[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   State GetState([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                  [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   41 |   State GetState() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                             [01;31m[K^[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   44 |   void SetWorkItem(const WorkItem& work_item) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                    [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |   void Execute([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                [01;31m[K^[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   55 |   void Execute() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 |   WorkItem [01;31m[Kwork_item_[m[K GUARDED_BY(mutex_);
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   64 |   WorkItem work_item_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 |   ThreadPoolInterface* [01;31m[Kthread_pool_to_notify_[m[K GUARDED_BY(mutex_) = nullptr;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY([01;31m[Kmutex_[m[K) = nullptr;
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:75:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ [01;31m[KGUARDED_BY[m[K(mutex_) = nullptr;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |   State [01;31m[Kstate_[m[K GUARDED_BY(mutex_) = NEW;
+      |         [01;31m[K^~~~~~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   66 |   State state_ GUARDED_BY([01;31m[Kmutex_[m[K) = NEW;
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:40:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW[01;31m[K;[m[K
+      |                                        [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   66 |   State state_ [01;31m[KGUARDED_BY[m[K(mutex_) = NEW;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   unsigned int [01;31m[Kuncompleted_dependencies_[m[K GUARDED_BY(mutex_) = 0;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY([01;31m[Kmutex_[m[K) = 0;
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 |   unsigned int uncompleted_dependencies_ [01;31m[KGUARDED_BY[m[K(mutex_) = 0;
+      |                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   std::set<Task*> [01;31m[Kdependent_tasks_[m[K GUARDED_BY(mutex_);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |   std::set<Task*> dependent_tasks_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:17[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   State GetState([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                  [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   41 |   State GetState() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                             [01;31m[K^[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   44 |   void SetWorkItem(const WorkItem& work_item) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                    [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |   void Execute([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                [01;31m[K^[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   55 |   void Execute() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 |   WorkItem [01;31m[Kwork_item_[m[K GUARDED_BY(mutex_);
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   64 |   WorkItem work_item_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 |   ThreadPoolInterface* [01;31m[Kthread_pool_to_notify_[m[K GUARDED_BY(mutex_) = nullptr;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY([01;31m[Kmutex_[m[K) = nullptr;
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:75:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ [01;31m[KGUARDED_BY[m[K(mutex_) = nullptr;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |   State [01;31m[Kstate_[m[K GUARDED_BY(mutex_) = NEW;
+      |         [01;31m[K^~~~~~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   66 |   State state_ GUARDED_BY([01;31m[Kmutex_[m[K) = NEW;
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:40:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW[01;31m[K;[m[K
+      |                                        [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   66 |   State state_ [01;31m[KGUARDED_BY[m[K(mutex_) = NEW;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   unsigned int [01;31m[Kuncompleted_dependencies_[m[K GUARDED_BY(mutex_) = 0;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY([01;31m[Kmutex_[m[K) = 0;
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 |   unsigned int uncompleted_dependencies_ [01;31m[KGUARDED_BY[m[K(mutex_) = 0;
+      |                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   std::set<Task*> [01;31m[Kdependent_tasks_[m[K GUARDED_BY(mutex_);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |   std::set<Task*> dependent_tasks_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:67:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task[01;31m[K)[m[K
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_) override;
+      |                                              [01;31m[K^[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   73 |   void NotifyDependenciesCompleted(Task* task) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   68 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   76 |   bool [01;31m[Krunning_[m[K GUARDED_BY(mutex_) = true;
+      |        [01;31m[K^~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   76 |   bool running_ GUARDED_BY([01;31m[Kmutex_[m[K) = true;
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:42:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true[01;31m[K;[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   76 |   bool running_ [01;31m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   77 |   std::vector<std::thread> [01;31m[Kpool_[m[K GUARDED_BY(mutex_);
+      |                            [01;31m[K^~~~~[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   77 |   std::vector<std::thread> pool_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> [01;31m[Ktask_queue_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:79:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> [01;31m[Ktasks_not_ready_[m[K
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   80 |       GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   80 |       [01;31m[KGUARDED_BY[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:[m[K In lambda function:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:86:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+   86 |   const auto predicate = [this]() [01;31m[KEXCLUSIVE_LOCKS_REQUIRED[m[K(mutex_) {
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:[m[K In member function ‘[01m[Kvoid cartographer::common::ThreadPool::[01;32m[KDoWork[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:86:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kabsl::debian9::Condition::Condition(const cartographer::common::ThreadPool::DoWork()::<lambda()>*)[m[K’
+   93 |       mutex_.Await(absl::Condition(&predicate[01;31m[K)[m[K);
+      |                                              [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.cc:93:46:[m[K [01;36m[Knote: [m[Kthere are 11 candidates
+In file included from [01m[K/usr/include/absl/strings/internal/cordz_info.h:31[m[K,
+                 from [01m[K/usr/include/absl/strings/cord.h:92[m[K,
+                 from [01m[K/usr/include/absl/container/internal/hash_function_defaults.h:59[m[K,
+                 from [01m[K/usr/include/absl/container/hash_container_defaults.h:19[m[K,
+                 from [01m[K/usr/include/absl/container/flat_hash_map.h:43[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:26[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  896 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:895:18:[m[K [01;31m[Kerror: [m[Kinvalid ‘[01m[Kstatic_cast[m[K’ from type ‘[01m[Kvoid (cartographer::common::ThreadPool::DoWork()::<lambda()>::*)() const[m[K’ to type ‘[01m[Kbool (*)(const cartographer::common::ThreadPool::DoWork()::<lambda()>&)[m[K’
+  895 |           sizeof[01;31m[K(static_cast<bool (*)(const T&)>(&T::operator()))[m[K != 0>>
+      |                 [01;31m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Kcandidate 2: ‘[01m[Ktemplate<class T, typename std::enable_if<absl::debian9::synchronization_internal::HasConstMemberCallOperator<T>::value, int>::type <anonymous> > absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  886 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:885:24:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, int>[m[K’
+  885 |                 int> = [01;31m[K0[m[K>
+      |                        [01;31m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate 3: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*, bool (absl::debian9::type_identity<T>::type::*)() const)[m[K’
+  849 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate 4: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(T*, bool (absl::debian9::type_identity<T>::type::*)())[m[K’
+  843 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate 5: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), typename absl::debian9::type_identity<T>::type*)[m[K’
+  829 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate 6: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), T*)[m[K’
+  814 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(T* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate 7: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K()[m[K’
+  982 |   constexpr [01;36m[KCondition[m[K() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate expects 0 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:855:12:[m[K [01;36m[Knote: [m[Kcandidate 8: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(const bool*)[m[K’
+  855 |   explicit [01;36m[KCondition[m[K(const bool* absl_nonnull cond);
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:855:47:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::ThreadPool::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst bool*[m[K[m[K’
+  855 |   explicit Condition([01;36m[Kconst bool* absl_nonnull cond[m[K);
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate 9: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(void*), void*)[m[K’
+  801 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(void* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 10: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(const absl::debian9::Condition&)[m[K’
+  798 | class [01;36m[KCondition[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::ThreadPool::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst absl::debian9::Condition&[m[K[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 11: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(absl::debian9::Condition&&)[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::ThreadPool::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kabsl::debian9::Condition&&[m[K[m[K’
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:26[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:17[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   State GetState([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                  [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   41 |   State GetState() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   41 |   State GetState() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   void SetWorkItem(const WorkItem& work_item[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                             [01;31m[K^[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   44 |   void SetWorkItem(const WorkItem& work_item) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   44 |   void SetWorkItem(const WorkItem& work_item) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:44:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 |   void AddDependency(std::weak_ptr<Task> dependency[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                    [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 |   void AddDependency(std::weak_ptr<Task> dependency) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:48:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |   void Execute([01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                [01;31m[K^[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   55 |   void Execute() LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   55 |   void Execute() [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_);
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |   void SetThreadPool(ThreadPoolInterface* thread_pool) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:58:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:41:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   41 |   State GetState() [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 |   WorkItem [01;31m[Kwork_item_[m[K GUARDED_BY(mutex_);
+      |            [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   64 |   WorkItem work_item_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   64 |   WorkItem work_item_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 |   ThreadPoolInterface* [01;31m[Kthread_pool_to_notify_[m[K GUARDED_BY(mutex_) = nullptr;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY([01;31m[Kmutex_[m[K) = nullptr;
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:75:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ GUARDED_BY(mutex_) = nullptr[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   65 |   ThreadPoolInterface* thread_pool_to_notify_ [01;31m[KGUARDED_BY[m[K(mutex_) = nullptr;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:65:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 |   State [01;31m[Kstate_[m[K GUARDED_BY(mutex_) = NEW;
+      |         [01;31m[K^~~~~~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   66 |   State state_ GUARDED_BY([01;31m[Kmutex_[m[K) = NEW;
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:40:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   66 |   State state_ GUARDED_BY(mutex_) = NEW[01;31m[K;[m[K
+      |                                        [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   66 |   State state_ [01;31m[KGUARDED_BY[m[K(mutex_) = NEW;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:66:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   unsigned int [01;31m[Kuncompleted_dependencies_[m[K GUARDED_BY(mutex_) = 0;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   67 |   unsigned int uncompleted_dependencies_ GUARDED_BY([01;31m[Kmutex_[m[K) = 0;
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 |   unsigned int uncompleted_dependencies_ [01;31m[KGUARDED_BY[m[K(mutex_) = 0;
+      |                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:67:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:450: CMakeFiles/cartographer.dir/cartographer/common/task.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   std::set<Task*> [01;31m[Kdependent_tasks_[m[K GUARDED_BY(mutex_);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |   std::set<Task*> dependent_tasks_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |   std::set<Task*> dependent_tasks_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:68:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/task.h:64:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::Task::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   64 |   WorkItem work_item_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:67:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task[01;31m[K)[m[K
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   68 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   73 |   void NotifyDependenciesCompleted(Task* task[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_) override;
+      |                                              [01;31m[K^[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   73 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   73 |   void NotifyDependenciesCompleted(Task* task) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:73:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   68 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   76 |   bool [01;31m[Krunning_[m[K GUARDED_BY(mutex_) = true;
+      |        [01;31m[K^~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   76 |   bool running_ GUARDED_BY([01;31m[Kmutex_[m[K) = true;
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:42:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   76 |   bool running_ GUARDED_BY(mutex_) = true[01;31m[K;[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   76 |   bool running_ [01;31m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   77 |   std::vector<std::thread> [01;31m[Kpool_[m[K GUARDED_BY(mutex_);
+      |                            [01;31m[K^~~~~[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   77 |   std::vector<std::thread> pool_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   77 |   std::vector<std::thread> pool_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   78 |   std::deque<std::shared_ptr<Task>> [01;31m[Ktask_queue_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   78 |   std::deque<std::shared_ptr<Task>> task_queue_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:78:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:79:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   79 |   absl::flat_hash_map<Task*, std::shared_ptr<Task>> [01;31m[Ktasks_not_ready_[m[K
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   80 |       GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   80 |       [01;31m[KGUARDED_BY[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:80:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:76:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   76 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/thread_pool.h:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::ThreadPool::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   68 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:37:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   37 |   std::weak_ptr<Task> Schedule(std::unique_ptr<Task> task[01;31m[K)[m[K
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   38 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   47 |   void NotifyDependenciesCompleted(Task* task[01;31m[K)[m[K LOCKS_EXCLUDED(mutex_) override;
+      |                                              [01;31m[K^[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   47 |   void NotifyDependenciesCompleted(Task* task) LOCKS_EXCLUDED([01;31m[Kmutex_[m[K) override;
+      |                                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:48:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 |   void NotifyDependenciesCompleted(Task* task) [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:47:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   38 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |   bool [01;31m[Krunning_[m[K GUARDED_BY(mutex_) = true;
+      |        [01;31m[K^~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   50 |   bool running_ GUARDED_BY([01;31m[Kmutex_[m[K) = true;
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:42:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   50 |   bool running_ GUARDED_BY(mutex_) = true[01;31m[K;[m[K
+      |                                          [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   50 |   bool running_ [01;31m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   51 |   bool [01;31m[Kidle_[m[K GUARDED_BY(mutex_) = true;
+      |        [01;31m[K^~~~~[m[K
+      |             [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   51 |   bool idle_ GUARDED_BY([01;31m[Kmutex_[m[K) = true;
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:39:[m[K [01;31m[Kerror: [m[Kinvalid pure specifier (only ‘[01m[K= 0[m[K’ is allowed) before ‘[01m[K;[m[K’ token
+   51 |   bool idle_ GUARDED_BY(mutex_) = true[01;31m[K;[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:14:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 |   bool idle_ [01;31m[KGUARDED_BY[m[K(mutex_) = true;
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:51:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   50 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   52 |   std::deque<std::shared_ptr<Task>> [01;31m[Ktask_queue_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   52 |   std::deque<std::shared_ptr<Task>> task_queue_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:52:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   50 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 |   std::map<Task*, std::shared_ptr<Task>> [01;31m[Ktasks_not_ready_[m[K GUARDED_BY(mutex_);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:59:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |   std::map<Task*, std::shared_ptr<Task>> tasks_not_ready_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:53:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   50 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |   std::thread [01;31m[Kthread_[m[K GUARDED_BY(mutex_);
+      |               [01;31m[K^~~~~~~[m[K
+      |                      [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   54 |   std::thread thread_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   std::thread thread_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:50:17:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   50 |   bool running_ [01;36m[KGUARDED_BY[m[K(mutex_) = true;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer::common::testing::ThreadPoolForTesting::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   38 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_) override;
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:464: CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o] Error 1
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:[m[K In lambda function:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+   75 |                              [01;31m[KEXCLUSIVE_LOCKS_REQUIRED[m[K(mutex_) { return idle_; };
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:[m[K In member function ‘[01m[Kvoid cartographer::common::testing::ThreadPoolForTesting::[01;32m[KWaitUntilIdle[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:75:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kabsl::debian9::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*)[m[K’
+   79 |       if (mutex_.AwaitWithTimeout(absl::Condition(&predicate[01;31m[K)[m[K,
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:79:61:[m[K [01;36m[Knote: [m[Kthere are 11 candidates
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.h:25[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  896 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:895:18:[m[K [01;31m[Kerror: [m[Kinvalid ‘[01m[Kstatic_cast[m[K’ from type ‘[01m[Kvoid (cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>::*)() const[m[K’ to type ‘[01m[Kbool (*)(const cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>&)[m[K’
+  895 |           sizeof[01;31m[K(static_cast<bool (*)(const T&)>(&T::operator()))[m[K != 0>>
+      |                 [01;31m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Kcandidate 2: ‘[01m[Ktemplate<class T, typename std::enable_if<absl::debian9::synchronization_internal::HasConstMemberCallOperator<T>::value, int>::type <anonymous> > absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  886 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:885:24:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, int>[m[K’
+  885 |                 int> = [01;31m[K0[m[K>
+      |                        [01;31m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate 3: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*, bool (absl::debian9::type_identity<T>::type::*)() const)[m[K’
+  849 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate 4: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(T*, bool (absl::debian9::type_identity<T>::type::*)())[m[K’
+  843 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate 5: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), typename absl::debian9::type_identity<T>::type*)[m[K’
+  829 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate 6: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), T*)[m[K’
+  814 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(T* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate 7: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K()[m[K’
+  982 |   constexpr [01;36m[KCondition[m[K() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate expects 0 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:855:12:[m[K [01;36m[Knote: [m[Kcandidate 8: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(const bool*)[m[K’
+  855 |   explicit [01;36m[KCondition[m[K(const bool* absl_nonnull cond);
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:855:47:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst bool*[m[K[m[K’
+  855 |   explicit Condition([01;36m[Kconst bool* absl_nonnull cond[m[K);
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate 9: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(void*), void*)[m[K’
+  801 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(void* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 10: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(const absl::debian9::Condition&)[m[K’
+  798 | class [01;36m[KCondition[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst absl::debian9::Condition&[m[K[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 11: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(absl::debian9::Condition&&)[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::WaitUntilIdle()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kabsl::debian9::Condition&&[m[K[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:[m[K In lambda function:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+   88 |   const auto predicate = [this]() [01;31m[KEXCLUSIVE_LOCKS_REQUIRED[m[K(mutex_) {
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:[m[K In member function ‘[01m[Kvoid cartographer::common::testing::ThreadPoolForTesting::[01;32m[KDoWork[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:88:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kabsl::debian9::Condition::Condition(const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*)[m[K’
+   95 |       mutex_.AwaitWithTimeout(absl::Condition(&predicate[01;31m[K)[m[K,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/internal/testing/thread_pool_for_testing.cc:95:57:[m[K [01;36m[Knote: [m[Kthere are 11 candidates
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Kcandidate 1: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  896 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:896:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:895:18:[m[K [01;31m[Kerror: [m[Kinvalid ‘[01m[Kstatic_cast[m[K’ from type ‘[01m[Kvoid (cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>::*)() const[m[K’ to type ‘[01m[Kbool (*)(const cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>&)[m[K’
+  895 |           sizeof[01;31m[K(static_cast<bool (*)(const T&)>(&T::operator()))[m[K != 0>>
+      |                 [01;31m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Kcandidate 2: ‘[01m[Ktemplate<class T, typename std::enable_if<absl::debian9::synchronization_internal::HasConstMemberCallOperator<T>::value, int>::type <anonymous> > absl::debian9::Condition::[01;32m[KCondition[m[K(const T*)[m[K’
+  886 |   explicit [01;36m[KCondition[m[K(const T* absl_nonnull obj)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:886:12:[m[K [01;36m[Knote: [m[Ktemplate argument deduction/substitution failed:
+[01m[K/usr/include/absl/synchronization/mutex.h:885:24:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, int>[m[K’
+  885 |                 int> = [01;31m[K0[m[K>
+      |                        [01;31m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate 3: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(const T*, bool (absl::debian9::type_identity<T>::type::*)() const)[m[K’
+  849 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:849:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate 4: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(T*, bool (absl::debian9::type_identity<T>::type::*)())[m[K’
+  843 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:843:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate 5: ‘[01m[Ktemplate<class T, class> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), typename absl::debian9::type_identity<T>::type*)[m[K’
+  829 |   [01;36m[KCondition[m[K(
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:829:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate 6: ‘[01m[Ktemplate<class T> absl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(T*), T*)[m[K’
+  814 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(T* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:814:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate 7: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K()[m[K’
+  982 |   constexpr [01;36m[KCondition[m[K() : eval_(AlwaysTrue), arg_(nullptr) {}
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:982:13:[m[K [01;36m[Knote: [m[Kcandidate expects 0 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:855:12:[m[K [01;36m[Knote: [m[Kcandidate 8: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(const bool*)[m[K’
+  855 |   explicit [01;36m[KCondition[m[K(const bool* absl_nonnull cond);
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:855:47:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst bool*[m[K[m[K’
+  855 |   explicit Condition([01;36m[Kconst bool* absl_nonnull cond[m[K);
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate 9: ‘[01m[Kabsl::debian9::Condition::[01;32m[KCondition[m[K(bool (*)(void*), void*)[m[K’
+  801 |   [01;36m[KCondition[m[K(bool (*absl_nonnull func)(void* absl_nullability_unknown),
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:801:3:[m[K [01;36m[Knote: [m[Kcandidate expects 2 arguments, 1 provided
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 10: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(const absl::debian9::Condition&)[m[K’
+  798 | class [01;36m[KCondition[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kconst absl::debian9::Condition&[m[K[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kcandidate 11: ‘[01m[Kconstexpr absl::debian9::Condition::[01;32m[KCondition[m[K(absl::debian9::Condition&&)[m[K’
+[01m[K/usr/include/absl/synchronization/mutex.h:798:7:[m[K [01;36m[Knote: [m[Kno known conversion for argument 1 from ‘[01m[K[01;32m[Kconst cartographer::common::testing::ThreadPoolForTesting::DoWork()::<lambda()>*[m[K[m[K’ to ‘[01m[K[01;34m[Kabsl::debian9::Condition&&[m[K[m[K’
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:422: CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:402: CMakeFiles/cartographer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

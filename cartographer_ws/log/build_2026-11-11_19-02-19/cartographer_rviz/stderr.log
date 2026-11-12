@@ -1,0 +1,146 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/build_shared_libs.cmake:15 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'BUILD_SHARED_LIBS'.
+Call Stack (most recent call first):
+  /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/ament_cmake_ros_core-extras.cmake:17 (include)
+  /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/ament_cmake_ros_coreConfig.cmake:41 (include)
+  /opt/ros/lyrical/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/lyrical/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /opt/ros/lyrical/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/lyrical/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /opt/ros/lyrical/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/lyrical/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)
+  CMakeLists.txt:39 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:33[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:34[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/../../../../src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:33[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/moc_submaps_display.cpp:9[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/mocs_compilation.cpp:3[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/../../../../src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:34[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:[m[K In member function ‘[01m[Kvoid cartographer_rviz::DrawableSubmap::[01;32m[KUpdate[m[K(const std_msgs::msg::Header&, const cartographer_ros_msgs::msg::SubmapEntry&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:103:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  103 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/drawable_submap.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:17[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:[m[K In member function ‘[01m[Kbool cartographer_rviz::DrawableSubmap::[01;32m[KMaybeFetchTexture[m[K(rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr, rclcpp::executors::SingleThreadedExecutor::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:122:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  122 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:[m[K In lambda function:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:141:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                   [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:[m[K In member function ‘[01m[Kbool cartographer_rviz::DrawableSubmap::[01;32m[KQueryInProgress[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:155:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  155 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:[m[K In member function ‘[01m[Kvoid cartographer_rviz::DrawableSubmap::[01;32m[KUpdateSceneNode[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:186:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  186 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In constructor ‘[01m[Kcartographer_rviz::SubmapsDisplay::[01;32m[KSubmapsDisplay[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:94:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string ament_index_cpp::[01;32m[Kget_package_share_directory[m[K(const std::string&)[m[K’ is deprecated: Use get_package_share_path(...) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   94 |   const std::string package_path = [01;35m[Kament_index_cpp::get_package_share_directory("cartographer_rviz")[m[K;
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:35[m[K:
+[01m[K/opt/ros/lyrical/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp:35:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   35 | [01;36m[Kget_package_share_directory[m[K(const std::string & package_name);
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvirtual void cartographer_rviz::SubmapsDisplay::[01;32m[Kreset[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:137:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  137 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:26[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvirtual void cartographer_rviz::SubmapsDisplay::[01;32m[KprocessMessage[m[K(cartographer_ros_msgs::msg::SubmapList_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:144:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  144 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvirtual void cartographer_rviz::SubmapsDisplay::[01;32m[Kupdate[m[K(float, float)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:231:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  231 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvoid cartographer_rviz::SubmapsDisplay::[01;32m[KAllEnabledToggled[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:281:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  281 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvoid cartographer_rviz::SubmapsDisplay::[01;32m[KPoseMarkersEnabledToggled[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:289:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  289 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:[m[K In member function ‘[01m[Kvoid cartographer_rviz::SubmapsDisplay::[01;32m[KResolutionToggled[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:297:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  297 |   absl::MutexLock locker(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K

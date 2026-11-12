@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.12.2", minimum required is "7.11.0") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.90.0/BoostConfig.cmake (found version "1.90.0") found components: iostreams
+-- Found cartographer_ros_msgs: 2.0.9003 (/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+-- Found Unwind: /usr/include/x86_64-linux-gnu (found suitable version "1.8.3", minimum required is "1.8.1")
+-- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+-- Could NOT find boost_system (missing: boost_system_DIR)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+-- Found PCL: pcl_common;Boost::iostreams;Boost::filesystem;Boost::serialization
+-- Found pcl_conversions: 2.10.0 (/opt/ros/lyrical/share/pcl_conversions/cmake)
+-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_environment: 4.5.1 (/opt/ros/lyrical/share/ros_environment/cmake)
+-- Found rosbag2_cpp: 0.33.4 (/opt/ros/lyrical/share/rosbag2_cpp/cmake)
+-- Found tf2: 0.45.10 (/opt/ros/lyrical/share/tf2/cmake)
+-- Found tf2_eigen: 0.45.10 (/opt/ros/lyrical/share/tf2_eigen/cmake)
+-- Found urdf: 2.13.2 (/opt/ros/lyrical/share/urdf/cmake)
+-- Found visualization_msgs: 5.9.3 (/opt/ros/lyrical/share/visualization_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Checking for one of the modules 'cairo>=1.12.16'
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m

@@ -1,0 +1,165 @@
+{
+	"abstract" : true,
+	"backtrace" : 8,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"suitesparse_find_component",
+			"find_package",
+			"__find_dependency_common",
+			"find_dependency",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/usr/lib/x86_64-linux-gnu/cmake/Ceres/FindSuiteSparse.cmake",
+			"/usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Ceres/CeresConfig.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 181,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 4
+			},
+			{
+				"file" : 0,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 323,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 472,
+				"parent" : 6
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "SuiteSparse::CHOLMOD::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "SuiteSparse::AMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "SuiteSparse::CAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "SuiteSparse::CCOLAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "SuiteSparse::COLAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "SuiteSparse::Config::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "SuiteSparse::AMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "SuiteSparse::CAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "SuiteSparse::CCOLAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "SuiteSparse::COLAMD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "SuiteSparse::Config::@6890427a1f51a3e7e1df"
+		}
+	],
+	"local" : true,
+	"name" : "SuiteSparse::CHOLMOD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

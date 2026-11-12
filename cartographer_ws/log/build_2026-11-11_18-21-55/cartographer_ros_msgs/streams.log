@@ -1,0 +1,680 @@
+[0.009s] Invoking command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs
+[0.018s] [0mCMake Deprecation Warning at CMakeLists.txt:15 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.018s]   CMake.
+[0.018s] 
+[0.018s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.018s]   to tell CMake that the project requires at least <min> but has been updated
+[0.018s]   to work with policies introduced by <max> or earlier.
+[0.018s] 
+[0.018s] [0m
+[0.022s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.101s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.127s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.129s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[0.136s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.427s] -- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+[0.427s] -- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+[0.427s] -- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.805s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[0.813s] -- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+[0.813s] -- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+[0.814s] -- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+[0.833s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[0.839s] -- Configuring done (0.8s)
+[0.895s] -- Generating done (0.1s)
+[0.910s] -- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs
+[0.916s] Invoked command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs
+[0.917s] Invoking command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs -- -j12 -l12
+[0.961s] [  1%] Built target cartographer_ros_msgs__rs
+[0.965s] [  2%] Built target cartographer_ros_msgs__rosidl_generator_type_description
+[0.984s] [  2%] Built target cartographer_ros_msgs__cpp
+[1.005s] [ 30%] Built target cartographer_ros_msgs__rosidl_generator_c
+[1.038s] [ 48%] Built target cartographer_ros_msgs__rosidl_typesupport_cpp
+[1.038s] [ 49%] Built target cartographer_ros_msgs__rosidl_typesupport_c
+[1.039s] [ 59%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_c
+[1.041s] [ 68%] Built target cartographer_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.044s] [ 78%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.083s] [ 88%] Built target cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.103s] [ 88%] Built target cartographer_ros_msgs
+[1.121s] [ 88%] Built target cartographer_ros_msgs__py
+[1.154s] [ 89%] Built target ament_cmake_python_sync_cartographer_ros_msgs
+[1.154s] [ 97%] Built target cartographer_ros_msgs__rosidl_generator_py
+[1.172s] [ 99%] Built target cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[1.172s] [ 99%] Built target cartographer_ros_msgs_s__rosidl_typesupport_introspection_c
+[1.178s] [100%] Built target cartographer_ros_msgs_s__rosidl_typesupport_c
+[1.326s] running egg_info
+[1.341s] writing cartographer_ros_msgs.egg-info/PKG-INFO
+[1.341s] writing dependency_links to cartographer_ros_msgs.egg-info/dependency_links.txt
+[1.341s] writing top-level names to cartographer_ros_msgs.egg-info/top_level.txt
+[1.385s] reading manifest file 'cartographer_ros_msgs.egg-info/SOURCES.txt'
+[1.385s] writing manifest file 'cartographer_ros_msgs.egg-info/SOURCES.txt'
+[1.417s] [100%] Built target ament_cmake_python_build_cartographer_ros_msgs_egg
+[1.428s] Invoked command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs -- -j12 -l12
+[1.438s] Invoking command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs
+[1.445s] -- Install configuration: "Release"
+[1.445s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/cartographer_ros_msgs
+[1.445s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/BagfileProgress.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/HistogramBucket.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkEntry.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkList.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricFamily.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricLabel.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/Metric.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusCode.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusResponse.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapEntry.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapList.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapTexture.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/TrajectoryStates.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery.json
+[1.446s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery.json
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState.json
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_texture.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/landmark_entry.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/status_response.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__functions.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__functions.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__functions.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__struct.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__struct.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__functions.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__struct.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__type_support.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__description.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__functions.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__functions.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__type_support.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__type_support.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__description.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__struct.h
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__description.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__description.c
+[1.447s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__type_support.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__type_support.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__struct.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__type_support.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__description.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__type_support.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__struct.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__struct.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__functions.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__type_support.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__functions.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__type_support.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__type_support.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__functions.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__functions.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__functions.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__struct.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__functions.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__type_support.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__description.c
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__struct.h
+[1.448s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__description.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__struct.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__description.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__struct.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__description.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__functions.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__description.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__functions.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__functions.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__functions.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__functions.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__type_support.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__type_support.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__description.c
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__struct.h
+[1.449s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__description.c
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__description.c
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__struct.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__functions.c
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__type_support.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_list.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/status_code.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_entry.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/histogram_bucket.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/trajectory_states.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric_label.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/landmark_list.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/bagfile_progress.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric_family.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/get_trajectory_states.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/write_state.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__struct.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__functions.c
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__functions.h
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__description.c
+[1.450s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__functions.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__functions.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__functions.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__description.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__struct.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__struct.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__type_support.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__struct.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__type_support.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__description.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__functions.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__struct.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__struct.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__functions.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__functions.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__description.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__functions.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__functions.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__description.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__description.c
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.h
+[1.451s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__struct.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__type_support.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__functions.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__description.c
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/submap_query.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/finish_trajectory.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/trajectory_query.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/read_metrics.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/start_trajectory.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/library_path.sh
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/library_path.dsv
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_c.so
+[1.452s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_c.so" to ""
+[1.452s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.452s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.452s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_fastrtps_c.h
+[1.452s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.453s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_fastrtps_c.h
+[1.453s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[1.453s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.453s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.453s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.454s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_introspection_c.h
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.c
+[1.454s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.455s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.455s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_introspection_c.h
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.c
+[1.455s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.c
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so
+[1.456s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_c.so
+[1.456s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_c.so" to ""
+[1.456s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.456s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/histogram_bucket.hpp
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_texture.hpp
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_entry.hpp
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/landmark_list.hpp
+[1.456s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric.hpp
+[1.457s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__struct.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__traits.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__struct.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__traits.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__builder.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__type_support.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__builder.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__builder.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__builder.hpp
+[1.457s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__type_support.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__type_support.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__builder.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__builder.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__type_support.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__struct.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__builder.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__builder.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__builder.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__type_support.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__traits.hpp
+[1.458s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__struct.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__struct.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__traits.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__builder.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__traits.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__traits.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__builder.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__struct.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__traits.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__builder.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__traits.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__struct.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__struct.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__builder.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__type_support.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/bagfile_progress.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric_label.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/submap_list.hpp
+[1.459s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/landmark_entry.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/metric_family.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/trajectory_states.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/status_response.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/status_code.hpp
+[1.460s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/submap_query.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/write_state.hpp
+[1.460s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__builder.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__traits.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__struct.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__struct.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__builder.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__struct.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__traits.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__type_support.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__traits.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__builder.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__struct.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__traits.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__traits.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__builder.hpp
+[1.460s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__builder.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__struct.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__struct.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__type_support.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__traits.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__builder.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__builder.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__type_support.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__struct.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__traits.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/get_trajectory_states.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/finish_trajectory.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/start_trajectory.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/trajectory_query.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/read_metrics.hpp
+[1.461s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.461s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.461s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/dds_fastrtps
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_fastrtps_cpp.hpp
+[1.461s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.462s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/dds_fastrtps
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.462s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.462s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs
+[1.462s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg
+[1.462s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__type_support.cpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__type_support.cpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__type_support.cpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/trajectory_states__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_texture__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_label__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_list__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_response__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/histogram_bucket__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_list__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/bagfile_progress__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/status_code__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/metric_family__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/submap_entry__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/msg/detail/landmark_entry__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv
+[1.463s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__type_support.cpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__rosidl_typesupport_introspection_cpp.hpp
+[1.463s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/read_metrics__type_support.cpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__type_support.cpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__type_support.cpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/get_trajectory_states__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__type_support.cpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/submap_query__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/write_state__type_support.cpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/finish_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/include/cartographer_ros_msgs/cartographer_ros_msgs/srv/detail/trajectory_query__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[1.464s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_cpp.so
+[1.464s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[1.464s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/pythonpath.sh
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/pythonpath.dsv
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.465s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.465s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.so
+[1.465s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.so" to ""
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_py.so
+[1.465s] -- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/libcartographer_ros_msgs__rosidl_generator_py.so" to ""
+[1.465s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/Cargo.toml
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/build.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/srv.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/msg
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/msg/rmw.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/srv
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/srv/rmw.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/lib.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/rust/src/msg.rs
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/BagfileProgress.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/HistogramBucket.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkEntry.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkList.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricFamily.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricLabel.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/Metric.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusCode.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusResponse.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapEntry.idl
+[1.466s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapList.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapTexture.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/TrajectoryStates.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState.idl
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/BagfileProgress.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/HistogramBucket.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkEntry.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/LandmarkList.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricFamily.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/MetricLabel.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/Metric.msg
+[1.467s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusCode.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/StatusResponse.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapEntry.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapList.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/SubmapTexture.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/msg/TrajectoryStates.msg
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/FinishTrajectory.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/GetTrajectoryStates.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/ReadMetrics.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/StartTrajectory.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/TrajectoryQuery.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/SubmapQuery.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/srv/WriteState.srv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/package_run_dependencies/cartographer_ros_msgs
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/parent_prefix_path/cartographer_ros_msgs
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/ament_prefix_path.sh
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/ament_prefix_path.dsv
+[1.468s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/path.sh
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/environment/path.dsv
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.bash
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.fish
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.sh
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.zsh
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/local_setup.dsv
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/ament_index/resource_index/packages/cartographer_ros_msgs
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_generator_cExport.cmake
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_generator_cExport-release.cmake
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.469s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_generator_cppExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cppExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_generator_pyExport.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/export_cartographer_ros_msgs__rosidl_generator_pyExport-release.cmake
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs-2.0.9003-py3.14.egg-info
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs-2.0.9003-py3.14.egg-info/SOURCES.txt
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs-2.0.9003-py3.14.egg-info/top_level.txt
+[1.470s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs-2.0.9003-py3.14.egg-info/dependency_links.txt
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs-2.0.9003-py3.14.egg-info/PKG-INFO
+[1.471s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.471s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.471s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_c.so
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/py.typed
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_c.c
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/_cartographer_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_trajectory_states_s.c
+[1.471s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_texture.py
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_texture_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_entry.py
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_entry_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_response.py
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_bagfile_progress_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_response_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_label.py
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_histogram_bucket_s.c
+[1.472s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_code_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_entry_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_trajectory_states.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/__init__.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_label_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_family.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_family_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_code.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_list.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_histogram_bucket.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_entry.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_list_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_bagfile_progress.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_list_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_list.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/__init__.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_finish_trajectory.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_get_trajectory_states_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_trajectory_query.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_write_state.py
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_trajectory_query_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_finish_trajectory_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_write_state_s.c
+[1.473s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_read_metrics_s.c
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_submap_query.py
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_start_trajectory_s.c
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_get_trajectory_states.py
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_start_trajectory.py
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/__init__.py
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_read_metrics.py
+[1.474s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_submap_query_s.c
+[1.474s] -- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/cartographer_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.541s] Listing '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs'...
+[1.541s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/__init__.py'...
+[1.541s] Listing '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/__init__.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_bagfile_progress.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_histogram_bucket.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_entry.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_landmark_list.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_family.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_metric_label.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_code.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_status_response.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_entry.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_list.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_submap_texture.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/msg/_trajectory_states.py'...
+[1.542s] Listing '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/__init__.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_finish_trajectory.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_get_trajectory_states.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_read_metrics.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_start_trajectory.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_submap_query.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_trajectory_query.py'...
+[1.542s] Compiling '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages/cartographer_ros_msgs/srv/_write_state.py'...
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.547s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgsConfig.cmake
+[1.548s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake/cartographer_ros_msgsConfig-version.cmake
+[1.548s] -- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.xml
+[1.550s] Invoked command in '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs

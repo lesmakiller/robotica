@@ -1,0 +1,691 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/playable_bag.h:29[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/playable_bag.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:31[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:31[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/sensor_bridge.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/urdf_reader.h:23[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/assets_writer.cpp:39[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:52[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:54[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:31[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:31[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:28[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:31[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:52[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:54[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:33[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/tf_bridge.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:97:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   97 |   std::unordered_map<int, LocalTrajectoryData> GetLocalTrajectoryData([01;31m[K)[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   98 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   98 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:109:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  109 |                          ::cartographer::sensor::RangeData range_data_in_local[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+  110 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  110 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   98 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  116 |       [01;31m[Klocal_slam_data_[m[K GUARDED_BY(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+  116 |       local_slam_data_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  116 |       local_slam_data_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:97:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   97 |   std::unordered_map<int, LocalTrajectoryData> GetLocalTrajectoryData([01;31m[K)[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   98 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   98 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:109:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  109 |                          ::cartographer::sensor::RangeData range_data_in_local[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+  110 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  110 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   98 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  116 |       [01;31m[Klocal_slam_data_[m[K GUARDED_BY(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+  116 |       local_slam_data_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  116 |       local_slam_data_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                        [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |   double [01;31m[Kvalue_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   74 |   double value_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   74 |   double value_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvirtual void cartographer_ros::metrics::Gauge::[01;32m[KSet[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:44:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   44 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:27[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kdouble cartographer_ros::metrics::Gauge::[01;32m[KValue[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:49:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvoid cartographer_ros::metrics::Gauge::[01;32m[KAdd[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:68:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   68 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:26[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:25[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:[m[K At global scope:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 |   std::vector<double> [01;31m[Kbucket_counts_[m[K GUARDED_BY(mutex_);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   53 |   std::vector<double> bucket_counts_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |   std::vector<double> bucket_counts_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |   double [01;31m[Ksum_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~[m[K
+      |              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   54 |   double sum_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   double sum_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   53 |   std::vector<double> bucket_counts_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  171 |       int trajectory_id[01;31m[K)[m[K EXCLUSIVE_LOCKS_REQUIRED(mutex_);
+      |                        [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+  171 |       int trajectory_id) EXCLUSIVE_LOCKS_REQUIRED([01;31m[Kmutex_[m[K);
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  171 |       int trajectory_id) [01;31m[KEXCLUSIVE_LOCKS_REQUIRED[m[K(mutex_);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  186 |   std::shared_ptr<MapBuilderBridge> [01;31m[Kmap_builder_bridge_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+  186 |   std::shared_ptr<MapBuilderBridge> map_builder_bridge_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:57:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  186 |   std::shared_ptr<MapBuilderBridge> map_builder_bridge_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:[m[K In member function ‘[01m[Kstd::unordered_map<int, cartographer_ros::MapBuilderBridge::LocalTrajectoryData> cartographer_ros::MapBuilderBridge::[01;32m[KGetLocalTrajectoryData[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:242:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  242 |       absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:25[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::MapBuilderBridge::[01;32m[KOnLocalSlamResult[m[K(int, cartographer::common::Time, cartographer::transform::Rigid3d, cartographer::sensor::RangeData)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/map_builder_bridge.cpp:539:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  539 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:97:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   97 |   std::unordered_map<int, LocalTrajectoryData> GetLocalTrajectoryData([01;31m[K)[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+   98 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   98 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:109:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  109 |                          ::cartographer::sensor::RangeData range_data_in_local[01;31m[K)[m[K
+      |                                                                               [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+  110 |       LOCKS_EXCLUDED([01;31m[Kmutex_[m[K);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KLOCKS_EXCLUDED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  110 |       [01;31m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:110:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:98:7:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::MapBuilderBridge::[01;32m[KLOCKS_EXCLUDED[m[K(int)[m[K’
+   98 |       [01;36m[KLOCKS_EXCLUDED[m[K(mutex_);
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  116 |       [01;31m[Klocal_slam_data_[m[K GUARDED_BY(mutex_);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+  116 |       local_slam_data_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:116:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  116 |       local_slam_data_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                        [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |   double [01;31m[Kvalue_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   74 |   double value_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   74 |   double value_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvirtual void cartographer_ros::metrics::Gauge::[01;32m[KSet[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:44:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   44 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:27[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kdouble cartographer_ros::metrics::Gauge::[01;32m[KValue[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:49:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvoid cartographer_ros::metrics::Gauge::[01;32m[KAdd[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:68:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   68 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:26[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:25[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:[m[K At global scope:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 |   std::vector<double> [01;31m[Kbucket_counts_[m[K GUARDED_BY(mutex_);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   53 |   std::vector<double> bucket_counts_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |   std::vector<double> bucket_counts_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |   double [01;31m[Ksum_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~[m[K
+      |              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   54 |   double sum_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   double sum_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   53 |   std::vector<double> bucket_counts_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  171 |       int trajectory_id[01;31m[K)[m[K EXCLUSIVE_LOCKS_REQUIRED(mutex_);
+      |                        [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ has not been declared
+  171 |       int trajectory_id) EXCLUSIVE_LOCKS_REQUIRED([01;31m[Kmutex_[m[K);
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:171:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KEXCLUSIVE_LOCKS_REQUIRED[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  171 |       int trajectory_id) [01;31m[KEXCLUSIVE_LOCKS_REQUIRED[m[K(mutex_);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  186 |   std::shared_ptr<MapBuilderBridge> [01;31m[Kmap_builder_bridge_[m[K GUARDED_BY(mutex_);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+  186 |   std::shared_ptr<MapBuilderBridge> map_builder_bridge_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:186:57:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  186 |   std::shared_ptr<MapBuilderBridge> map_builder_bridge_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In constructor ‘[01m[Kcartographer_ros::Node::[01;32m[KNode[m[K(const cartographer_ros::NodeOptions&, std::unique_ptr<cartographer::mapping::MapBuilderInterface>, std::shared_ptr<tf2_ros::Buffer>, rclcpp::Node::SharedPtr, bool)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:102:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  102 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleSubmapQuery[m[K(cartographer_ros_msgs::srv::SubmapQuery_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::SubmapQuery_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:194:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  194 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleTrajectoryQuery[m[K(cartographer_ros_msgs::srv::TrajectoryQuery_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::TrajectoryQuery_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:202:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  202 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KPublishSubmapList[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:217:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  217 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KPublishLocalTrajectoryData[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:250:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  250 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KPublishTrajectoryNodeList[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:358:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  358 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KPublishLandmarkPosesList[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:366:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  366 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KPublishConstraintList[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:374:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  374 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KStartTrajectoryWithDefaultTopics[m[K(const cartographer_ros::TrajectoryOptions&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:639:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  639 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kint cartographer_ros::Node::[01;32m[KAddOfflineTrajectory[m[K(const std::set<cartographer::mapping::TrajectoryBuilderInterface::SensorId>&, const cartographer_ros::TrajectoryOptions&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:668:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  668 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleGetTrajectoryStates[m[K(cartographer_ros_msgs::srv::GetTrajectoryStates_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::GetTrajectoryStates_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:682:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  682 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleFinishTrajectory[m[K(cartographer_ros_msgs::srv::FinishTrajectory_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::FinishTrajectory_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:712:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  712 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleWriteState[m[K(cartographer_ros_msgs::srv::WriteState_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::WriteState_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:720:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  720 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KhandleReadMetrics[m[K(cartographer_ros_msgs::srv::ReadMetrics_Request_<std::allocator<void> >::SharedPtr, cartographer_ros_msgs::srv::ReadMetrics_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:738:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  738 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KFinishAllTrajectories[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:752:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  752 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kbool cartographer_ros::Node::[01;32m[KFinishTrajectory[m[K(int)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:763:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  763 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleOdometryMessage[m[K(int, const std::string&, const nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:791:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  791 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleNavSatFixMessage[m[K(int, const std::string&, const sensor_msgs::msg::NavSatFix_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:806:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  806 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleLandmarkMessage[m[K(int, const std::string&, const cartographer_ros_msgs::msg::LandmarkList_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:817:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  817 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleImuMessage[m[K(int, const std::string&, const sensor_msgs::msg::Imu_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:828:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  828 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleLaserScanMessage[m[K(int, const std::string&, const sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:843:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  843 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandleMultiEchoLaserScanMessage[m[K(int, const std::string&, const sensor_msgs::msg::MultiEchoLaserScan_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:854:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  854 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KHandlePointCloud2Message[m[K(int, const std::string&, const sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr&)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:865:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  865 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KSerializeState[m[K(const std::string&, bool)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:875:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  875 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:[m[K In member function ‘[01m[Kvoid cartographer_ros::Node::[01;32m[KLoadState[m[K(const std::string&, bool)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:883:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  883 |   absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:[m[K In function ‘[01m[Kvoid cartographer_ros::[01;32m[KRunOfflineNode[m[K(const MapBuilderFactory&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:185:88:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktf2_ros::StaticTransformBroadcaster::[01;32m[KStaticTransformBroadcaster[m[K(NodeT&&) [35m[K[with NodeT = std::shared_ptr<rclcpp::Node>&; AllocatorT = std::allocator<void>; typename std::enable_if<rcpputils::is_pointer<T>::value, bool>::type <anonymous> = true][m[K[m[K’ is deprecated: Use rclcpp::node_interfaces::NodeInterfaces instead of NodeT [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  185 |   ::tf2_ros::StaticTransformBroadcaster static_tf_broadcaster(cartographer_offline_node[01;35m[K)[m[K;
+      |                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:44[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp:92:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   explicit [01;36m[KStaticTransformBroadcaster[m[K(NodeT && node)
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:424:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::[01;32m[Kspin_some[m[K(const Node::SharedPtr&)[m[K’ is deprecated: use SingleThreadedExecutor::spin_some instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  424 |     [01;35m[Krclcpp::spin_some(cartographer_offline_node)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/offline_node.h:25[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:110:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  110 | [01;36m[Kspin_some[m[K(const rclcpp::Node::SharedPtr & node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/urdf_reader.h:23[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/urdf_reader.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/family_factory.cpp:17[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |   double [01;31m[Kvalue_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   74 |   double value_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   74 |   double value_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvirtual void cartographer_ros::metrics::Gauge::[01;32m[KSet[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:44:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   44 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:23[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kdouble cartographer_ros::metrics::Gauge::[01;32m[KValue[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:49:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvoid cartographer_ros::metrics::Gauge::[01;32m[KAdd[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:68:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   68 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:26[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:25[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:[m[K At global scope:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 |   std::vector<double> [01;31m[Kbucket_counts_[m[K GUARDED_BY(mutex_);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   53 |   std::vector<double> bucket_counts_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |   std::vector<double> bucket_counts_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |   double [01;31m[Ksum_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~[m[K
+      |              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   54 |   double sum_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   double sum_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   53 |   std::vector<double> bucket_counts_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:317: CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:93: CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o] Error 1
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/metrics/internal/family.cpp:17[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |   double [01;31m[Kvalue_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   74 |   double value_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:74:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   74 |   double value_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvirtual void cartographer_ros::metrics::Gauge::[01;32m[KSet[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:44:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   44 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:23[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kdouble cartographer_ros::metrics::Gauge::[01;32m[KValue[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:49:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   49 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvoid cartographer_ros::metrics::Gauge::[01;32m[KAdd[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:68:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   68 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/family.h:26[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:[m[K At global scope:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   53 |   std::vector<double> [01;31m[Kbucket_counts_[m[K GUARDED_BY(mutex_);
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                     [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   53 |   std::vector<double> bucket_counts_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |   std::vector<double> bucket_counts_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 |   double [01;31m[Ksum_[m[K GUARDED_BY(mutex_);
+      |          [01;31m[K^~~~[m[K
+      |              [32m[K;[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ is not a type
+   54 |   double sum_ GUARDED_BY([01;31m[Kmutex_[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGUARDED_BY[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |   double sum_ [01;31m[KGUARDED_BY[m[K(mutex_);
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:54:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’ cannot be overloaded with ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/histogram.h:53:38:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint cartographer_ros::metrics::Histogram::[01;32m[KGUARDED_BY[m[K(int)[m[K’
+   53 |   std::vector<double> bucket_counts_ [01;36m[KGUARDED_BY[m[K(mutex_);
+      |                                      [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:331: CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:163: CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:135: CMakeFiles/cartographer_ros.dir/src/node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:174: CMakeFiles/cartographer_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

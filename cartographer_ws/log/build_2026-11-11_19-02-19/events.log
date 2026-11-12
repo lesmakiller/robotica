@@ -1,0 +1,490 @@
+[0.000000] (-) TimerEvent: {}
+[0.000414] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.000818] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.000844] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000872] (cartographer_rviz) JobQueued: {'identifier': 'cartographer_rviz', 'dependencies': OrderedDict({'cartographer': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer', 'cartographer_ros_msgs': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs', 'cartographer_ros': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros'})}
+[0.000902] (cartographer_rviz) JobStarted: {'identifier': 'cartographer_rviz'}
+[0.018198] (cartographer_rviz) JobProgress: {'identifier': 'cartographer_rviz', 'progress': 'cmake'}
+[0.018599] (cartographer_rviz) Command: {'cmd': ['/usr/bin/cmake', '/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz', '-DCMAKE_INSTALL_PREFIX=/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '0f81d1e5dfb1413faef87184cc962149', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[0.027985] (cartographer_rviz) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):\n'}
+[0.028187] (cartographer_rviz) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.028261] (cartographer_rviz) StderrLine: {'line': b'  CMake.\n'}
+[0.028327] (cartographer_rviz) StderrLine: {'line': b'\n'}
+[0.028390] (cartographer_rviz) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.028451] (cartographer_rviz) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.028511] (cartographer_rviz) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.028580] (cartographer_rviz) StderrLine: {'line': b'\n'}
+[0.028638] (cartographer_rviz) StderrLine: {'line': b'\x1b[0m\n'}
+[0.069750] (cartographer_rviz) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.099997] (-) TimerEvent: {}
+[0.120185] (cartographer_rviz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.126553] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.191134] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.200092] (-) TimerEvent: {}
+[0.201553] (cartographer_rviz) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.201852] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.202069] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.214403] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.290344] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300217] (-) TimerEvent: {}
+[0.300926] (cartographer_rviz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.301242] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301905] (cartographer_rviz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.318976] (cartographer_rviz) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.400361] (-) TimerEvent: {}
+[0.500744] (-) TimerEvent: {}
+[0.601087] (-) TimerEvent: {}
+[0.689698] (cartographer_rviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.701213] (-) TimerEvent: {}
+[0.761475] (cartographer_rviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.762078] (cartographer_rviz) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.801391] (-) TimerEvent: {}
+[0.901687] (-) TimerEvent: {}
+[1.002042] (-) TimerEvent: {}
+[1.102315] (-) TimerEvent: {}
+[1.202638] (-) TimerEvent: {}
+[1.216389] (cartographer_rviz) StdoutLine: {'line': b'-- Found AMD headers in: /usr/include/suitesparse\n'}
+[1.219350] (cartographer_rviz) StdoutLine: {'line': b'-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so\n'}
+[1.219966] (cartographer_rviz) StdoutLine: {'line': b'-- Found CAMD headers in: /usr/include/suitesparse\n'}
+[1.221669] (cartographer_rviz) StdoutLine: {'line': b'-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so\n'}
+[1.222284] (cartographer_rviz) StdoutLine: {'line': b'-- Found CCOLAMD headers in: /usr/include/suitesparse\n'}
+[1.223800] (cartographer_rviz) StdoutLine: {'line': b'-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so\n'}
+[1.224325] (cartographer_rviz) StdoutLine: {'line': b'-- Found CHOLMOD headers in: /usr/include/suitesparse\n'}
+[1.226122] (cartographer_rviz) StdoutLine: {'line': b'-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so\n'}
+[1.226473] (cartographer_rviz) StdoutLine: {'line': b'-- Found COLAMD headers in: /usr/include/suitesparse\n'}
+[1.228229] (cartographer_rviz) StdoutLine: {'line': b'-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so\n'}
+[1.228728] (cartographer_rviz) StdoutLine: {'line': b'-- Found SPQR headers in: /usr/include/suitesparse\n'}
+[1.230366] (cartographer_rviz) StdoutLine: {'line': b'-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so\n'}
+[1.230927] (cartographer_rviz) StdoutLine: {'line': b'-- Found Config headers in: /usr/include/suitesparse\n'}
+[1.232392] (cartographer_rviz) StdoutLine: {'line': b'-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so\n'}
+[1.236529] (cartographer_rviz) StdoutLine: {'line': b'-- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.\n'}
+[1.236647] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for shm_open in rt\n'}
+[1.302733] (-) TimerEvent: {}
+[1.311395] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for shm_open in rt - found\n'}
+[1.311524] (cartographer_rviz) StdoutLine: {'line': b'-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).\n'}
+[1.321748] (cartographer_rviz) StdoutLine: {'line': b'-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) \n'}
+[1.322681] (cartographer_rviz) StdoutLine: {'line': b'-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.12.2", minimum required is "7.11.0") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config\n'}
+[1.330441] (cartographer_rviz) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake\n'}
+[1.340877] (cartographer_rviz) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[1.341054] (cartographer_rviz) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[1.341277] (cartographer_rviz) StdoutLine: {'line': b'-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]\n'}
+[1.351638] (cartographer_rviz) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):\n'}
+[1.351796] (cartographer_rviz) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.351873] (cartographer_rviz) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.351937] (cartographer_rviz) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.351997] (cartographer_rviz) StderrLine: {'line': b'\n'}
+[1.352057] (cartographer_rviz) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.352115] (cartographer_rviz) StderrLine: {'line': b'  CMakeLists.txt:32 (find_package)\n'}
+[1.352172] (cartographer_rviz) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.352231] (cartographer_rviz) StderrLine: {'line': b'\x1b[0m\n'}
+[1.373268] (cartographer_rviz) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.90.0/BoostConfig.cmake (found version "1.90.0") found components: iostreams\n'}
+[1.374696] (cartographer_rviz) StdoutLine: {'line': b'-- Build type: Release\n'}
+[1.383465] (cartographer_rviz) StdoutLine: {'line': b'Files /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/AllFiles.cmake and - differ\n'}
+[1.389753] (cartographer_rviz) StdoutLine: {'line': b'-- Found cartographer_ros: 2.0.9003 (/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake)\n'}
+[1.402831] (-) TimerEvent: {}
+[1.408637] (cartographer_rviz) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/build_shared_libs.cmake:15 (option):\n'}
+[1.408803] (cartographer_rviz) StderrLine: {'line': b'  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake\n'}
+[1.408872] (cartographer_rviz) StderrLine: {'line': b'  --help-policy CMP0077" for policy details.  Use the cmake_policy command to\n'}
+[1.408935] (cartographer_rviz) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.408996] (cartographer_rviz) StderrLine: {'line': b'\n'}
+[1.409056] (cartographer_rviz) StderrLine: {'line': b'  For compatibility with older versions of CMake, option is clearing the\n'}
+[1.409115] (cartographer_rviz) StderrLine: {'line': b"  normal variable 'BUILD_SHARED_LIBS'.\n"}
+[1.409174] (cartographer_rviz) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.409242] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/ament_cmake_ros_core-extras.cmake:17 (include)\n'}
+[1.409302] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/ament_cmake_ros_core/cmake/ament_cmake_ros_coreConfig.cmake:41 (include)\n'}
+[1.409360] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.409417] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.409475] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.409540] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.409603] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.409666] (cartographer_rviz) StderrLine: {'line': b'  /opt/ros/lyrical/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.409724] (cartographer_rviz) StderrLine: {'line': b'  /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.409782] (cartographer_rviz) StderrLine: {'line': b'  /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)\n'}
+[1.409843] (cartographer_rviz) StderrLine: {'line': b'  CMakeLists.txt:39 (find_package)\n'}
+[1.409901] (cartographer_rviz) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.409962] (cartographer_rviz) StderrLine: {'line': b'\x1b[0m\n'}
+[1.431564] (cartographer_rviz) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[1.443029] (cartographer_rviz) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[1.461287] (cartographer_rviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.476369] (cartographer_rviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502924] (-) TimerEvent: {}
+[1.603224] (-) TimerEvent: {}
+[1.607900] (cartographer_rviz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[1.611509] (cartographer_rviz) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.641716] (cartographer_rviz) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.703405] (-) TimerEvent: {}
+[1.803583] (-) TimerEvent: {}
+[1.867986] (cartographer_rviz) StdoutLine: {'line': b'-- Found rviz_common: 15.2.6 (/opt/ros/lyrical/share/rviz_common/cmake)\n'}
+[1.903802] (-) TimerEvent: {}
+[1.915896] (cartographer_rviz) StdoutLine: {'line': b'-- Performing Test HAVE_STDATOMIC\n'}
+[2.003902] (-) TimerEvent: {}
+[2.026498] (cartographer_rviz) StdoutLine: {'line': b'-- Performing Test HAVE_STDATOMIC - Success\n'}
+[2.060914] (cartographer_rviz) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[2.104126] (-) TimerEvent: {}
+[2.111237] (cartographer_rviz) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/lyrical/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.112809] (cartographer_rviz) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.112964] (cartographer_rviz) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.113041] (cartographer_rviz) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.113111] (cartographer_rviz) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.113178] (cartographer_rviz) StdoutLine: {'line': b'--   media      : /opt/ros/lyrical/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.113283] (cartographer_rviz) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.113346] (cartographer_rviz) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib\n'}
+[2.113407] (cartographer_rviz) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.113468] (cartographer_rviz) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.113527] (cartographer_rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.113597] (cartographer_rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.113659] (cartographer_rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.113719] (cartographer_rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/lyrical/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.151625] (cartographer_rviz) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3.1")\n'}
+[2.204327] (-) TimerEvent: {}
+[2.304682] (-) TimerEvent: {}
+[2.359447] (cartographer_rviz) StdoutLine: {'line': b'-- Found X11: /usr/include\n'}
+[2.359618] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.404854] (-) TimerEvent: {}
+[2.427263] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.427389] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.504589] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.504752] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.504914] (-) TimerEvent: {}
+[2.580193] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.580330] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.605129] (-) TimerEvent: {}
+[2.655180] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.655318] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.705323] (-) TimerEvent: {}
+[2.721350] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.721506] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.790544] (cartographer_rviz) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.805508] (-) TimerEvent: {}
+[2.899984] (cartographer_rviz) StdoutLine: {'line': b'-- Deploy OGRE media\n'}
+[2.903390] (cartographer_rviz) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[2.905672] (-) TimerEvent: {}
+[2.943400] (cartographer_rviz) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.994935] (cartographer_rviz) StdoutLine: {'line': b'-- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz\n'}
+[3.005834] (-) TimerEvent: {}
+[3.009649] (cartographer_rviz) CommandEnded: {'returncode': 0}
+[3.010812] (cartographer_rviz) JobProgress: {'identifier': 'cartographer_rviz', 'progress': 'build'}
+[3.010860] (cartographer_rviz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', '--', '-j12', '-l12'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '0f81d1e5dfb1413faef87184cc962149', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[3.053879] (cartographer_rviz) StdoutLine: {'line': b'[  0%] Built target cartographer_rviz_autogen_timestamp_deps\n'}
+[3.058275] (cartographer_rviz) StdoutLine: {'line': b'[  0%] Built target cartographer_rviz_detect_changes\n'}
+[3.070867] (cartographer_rviz) StdoutLine: {'line': b'[ 14%] \x1b[1m\x1b[34mAutomatic MOC for target cartographer_rviz\x1b[0m\n'}
+[3.105933] (-) TimerEvent: {}
+[3.206299] (-) TimerEvent: {}
+[3.306663] (-) TimerEvent: {}
+[3.407030] (-) TimerEvent: {}
+[3.507410] (-) TimerEvent: {}
+[3.607796] (-) TimerEvent: {}
+[3.708075] (-) TimerEvent: {}
+[3.808441] (-) TimerEvent: {}
+[3.908757] (-) TimerEvent: {}
+[4.009120] (-) TimerEvent: {}
+[4.109427] (-) TimerEvent: {}
+[4.124473] (cartographer_rviz) StdoutLine: {'line': b'[ 14%] Built target cartographer_rviz_autogen\n'}
+[4.155671] (cartographer_rviz) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o\x1b[0m\n'}
+[4.155817] (cartographer_rviz) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o\x1b[0m\n'}
+[4.157019] (cartographer_rviz) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.157270] (cartographer_rviz) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o\x1b[0m\n'}
+[4.209562] (-) TimerEvent: {}
+[4.309945] (-) TimerEvent: {}
+[4.410331] (-) TimerEvent: {}
+[4.510694] (-) TimerEvent: {}
+[4.611075] (-) TimerEvent: {}
+[4.711356] (-) TimerEvent: {}
+[4.811719] (-) TimerEvent: {}
+[4.908991] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:33\x1b[m\x1b[K,\n'}
+[4.909163] (cartographer_rviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:17\x1b[m\x1b[K:\n'}
+[4.909234] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.909301] (cartographer_rviz) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[4.909362] (cartographer_rviz) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.909421] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:34\x1b[m\x1b[K:\n'}
+[4.909481] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.909550] (cartographer_rviz) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[4.909617] (cartographer_rviz) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.910348] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/../../../../src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:33\x1b[m\x1b[K,\n'}
+[4.910464] (cartographer_rviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/moc_submaps_display.cpp:9\x1b[m\x1b[K,\n'}
+[4.910651] (cartographer_rviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/mocs_compilation.cpp:3\x1b[m\x1b[K:\n'}
+[4.910734] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.910801] (cartographer_rviz) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[4.910862] (cartographer_rviz) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.910923] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/cartographer_rviz_autogen/ERYGTPCE25/../../../../src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:34\x1b[m\x1b[K:\n'}
+[4.910996] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.911061] (cartographer_rviz) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[4.911128] (cartographer_rviz) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.911783] (-) TimerEvent: {}
+[5.012099] (-) TimerEvent: {}
+[5.112471] (-) TimerEvent: {}
+[5.212726] (-) TimerEvent: {}
+[5.313103] (-) TimerEvent: {}
+[5.413476] (-) TimerEvent: {}
+[5.513848] (-) TimerEvent: {}
+[5.614223] (-) TimerEvent: {}
+[5.714481] (-) TimerEvent: {}
+[5.814748] (-) TimerEvent: {}
+[5.915035] (-) TimerEvent: {}
+[6.015412] (-) TimerEvent: {}
+[6.115794] (-) TimerEvent: {}
+[6.216055] (-) TimerEvent: {}
+[6.316438] (-) TimerEvent: {}
+[6.416835] (-) TimerEvent: {}
+[6.517202] (-) TimerEvent: {}
+[6.617576] (-) TimerEvent: {}
+[6.717829] (-) TimerEvent: {}
+[6.818190] (-) TimerEvent: {}
+[6.918562] (-) TimerEvent: {}
+[7.018943] (-) TimerEvent: {}
+[7.119312] (-) TimerEvent: {}
+[7.219567] (-) TimerEvent: {}
+[7.319822] (-) TimerEvent: {}
+[7.420066] (-) TimerEvent: {}
+[7.520365] (-) TimerEvent: {}
+[7.620619] (-) TimerEvent: {}
+[7.720874] (-) TimerEvent: {}
+[7.821167] (-) TimerEvent: {}
+[7.921563] (-) TimerEvent: {}
+[8.021893] (-) TimerEvent: {}
+[8.122188] (-) TimerEvent: {}
+[8.222577] (-) TimerEvent: {}
+[8.322973] (-) TimerEvent: {}
+[8.423379] (-) TimerEvent: {}
+[8.523767] (-) TimerEvent: {}
+[8.624149] (-) TimerEvent: {}
+[8.724527] (-) TimerEvent: {}
+[8.824909] (-) TimerEvent: {}
+[8.925214] (-) TimerEvent: {}
+[9.025591] (-) TimerEvent: {}
+[9.125969] (-) TimerEvent: {}
+[9.196005] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_rviz::DrawableSubmap::\x1b[01;32m\x1b[KUpdate\x1b[m\x1b[K(const std_msgs::msg::Header&, const cartographer_ros_msgs::msg::SubmapEntry&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.196186] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:103:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.196280] (cartographer_rviz) StderrLine: {'line': b'  103 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.196345] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.196407] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/drawable_submap.h:28\x1b[m\x1b[K,\n'}
+[9.196469] (cartographer_rviz) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:17\x1b[m\x1b[K:\n'}
+[9.196530] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.196612] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.196675] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.199396] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_rviz::DrawableSubmap::\x1b[01;32m\x1b[KMaybeFetchTexture\x1b[m\x1b[K(rclcpp::Client<cartographer_ros_msgs::srv::SubmapQuery>::SharedPtr, rclcpp::executors::SingleThreadedExecutor::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.199585] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:122:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.199673] (cartographer_rviz) StderrLine: {'line': b'  122 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.199738] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.199802] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.199864] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.199925] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.201898] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[9.202035] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:141:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.202133] (cartographer_rviz) StderrLine: {'line': b'  141 |     absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.202201] (cartographer_rviz) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.202264] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.202326] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.202389] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.203443] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool cartographer_rviz::DrawableSubmap::\x1b[01;32m\x1b[KQueryInProgress\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.203572] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:155:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.203671] (cartographer_rviz) StderrLine: {'line': b'  155 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.203737] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.203799] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.203862] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.203923] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.204867] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_rviz::DrawableSubmap::\x1b[01;32m\x1b[KUpdateSceneNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.204992] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/drawable_submap.cpp:186:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.205073] (cartographer_rviz) StderrLine: {'line': b'  186 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.205138] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.205200] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.205263] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.205327] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.226105] (-) TimerEvent: {}
+[9.326369] (-) TimerEvent: {}
+[9.369552] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[KSubmapsDisplay\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.369730] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:94:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string ament_index_cpp::\x1b[01;32m\x1b[Kget_package_share_directory\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use get_package_share_path(...) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.369810] (cartographer_rviz) StderrLine: {'line': b'   94 |   const std::string package_path = \x1b[01;35m\x1b[Kament_index_cpp::get_package_share_directory("cartographer_rviz")\x1b[m\x1b[K;\n'}
+[9.369894] (cartographer_rviz) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.369957] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:35\x1b[m\x1b[K:\n'}
+[9.370021] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.370087] (cartographer_rviz) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[Kget_package_share_directory\x1b[m\x1b[K(const std::string & package_name);\n'}
+[9.370147] (cartographer_rviz) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.373252] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[Kreset\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.373423] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:137:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.373502] (cartographer_rviz) StderrLine: {'line': b'  137 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.373579] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.373643] (cartographer_rviz) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/include/cartographer_rviz/submaps_display.h:26\x1b[m\x1b[K:\n'}
+[9.373716] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.373779] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.373839] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.374595] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[KprocessMessage\x1b[m\x1b[K(cartographer_ros_msgs::msg::SubmapList_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.374708] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:144:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.374793] (cartographer_rviz) StderrLine: {'line': b'  144 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.374863] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.374925] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.374988] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.375049] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.403323] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[Kupdate\x1b[m\x1b[K(float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.403497] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:231:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.403585] (cartographer_rviz) StderrLine: {'line': b'  231 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.403652] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.403714] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.403777] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.403838] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.410409] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[KAllEnabledToggled\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.410607] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:281:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.410702] (cartographer_rviz) StderrLine: {'line': b'  281 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.410768] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.410831] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.410895] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.410957] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.411058] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[KPoseMarkersEnabledToggled\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.411125] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:289:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.411191] (cartographer_rviz) StderrLine: {'line': b'  289 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.411251] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.411358] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.411421] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.411482] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.411550] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_rviz::SubmapsDisplay::\x1b[01;32m\x1b[KResolutionToggled\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.411625] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_rviz/src/submaps_display.cpp:297:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.411690] (cartographer_rviz) StderrLine: {'line': b'  297 |   absl::MutexLock locker(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.411749] (cartographer_rviz) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.411808] (cartographer_rviz) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.411867] (cartographer_rviz) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[9.411927] (cartographer_rviz) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.426472] (-) TimerEvent: {}
+[9.526732] (-) TimerEvent: {}
+[9.626982] (-) TimerEvent: {}
+[9.727221] (-) TimerEvent: {}
+[9.827597] (-) TimerEvent: {}
+[9.927850] (-) TimerEvent: {}
+[10.028273] (-) TimerEvent: {}
+[10.128650] (-) TimerEvent: {}
+[10.228973] (-) TimerEvent: {}
+[10.329368] (-) TimerEvent: {}
+[10.429758] (-) TimerEvent: {}
+[10.530142] (-) TimerEvent: {}
+[10.630525] (-) TimerEvent: {}
+[10.731020] (-) TimerEvent: {}
+[10.831336] (-) TimerEvent: {}
+[10.931654] (-) TimerEvent: {}
+[11.031873] (-) TimerEvent: {}
+[11.132190] (-) TimerEvent: {}
+[11.232519] (-) TimerEvent: {}
+[11.332866] (-) TimerEvent: {}
+[11.433215] (-) TimerEvent: {}
+[11.533540] (-) TimerEvent: {}
+[11.633871] (-) TimerEvent: {}
+[11.734131] (-) TimerEvent: {}
+[11.834460] (-) TimerEvent: {}
+[11.934679] (-) TimerEvent: {}
+[12.034917] (-) TimerEvent: {}
+[12.135118] (-) TimerEvent: {}
+[12.235319] (-) TimerEvent: {}
+[12.335626] (-) TimerEvent: {}
+[12.435835] (-) TimerEvent: {}
+[12.536056] (-) TimerEvent: {}
+[12.636389] (-) TimerEvent: {}
+[12.736710] (-) TimerEvent: {}
+[12.837038] (-) TimerEvent: {}
+[12.937349] (-) TimerEvent: {}
+[13.037667] (-) TimerEvent: {}
+[13.137984] (-) TimerEvent: {}
+[13.238304] (-) TimerEvent: {}
+[13.338625] (-) TimerEvent: {}
+[13.438939] (-) TimerEvent: {}
+[13.539255] (-) TimerEvent: {}
+[13.639572] (-) TimerEvent: {}
+[13.739900] (-) TimerEvent: {}
+[13.840213] (-) TimerEvent: {}
+[13.940525] (-) TimerEvent: {}
+[14.040845] (-) TimerEvent: {}
+[14.141163] (-) TimerEvent: {}
+[14.241467] (-) TimerEvent: {}
+[14.341780] (-) TimerEvent: {}
+[14.441991] (-) TimerEvent: {}
+[14.542307] (-) TimerEvent: {}
+[14.642612] (-) TimerEvent: {}
+[14.742924] (-) TimerEvent: {}
+[14.843134] (-) TimerEvent: {}
+[14.943444] (-) TimerEvent: {}
+[15.043775] (-) TimerEvent: {}
+[15.144097] (-) TimerEvent: {}
+[15.244407] (-) TimerEvent: {}
+[15.344734] (-) TimerEvent: {}
+[15.445049] (-) TimerEvent: {}
+[15.545319] (-) TimerEvent: {}
+[15.645688] (-) TimerEvent: {}
+[15.746061] (-) TimerEvent: {}
+[15.846411] (-) TimerEvent: {}
+[15.946773] (-) TimerEvent: {}
+[16.047039] (-) TimerEvent: {}
+[16.147397] (-) TimerEvent: {}
+[16.248618] (-) TimerEvent: {}
+[16.349051] (-) TimerEvent: {}
+[16.449433] (-) TimerEvent: {}
+[16.549715] (-) TimerEvent: {}
+[16.650096] (-) TimerEvent: {}
+[16.750502] (-) TimerEvent: {}
+[16.851015] (-) TimerEvent: {}
+[16.951340] (-) TimerEvent: {}
+[17.051671] (-) TimerEvent: {}
+[17.151990] (-) TimerEvent: {}
+[17.252314] (-) TimerEvent: {}
+[17.352631] (-) TimerEvent: {}
+[17.452903] (-) TimerEvent: {}
+[17.506877] (cartographer_rviz) StdoutLine: {'line': b'[ 85%] \x1b[1m\x1b[32mLinking CXX shared library libcartographer_rviz.so\x1b[0m\n'}
+[17.553111] (-) TimerEvent: {}
+[17.653465] (-) TimerEvent: {}
+[17.753731] (-) TimerEvent: {}
+[17.854029] (-) TimerEvent: {}
+[17.954350] (-) TimerEvent: {}
+[18.054754] (-) TimerEvent: {}
+[18.155157] (-) TimerEvent: {}
+[18.255501] (-) TimerEvent: {}
+[18.355912] (-) TimerEvent: {}
+[18.456320] (-) TimerEvent: {}
+[18.556709] (-) TimerEvent: {}
+[18.657110] (-) TimerEvent: {}
+[18.757523] (-) TimerEvent: {}
+[18.858085] (-) TimerEvent: {}
+[18.958438] (-) TimerEvent: {}
+[19.012482] (cartographer_rviz) StdoutLine: {'line': b'[100%] Built target cartographer_rviz\n'}
+[19.022234] (cartographer_rviz) CommandEnded: {'returncode': 0}
+[19.023826] (cartographer_rviz) JobProgress: {'identifier': 'cartographer_rviz', 'progress': 'install'}
+[19.031257] (cartographer_rviz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '0f81d1e5dfb1413faef87184cc962149', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[19.040672] (cartographer_rviz) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.040791] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml\n'}
+[19.040828] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so\n'}
+[19.041383] (cartographer_rviz) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""\n'}
+[19.041425] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/include/cartographer_rviz\n'}
+[19.041456] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz\n'}
+[19.041483] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/ogre_slice.h\n'}
+[19.041519] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/submaps_display.h\n'}
+[19.041553] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/drawable_submap.h\n'}
+[19.041581] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh\n'}
+[19.041607] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv\n'}
+[19.041748] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz\n'}
+[19.041836] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz\n'}
+[19.041902] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh\n'}
+[19.041944] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv\n'}
+[19.041974] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh\n'}
+[19.042013] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv\n'}
+[19.042051] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash\n'}
+[19.042080] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.fish\n'}
+[19.042124] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh\n'}
+[19.042161] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh\n'}
+[19.042196] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv\n'}
+[19.042224] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv\n'}
+[19.042263] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz\n'}
+[19.042303] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz\n'}
+[19.042351] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120\n'}
+[19.042389] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program\n'}
+[19.042425] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert\n'}
+[19.042461] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag\n'}
+[19.042496] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts\n'}
+[19.042523] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material\n'}
+[19.042575] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz\n'}
+[19.042605] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake\n'}
+[19.042647] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake\n'}
+[19.042676] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.042713] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.042741] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.042766] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.042796] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake\n'}
+[19.042822] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake\n'}
+[19.042849] (cartographer_rviz) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml\n'}
+[19.043920] (cartographer_rviz) CommandEnded: {'returncode': 0}
+[19.057530] (cartographer_rviz) JobEnded: {'identifier': 'cartographer_rviz', 'rc': 0}
+[19.057972] (-) EventReactorShutdown: {}

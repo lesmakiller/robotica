@@ -1,0 +1,60 @@
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- Found cartographer_ros_msgs: 2.0.9003 (/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+-- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)
+-- Could NOT find boost_system (missing: boost_system_DIR)
+-- looking for PCL_COMMON
+-- Found pcl_conversions: 2.10.0 (/opt/ros/lyrical/share/pcl_conversions/cmake)
+-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_environment: 4.5.1 (/opt/ros/lyrical/share/ros_environment/cmake)
+-- Found rosbag2_cpp: 0.33.4 (/opt/ros/lyrical/share/rosbag2_cpp/cmake)
+-- Found tf2: 0.45.10 (/opt/ros/lyrical/share/tf2/cmake)
+-- Found tf2_eigen: 0.45.10 (/opt/ros/lyrical/share/tf2_eigen/cmake)
+-- Found urdf: 2.13.2 (/opt/ros/lyrical/share/urdf/cmake)
+-- Found visualization_msgs: 5.9.3 (/opt/ros/lyrical/share/visualization_msgs/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros
+[  2%] [1m[32mLinking CXX shared library libcartographer_ros.so[0m
+[ 57%] Built target cartographer_ros
+[ 60%] [1m[32mLinking CXX executable cartographer_assets_writer[0m
+[ 62%] [1m[32mLinking CXX executable cartographer_node[0m
+[ 65%] [1m[32mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[ 68%] [1m[32mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[ 77%] [1m[32mLinking CXX executable cartographer_occupancy_grid_node[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node.cpp.o[0m
+[ 80%] [1m[32mLinking CXX executable cartographer_rosbag_validate[0m
+[ 82%] Built target cartographer_pbstream_to_ros_map
+[ 85%] Built target cartographer_assets_writer
+[ 88%] Built target cartographer_node
+[ 91%] Built target cartographer_rosbag_validate
+[ 94%] Built target cartographer_pbstream_map_publisher
+[ 97%] Built target cartographer_occupancy_grid_node

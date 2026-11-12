@@ -1,0 +1,27 @@
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[ 20%] [1m[32mLinking CXX shared library libcartographer_ros.so[0m
+[ 60%] Built target cartographer_ros
+[ 68%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[ 82%] [1m[32mLinking CXX executable cartographer_offline_node[0m
+[ 85%] [1m[32mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[ 85%] Built target cartographer_pbstream_to_ros_map
+[ 85%] Built target cartographer_offline_node
+[ 88%] [1m[32mLinking CXX executable cartographer_node[0m
+[ 91%] [1m[32mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[ 94%] [1m[32mLinking CXX executable cartographer_assets_writer[0m
+[ 94%] Built target cartographer_node
+[ 94%] Built target cartographer_pbstream_map_publisher
+[ 94%] Built target cartographer_assets_writer
+[ 97%] [1m[32mLinking CXX executable cartographer_rosbag_validate[0m
+[ 97%] Built target cartographer_rosbag_validate

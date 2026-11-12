@@ -1,0 +1,3 @@
+[console_scripts]
+reactive_controller = localization_lab.reactive_controller:main
+simple_controller = localization_lab.simple_controller:main

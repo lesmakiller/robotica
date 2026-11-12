@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (-) JobUnselected: {'identifier': 'cartographer'}
+[0.000317] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000351] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.000381] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict({'cartographer': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer', 'cartographer_ros_msgs': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs'})}
+[0.001209] (cartographer_ros) JobStarted: {'identifier': 'cartographer_ros'}
+[0.030122] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'cmake'}
+[0.031472] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'build'}
+[0.031558] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', '--', '-j12', '-l12'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u/robotica/cartographer_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install:/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '1cd10edc9ab5423caa3c83c4ca4bdcbc', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[0.069779] (cartographer_ros) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):\n'}
+[0.070106] (cartographer_ros) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.070243] (cartographer_ros) StderrLine: {'line': b'  CMake.\n'}
+[0.070362] (cartographer_ros) StderrLine: {'line': b'\n'}
+[0.070475] (cartographer_ros) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.070587] (cartographer_ros) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.070697] (cartographer_ros) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.070808] (cartographer_ros) StderrLine: {'line': b'\n'}
+[0.070932] (cartographer_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[0.079016] (cartographer_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.099644] (-) TimerEvent: {}
+[0.200108] (-) TimerEvent: {}
+[0.300642] (-) TimerEvent: {}
+[0.401280] (-) TimerEvent: {}
+[0.500359] (cartographer_ros) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)\n'}
+[0.501349] (-) TimerEvent: {}
+[0.521356] (cartographer_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[0.526417] (cartographer_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[0.537216] (cartographer_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.549050] (cartographer_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601507] (-) TimerEvent: {}
+[0.701900] (-) TimerEvent: {}
+[0.802281] (-) TimerEvent: {}
+[0.902659] (-) TimerEvent: {}
+[1.003006] (-) TimerEvent: {}
+[1.103399] (-) TimerEvent: {}
+[1.135709] (cartographer_ros) StdoutLine: {'line': b'-- Found AMD headers in: /usr/include/suitesparse\n'}
+[1.136012] (cartographer_ros) StdoutLine: {'line': b'-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so\n'}
+[1.136115] (cartographer_ros) StdoutLine: {'line': b'-- Found CAMD headers in: /usr/include/suitesparse\n'}
+[1.136177] (cartographer_ros) StdoutLine: {'line': b'-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so\n'}
+[1.136268] (cartographer_ros) StdoutLine: {'line': b'-- Found CCOLAMD headers in: /usr/include/suitesparse\n'}
+[1.136321] (cartographer_ros) StdoutLine: {'line': b'-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so\n'}
+[1.136415] (cartographer_ros) StdoutLine: {'line': b'-- Found CHOLMOD headers in: /usr/include/suitesparse\n'}
+[1.136494] (cartographer_ros) StdoutLine: {'line': b'-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so\n'}
+[1.136547] (cartographer_ros) StdoutLine: {'line': b'-- Found COLAMD headers in: /usr/include/suitesparse\n'}
+[1.136597] (cartographer_ros) StdoutLine: {'line': b'-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so\n'}
+[1.136646] (cartographer_ros) StdoutLine: {'line': b'-- Found SPQR headers in: /usr/include/suitesparse\n'}
+[1.136694] (cartographer_ros) StdoutLine: {'line': b'-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so\n'}
+[1.136744] (cartographer_ros) StdoutLine: {'line': b'-- Found Config headers in: /usr/include/suitesparse\n'}
+[1.136794] (cartographer_ros) StdoutLine: {'line': b'-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so\n'}
+[1.137342] (cartographer_ros) StdoutLine: {'line': b'-- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.\n'}
+[1.137417] (cartographer_ros) StdoutLine: {'line': b'-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).\n'}
+[1.146865] (cartographer_ros) StdoutLine: {'line': b'-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) \n'}
+[1.149009] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake\n'}
+[1.153150] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[1.153853] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[1.154173] (cartographer_ros) StdoutLine: {'line': b'-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]\n'}
+[1.158117] (cartographer_ros) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):\n'}
+[1.158283] (cartographer_ros) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.158353] (cartographer_ros) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.158409] (cartographer_ros) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.158462] (cartographer_ros) StderrLine: {'line': b'\n'}
+[1.158516] (cartographer_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.158567] (cartographer_ros) StderrLine: {'line': b'  CMakeLists.txt:33 (find_package)\n'}
+[1.158617] (cartographer_ros) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.158668] (cartographer_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[1.167222] (cartographer_ros) StdoutLine: {'line': b'-- Found cartographer_ros_msgs: 2.0.9003 (/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)\n'}
+[1.203560] (-) TimerEvent: {}
+[1.260209] (cartographer_ros) StdoutLine: {'line': b'-- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)\n'}
+[1.303771] (-) TimerEvent: {}
+[1.329633] (cartographer_ros) StdoutLine: {'line': b'-- Could NOT find boost_system (missing: boost_system_DIR)\n'}
+[1.336153] (cartographer_ros) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.338763] (cartographer_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.10.0 (/opt/ros/lyrical/share/pcl_conversions/cmake)\n'}
+[1.396654] (cartographer_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[1.398930] (cartographer_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403948] (-) TimerEvent: {}
+[1.429678] (cartographer_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.504065] (-) TimerEvent: {}
+[1.578980] (cartographer_ros) StdoutLine: {'line': b'-- Found ros_environment: 4.5.1 (/opt/ros/lyrical/share/ros_environment/cmake)\n'}
+[1.579170] (cartographer_ros) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.33.4 (/opt/ros/lyrical/share/rosbag2_cpp/cmake)\n'}
+[1.593701] (cartographer_ros) StdoutLine: {'line': b'-- Found tf2: 0.45.10 (/opt/ros/lyrical/share/tf2/cmake)\n'}
+[1.596948] (cartographer_ros) StdoutLine: {'line': b'-- Found tf2_eigen: 0.45.10 (/opt/ros/lyrical/share/tf2_eigen/cmake)\n'}
+[1.604140] (-) TimerEvent: {}
+[1.704452] (-) TimerEvent: {}
+[1.712654] (cartographer_ros) StdoutLine: {'line': b'-- Found urdf: 2.13.2 (/opt/ros/lyrical/share/urdf/cmake)\n'}
+[1.718633] (cartographer_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 5.9.3 (/opt/ros/lyrical/share/visualization_msgs/cmake)\n'}
+[1.804591] (-) TimerEvent: {}
+[1.899956] (cartographer_ros) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.904776] (-) TimerEvent: {}
+[2.005051] (-) TimerEvent: {}
+[2.047034] (cartographer_ros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.105170] (-) TimerEvent: {}
+[2.163172] (cartographer_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros\n'}
+[2.205320] (-) TimerEvent: {}
+[2.305748] (-) TimerEvent: {}
+[2.373394] (cartographer_ros) StdoutLine: {'line': b'[ 57%] Built target cartographer_ros\n'}
+[2.405899] (-) TimerEvent: {}
+[2.442347] (cartographer_ros) StdoutLine: {'line': b'[ 68%] Built target cartographer_pbstream_map_publisher\n'}
+[2.442680] (cartographer_ros) StdoutLine: {'line': b'[ 68%] Built target cartographer_pbstream_to_ros_map\n'}
+[2.442999] (cartographer_ros) StdoutLine: {'line': b'[ 74%] Built target cartographer_occupancy_grid_node\n'}
+[2.443231] (cartographer_ros) StdoutLine: {'line': b'[ 80%] Built target cartographer_rosbag_validate\n'}
+[2.452814] (cartographer_ros) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node.cpp.o\x1b[0m\n'}
+[2.453135] (cartographer_ros) StdoutLine: {'line': b'[ 88%] Built target cartographer_assets_writer\n'}
+[2.456408] (cartographer_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o\x1b[0m\n'}
+[2.459056] (cartographer_ros) StdoutLine: {'line': b'[ 97%] Built target cartographer_node\n'}
+[2.506065] (-) TimerEvent: {}
+[2.606560] (-) TimerEvent: {}
+[2.707028] (-) TimerEvent: {}
+[2.807465] (-) TimerEvent: {}
+[2.907961] (-) TimerEvent: {}
+[3.008343] (-) TimerEvent: {}
+[3.108736] (-) TimerEvent: {}
+[3.209195] (-) TimerEvent: {}
+[3.309638] (-) TimerEvent: {}
+[3.410019] (-) TimerEvent: {}
+[3.478744] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24\x1b[m\x1b[K,\n'}
+[3.479060] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28\x1b[m\x1b[K,\n'}
+[3.479233] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32\x1b[m\x1b[K,\n'}
+[3.479369] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32\x1b[m\x1b[K,\n'}
+[3.479488] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:28\x1b[m\x1b[K:\n'}
+[3.479595] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning BUFFER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.479705] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K BUFFER_HEADER_DEPRECATION\n'}
+[3.479811] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.510125] (-) TimerEvent: {}
+[3.526365] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53\x1b[m\x1b[K:\n'}
+[3.526644] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.526782] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[3.526925] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.528842] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55\x1b[m\x1b[K:\n'}
+[3.529055] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.529187] (cartographer_ros) StderrLine: {'line': b'   40 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_LISTENER_HEADER_DEPRECATION\n'}
+[3.529309] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.562229] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:33\x1b[m\x1b[K:\n'}
+[3.562470] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.562595] (cartographer_ros) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[3.562704] (cartographer_ros) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.610263] (-) TimerEvent: {}
+[3.710581] (-) TimerEvent: {}
+[3.811113] (-) TimerEvent: {}
+[3.911468] (-) TimerEvent: {}
+[4.011814] (-) TimerEvent: {}
+[4.112198] (-) TimerEvent: {}
+[4.212559] (-) TimerEvent: {}
+[4.313033] (-) TimerEvent: {}
+[4.413400] (-) TimerEvent: {}
+[4.513884] (-) TimerEvent: {}
+[4.614339] (-) TimerEvent: {}
+[4.714696] (-) TimerEvent: {}
+[4.815172] (-) TimerEvent: {}
+[4.915541] (-) TimerEvent: {}
+[5.015883] (-) TimerEvent: {}
+[5.116347] (-) TimerEvent: {}
+[5.216831] (-) TimerEvent: {}
+[5.317299] (-) TimerEvent: {}
+[5.417769] (-) TimerEvent: {}
+[5.518177] (-) TimerEvent: {}
+[5.618550] (-) TimerEvent: {}
+[5.719061] (-) TimerEvent: {}
+[5.819472] (-) TimerEvent: {}
+[5.919957] (-) TimerEvent: {}
+[6.020412] (-) TimerEvent: {}
+[6.120861] (-) TimerEvent: {}
+[6.221336] (-) TimerEvent: {}
+[6.321805] (-) TimerEvent: {}
+[6.422275] (-) TimerEvent: {}
+[6.522740] (-) TimerEvent: {}
+[6.623241] (-) TimerEvent: {}
+[6.723719] (-) TimerEvent: {}
+[6.824188] (-) TimerEvent: {}
+[6.924638] (-) TimerEvent: {}
+[7.025102] (-) TimerEvent: {}
+[7.125555] (-) TimerEvent: {}
+[7.225998] (-) TimerEvent: {}
+[7.326457] (-) TimerEvent: {}
+[7.426916] (-) TimerEvent: {}
+[7.527373] (-) TimerEvent: {}
+[7.627717] (-) TimerEvent: {}
+[7.728061] (-) TimerEvent: {}
+[7.828500] (-) TimerEvent: {}
+[7.862593] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21\x1b[m\x1b[K,\n'}
+[7.862875] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24\x1b[m\x1b[K,\n'}
+[7.863227] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:33\x1b[m\x1b[K:\n'}
+[7.863340] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KSet\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.863406] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.863471] (cartographer_ros) StderrLine: {'line': b'   45 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.863529] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.863582] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:28\x1b[m\x1b[K:\n'}
+[7.863635] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.863686] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[7.863739] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.863789] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KValue\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.863859] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.863923] (cartographer_ros) StderrLine: {'line': b'   50 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.863973] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.864022] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.864071] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[7.864120] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.864685] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::metrics::Gauge::\x1b[01;32m\x1b[KAdd\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.864837] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsl::debian9::MutexLock::\x1b[01;32m\x1b[KMutexLock\x1b[m\x1b[K(absl::debian9::Mutex*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use the constructor that takes a reference instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.864920] (cartographer_ros) StderrLine: {'line': b'   69 |     absl::MutexLock lock(&mutex_\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.864975] (cartographer_ros) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.865028] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/absl/synchronization/mutex.h:635:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.865078] (cartographer_ros) StderrLine: {'line': b'  635 |   explicit \x1b[01;36m\x1b[KMutexLock\x1b[m\x1b[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)\n'}
+[7.865129] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.928710] (-) TimerEvent: {}
+[8.029092] (-) TimerEvent: {}
+[8.129377] (-) TimerEvent: {}
+[8.229759] (-) TimerEvent: {}
+[8.330162] (-) TimerEvent: {}
+[8.430535] (-) TimerEvent: {}
+[8.530915] (-) TimerEvent: {}
+[8.631300] (-) TimerEvent: {}
+[8.682968] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cartographer_ros::\x1b[01;32m\x1b[KRunOfflineNode\x1b[m\x1b[K(const MapBuilderFactory&, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.683195] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:185:88:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::StaticTransformBroadcaster::\x1b[01;32m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K(NodeT&&) \x1b[35m\x1b[K[with NodeT = std::shared_ptr<rclcpp::Node>&; AllocatorT = std::allocator<void>; typename std::enable_if<rcpputils::is_pointer<T>::value, bool>::type <anonymous> = true]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use rclcpp::node_interfaces::NodeInterfaces instead of NodeT [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.683301] (cartographer_ros) StderrLine: {'line': b'  185 |   ::tf2_ros::StaticTransformBroadcaster static_tf_broadcaster(cartographer_offline_node\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[8.683369] (cartographer_ros) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.683428] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:44\x1b[m\x1b[K:\n'}
+[8.683489] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp:92:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.683545] (cartographer_ros) StderrLine: {'line': b'   92 |   explicit \x1b[01;36m\x1b[KStaticTransformBroadcaster\x1b[m\x1b[K(NodeT && node)\n'}
+[8.683602] (cartographer_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.731404] (-) TimerEvent: {}
+[8.767798] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:424:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin_some\x1b[m\x1b[K(const Node::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use SingleThreadedExecutor::spin_some instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.768027] (cartographer_ros) StderrLine: {'line': b'  424 |     \x1b[01;35m\x1b[Krclcpp::spin_some(cartographer_offline_node)\x1b[m\x1b[K;\n'}
+[8.768096] (cartographer_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.768154] (cartographer_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174\x1b[m\x1b[K,\n'}
+[8.768209] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/offline_node.h:25\x1b[m\x1b[K,\n'}
+[8.768262] (cartographer_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:17\x1b[m\x1b[K:\n'}
+[8.768315] (cartographer_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.768367] (cartographer_ros) StderrLine: {'line': b'  110 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(const rclcpp::Node::SharedPtr & node_ptr);\n'}
+[8.768419] (cartographer_ros) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.831610] (-) TimerEvent: {}
+[8.931986] (-) TimerEvent: {}
+[9.032371] (-) TimerEvent: {}
+[9.132783] (-) TimerEvent: {}
+[9.233198] (-) TimerEvent: {}
+[9.333601] (-) TimerEvent: {}
+[9.434000] (-) TimerEvent: {}
+[9.534374] (-) TimerEvent: {}
+[9.634739] (-) TimerEvent: {}
+[9.735138] (-) TimerEvent: {}
+[9.835422] (-) TimerEvent: {}
+[9.935835] (-) TimerEvent: {}
+[10.036232] (-) TimerEvent: {}
+[10.136612] (-) TimerEvent: {}
+[10.236998] (-) TimerEvent: {}
+[10.337280] (-) TimerEvent: {}
+[10.437659] (-) TimerEvent: {}
+[10.538051] (-) TimerEvent: {}
+[10.638431] (-) TimerEvent: {}
+[10.738813] (-) TimerEvent: {}
+[10.839209] (-) TimerEvent: {}
+[10.939485] (-) TimerEvent: {}
+[11.039869] (-) TimerEvent: {}
+[11.140137] (-) TimerEvent: {}
+[11.240431] (-) TimerEvent: {}
+[11.340725] (-) TimerEvent: {}
+[11.441142] (-) TimerEvent: {}
+[11.541532] (-) TimerEvent: {}
+[11.641900] (-) TimerEvent: {}
+[11.742200] (-) TimerEvent: {}
+[11.842495] (-) TimerEvent: {}
+[11.942878] (-) TimerEvent: {}
+[12.043155] (-) TimerEvent: {}
+[12.143462] (-) TimerEvent: {}
+[12.243863] (-) TimerEvent: {}
+[12.344251] (-) TimerEvent: {}
+[12.444619] (-) TimerEvent: {}
+[12.545011] (-) TimerEvent: {}
+[12.645404] (-) TimerEvent: {}
+[12.745779] (-) TimerEvent: {}
+[12.846184] (-) TimerEvent: {}
+[12.946575] (-) TimerEvent: {}
+[13.046970] (-) TimerEvent: {}
+[13.147349] (-) TimerEvent: {}
+[13.247639] (-) TimerEvent: {}
+[13.348016] (-) TimerEvent: {}
+[13.448405] (-) TimerEvent: {}
+[13.548793] (-) TimerEvent: {}
+[13.649215] (-) TimerEvent: {}
+[13.749534] (-) TimerEvent: {}
+[13.849913] (-) TimerEvent: {}
+[13.950304] (-) TimerEvent: {}
+[14.050687] (-) TimerEvent: {}
+[14.150990] (-) TimerEvent: {}
+[14.251256] (-) TimerEvent: {}
+[14.351623] (-) TimerEvent: {}
+[14.451980] (-) TimerEvent: {}
+[14.552367] (-) TimerEvent: {}
+[14.652742] (-) TimerEvent: {}
+[14.753132] (-) TimerEvent: {}
+[14.853430] (-) TimerEvent: {}
+[14.953804] (-) TimerEvent: {}
+[15.054093] (-) TimerEvent: {}
+[15.154457] (-) TimerEvent: {}
+[15.254855] (-) TimerEvent: {}
+[15.355233] (-) TimerEvent: {}
+[15.455600] (-) TimerEvent: {}
+[15.555979] (-) TimerEvent: {}
+[15.656377] (-) TimerEvent: {}
+[15.756766] (-) TimerEvent: {}
+[15.857162] (-) TimerEvent: {}
+[15.957550] (-) TimerEvent: {}
+[16.057927] (-) TimerEvent: {}
+[16.158288] (-) TimerEvent: {}
+[16.258665] (-) TimerEvent: {}
+[16.359059] (-) TimerEvent: {}
+[16.459457] (-) TimerEvent: {}
+[16.559854] (-) TimerEvent: {}
+[16.660260] (-) TimerEvent: {}
+[16.760679] (-) TimerEvent: {}
+[16.861077] (-) TimerEvent: {}
+[16.961490] (-) TimerEvent: {}
+[16.976435] (cartographer_ros) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable cartographer_offline_node\x1b[0m\n'}
+[17.061728] (-) TimerEvent: {}
+[17.162211] (-) TimerEvent: {}
+[17.262704] (-) TimerEvent: {}
+[17.363331] (-) TimerEvent: {}
+[17.463646] (-) TimerEvent: {}
+[17.564246] (-) TimerEvent: {}
+[17.664660] (-) TimerEvent: {}
+[17.765089] (-) TimerEvent: {}
+[17.865504] (-) TimerEvent: {}
+[17.965808] (-) TimerEvent: {}
+[18.066258] (-) TimerEvent: {}
+[18.166684] (-) TimerEvent: {}
+[18.267122] (-) TimerEvent: {}
+[18.367540] (-) TimerEvent: {}
+[18.467902] (-) TimerEvent: {}
+[18.568340] (-) TimerEvent: {}
+[18.668744] (-) TimerEvent: {}
+[18.769176] (-) TimerEvent: {}
+[18.869578] (-) TimerEvent: {}
+[18.969986] (-) TimerEvent: {}
+[19.024792] (cartographer_ros) StdoutLine: {'line': b'[100%] Built target cartographer_offline_node\n'}
+[19.045506] (cartographer_ros) CommandEnded: {'returncode': 0}
+[19.049464] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'install'}
+[19.066669] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros'], 'cwd': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share:/opt/ros/lyrical/share/', 'USER': 'lesmakiller-u', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz/lib:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/lesmakiller-u', 'OLDPWD': '/home/lesmakiller-u/robotica/cartographer_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3829', 'SYSTEMD_EXEC_PID': '4493', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '54451', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install:/home/lesmakiller-u/robotica/turtlebot3_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'lesmakiller-u', 'MANAGERPIDFDID': '24913', 'JOURNAL_STREAM': '10:24127', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lesmakiller-u', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/lesmakiller-u/robotica/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/bin:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/lesmakiller-u/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '1cd10edc9ab5423caa3c83c4ca4bdcbc', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'b5381eac0e587315b99c83056a9ade8e', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LVLGY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.14/site-packages:/home/lesmakiller-u/robotica/turtlebot3_ws/build/lab_robotica:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros_msgs:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_rviz:/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_navigation2:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_gazebo:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/lesmakiller-u/robotica/turtlebot3_ws/install/turtlebot3_teleop:/home/lesmakiller-u/robotica/turtlebot3_ws/install/lab_robotica:/opt/ros/lyrical'}), 'shell': False}
+[19.070073] (-) TimerEvent: {}
+[19.081920] (cartographer_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.082212] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/libcartographer_ros.so\n'}
+[19.115435] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/libcartographer_ros.so" to ""\n'}
+[19.115694] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node\n'}
+[19.116423] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""\n'}
+[19.117736] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node\n'}
+[19.123312] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""\n'}
+[19.123505] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node\n'}
+[19.126303] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""\n'}
+[19.126472] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer\n'}
+[19.127442] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""\n'}
+[19.127599] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher\n'}
+[19.128606] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""\n'}
+[19.128762] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map\n'}
+[19.129097] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""\n'}
+[19.129235] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate\n'}
+[19.130065] (cartographer_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""\n'}
+[19.130434] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros\n'}
+[19.130536] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros\n'}
+[19.130610] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_map.h\n'}
+[19.130774] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/tf_bridge.h\n'}
+[19.130849] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/offline_node.h\n'}
+[19.130918] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_log_sink.h\n'}
+[19.130981] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node_options.h\n'}
+[19.131086] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/time_conversion.h\n'}
+[19.131141] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/msg_conversion.h\n'}
+[19.131204] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/ros_map_writing_points_processor.h\n'}
+[19.131261] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node.h\n'}
+[19.131321] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/submap.h\n'}
+[19.131425] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/playable_bag.h\n'}
+[19.131486] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/trajectory_options.h\n'}
+[19.131585] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/assets_writer.h\n'}
+[19.131651] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/node_constants.h\n'}
+[19.131735] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/sensor_bridge.h\n'}
+[19.131802] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/urdf_reader.h\n'}
+[19.131873] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics\n'}
+[19.131940] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal\n'}
+[19.132042] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/counter.h\n'}
+[19.132139] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/gauge.h\n'}
+[19.132217] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/histogram.h\n'}
+[19.132320] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/internal/family.h\n'}
+[19.132431] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/metrics/family_factory.h\n'}
+[19.132532] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/include/cartographer_ros/cartographer_ros/map_builder_bridge.h\n'}
+[19.132611] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files\n'}
+[19.132685] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua\n'}
+[19.132756] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua\n'}
+[19.132835] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua\n'}
+[19.132905] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz\n'}
+[19.132975] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua\n'}
+[19.133041] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua\n'}
+[19.133107] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua\n'}
+[19.133176] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua\n'}
+[19.133245] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua\n'}
+[19.133313] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua\n'}
+[19.133385] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua\n'}
+[19.133453] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua\n'}
+[19.133519] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua\n'}
+[19.133590] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua\n'}
+[19.133672] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua\n'}
+[19.133748] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz\n'}
+[19.133889] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua\n'}
+[19.134003] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua\n'}
+[19.134175] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf\n'}
+[19.134388] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf\n'}
+[19.134626] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf\n'}
+[19.134756] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf\n'}
+[19.134833] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch\n'}
+[19.135264] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py\n'}
+[19.135405] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py\n'}
+[19.135488] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch\n'}
+[19.135565] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch\n'}
+[19.135622] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py\n'}
+[19.135702] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py\n'}
+[19.135755] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py\n'}
+[19.135811] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py\n'}
+[19.135962] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py\n'}
+[19.136021] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py\n'}
+[19.136077] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py\n'}
+[19.136132] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py\n'}
+[19.136293] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py\n'}
+[19.136355] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py\n'}
+[19.136415] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py\n'}
+[19.136480] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py\n'}
+[19.136633] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch\n'}
+[19.136690] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py\n'}
+[19.136744] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py\n'}
+[19.136799] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py\n'}
+[19.136937] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh\n'}
+[19.137000] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv\n'}
+[19.137058] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros\n'}
+[19.137114] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros\n'}
+[19.137234] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh\n'}
+[19.137289] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv\n'}
+[19.137341] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh\n'}
+[19.137395] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv\n'}
+[19.137448] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash\n'}
+[19.137503] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.fish\n'}
+[19.137556] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh\n'}
+[19.137654] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh\n'}
+[19.137719] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv\n'}
+[19.138112] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/package.dsv\n'}
+[19.138237] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros\n'}
+[19.138304] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosExport.cmake\n'}
+[19.138362] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosExport-noconfig.cmake\n'}
+[19.138419] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.138478] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.138538] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.138670] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.138744] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake\n'}
+[19.138827] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake\n'}
+[19.138996] (cartographer_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer_ros/share/cartographer_ros/package.xml\n'}
+[19.139057] (cartographer_ros) CommandEnded: {'returncode': 0}
+[19.170479] (-) TimerEvent: {}
+[19.173860] (cartographer_ros) JobEnded: {'identifier': 'cartographer_ros', 'rc': 0}
+[19.174498] (-) EventReactorShutdown: {}

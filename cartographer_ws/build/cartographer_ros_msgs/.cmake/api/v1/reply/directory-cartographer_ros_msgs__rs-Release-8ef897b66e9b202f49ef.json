@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cartographer_ros_msgs__rs",
+		"source" : "/home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_ros_msgs/cartographer_ros_msgs__rs"
+	}
+}

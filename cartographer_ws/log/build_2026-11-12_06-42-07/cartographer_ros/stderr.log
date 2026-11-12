@@ -1,0 +1,80 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /home/lesmakiller-u/robotica/cartographer_ws/install/cartographer/share/cartographer/cartographer-config.cmake:71 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/tf_bridge.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/sensor_bridge.h:28[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/map_builder_bridge.h:32[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:32[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:28[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:53[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:55[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:33[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K STATIC_TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/counter.h:21[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/family_factory.h:24[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:33[m[K:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvirtual void cartographer_ros::metrics::Gauge::[01;32m[KSet[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:45:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   45 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:28[m[K:
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kdouble cartographer_ros::metrics::Gauge::[01;32m[KValue[m[K()[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:50:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   50 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:[m[K In member function ‘[01m[Kvoid cartographer_ros::metrics::Gauge::[01;32m[KAdd[m[K(double)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/metrics/internal/gauge.h:69:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kabsl::debian9::MutexLock::[01;32m[KMutexLock[m[K(absl::debian9::Mutex*)[m[K’ is deprecated: Use the constructor that takes a reference instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   69 |     absl::MutexLock lock(&mutex_[01;35m[K)[m[K;
+      |                                 [01;35m[K^[m[K
+[01m[K/usr/include/absl/synchronization/mutex.h:635:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  635 |   explicit [01;36m[KMutexLock[m[K(Mutex* absl_nonnull mu) ABSL_EXCLUSIVE_LOCK_FUNCTION(mu)
+      |            [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:[m[K In function ‘[01m[Kvoid cartographer_ros::[01;32m[KRunOfflineNode[m[K(const MapBuilderFactory&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:185:88:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktf2_ros::StaticTransformBroadcaster::[01;32m[KStaticTransformBroadcaster[m[K(NodeT&&) [35m[K[with NodeT = std::shared_ptr<rclcpp::Node>&; AllocatorT = std::allocator<void>; typename std::enable_if<rcpputils::is_pointer<T>::value, bool>::type <anonymous> = true][m[K[m[K’ is deprecated: Use rclcpp::node_interfaces::NodeInterfaces instead of NodeT [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  185 |   ::tf2_ros::StaticTransformBroadcaster static_tf_broadcaster(cartographer_offline_node[01;35m[K)[m[K;
+      |                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:44[m[K:
+[01m[K/opt/ros/lyrical/include/tf2_ros/tf2_ros/static_transform_broadcaster.hpp:92:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 |   explicit [01;36m[KStaticTransformBroadcaster[m[K(NodeT && node)
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:424:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::[01;32m[Kspin_some[m[K(const Node::SharedPtr&)[m[K’ is deprecated: use SingleThreadedExecutor::spin_some instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  424 |     [01;35m[Krclcpp::spin_some(cartographer_offline_node)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/offline_node.h:25[m[K,
+                 from [01m[K/home/lesmakiller-u/robotica/cartographer_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:17[m[K:
+[01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:110:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  110 | [01;36m[Kspin_some[m[K(const rclcpp::Node::SharedPtr & node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K

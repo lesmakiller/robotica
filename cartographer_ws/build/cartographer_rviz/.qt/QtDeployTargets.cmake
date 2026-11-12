@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_cartographer_rviz_FILE /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer_rviz/libcartographer_rviz.so)
+set(__QT_DEPLOY_TARGET_cartographer_rviz_TYPE SHARED_LIBRARY)

@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build type: Release
+Files /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/AllFiles.cmake and - differ
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found GMock: /usr/lib/x86_64-linux-gnu/libgmock_main.a;/usr/lib/x86_64-linux-gnu/libgmock.a;/usr/lib/x86_64-linux-gnu/libgtest.a
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.90.0/BoostConfig.cmake (found version "1.90.0") found components: iostreams
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2022.3 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.12.2", minimum required is "7.11.0") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+-- Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4")
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.21.12", minimum required is "3.0.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Checking for one of the modules 'cairo>=1.12.16'
+-- Found Sphinx: /usr/bin/sphinx-build
+-- Configuring done (3.0s)
+-- Generating done (0.6s)
+-- Build files have been written to: /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer
+[  0%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/ground_truth/proto/relations.proto[0m
+[  0%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/common/proto/ceres_solver_options.proto[0m
+[  0%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/transform/proto/transform.proto[0m
+[  1%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/cell_limits_2d.proto[0m
+[  1%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/grid_2d.proto[0m
+[  1%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/connected_components.proto[0m
+[  1%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/grid_2d_options.proto[0m
+[  1%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_2d.proto[0m
+[  2%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/hybrid_grid.proto[0m
+[  2%] [1m[34mBuilding documentation.[0m
+[  2%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/map_builder_options.proto[0m
+[  2%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_3d.proto[0m
+[  2%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/motion_filter_options.proto[0m
+[  3%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/map_limits.proto[0m
+[  3%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/pose_extrapolator_options.proto[0m
+[  3%] Built target cartographer_detect_changes
+[  3%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/pose_graph/constraint_builder_options.proto[0m
+[  4%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/pose_graph.proto[0m
+[  4%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/pose_graph/optimization_problem_options.proto[0m
+[  4%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/normal_estimation_options_2d.proto[0m
+[  5%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/probability_grid.proto[0m
+[  5%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.proto[0m
+[  5%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/pose_graph_options.proto[0m
+[  6%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options_3d.proto[0m
+[  6%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/range_data_inserter_options.proto[0m
+[  6%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.proto[0m
+[  6%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.proto[0m
+[  7%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.proto[0m
+[  7%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.proto[0m
+[  7%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/serialization.proto[0m
+[  7%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/submap_visualization.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/submap.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/submaps_options_3d.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/trajectory.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/trajectory_node_data.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/submaps_options_2d.proto[0m
+[  8%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/tsdf_2d.proto[0m
+[  9%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/trajectory_builder_options.proto[0m
+[  9%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.proto[0m
+[  9%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/sensor/proto/sensor.proto[0m
+[  9%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/transform/proto/timestamped_transform.proto[0m
+[ 10%] [1m[34mRunning C++ protocol buffer compiler on /home/lesmakiller-u/robotica/cartographer_ws/src/cartographer/cartographer/sensor/proto/adaptive_voxel_filter_options.proto[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o[0m
+[01mRunning Sphinx v8.2.3[39;49;00m
+[01mloading translations [en]... [39;49;00mdone
+[01mmaking output directory... [39;49;00mdone
+Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [html]: [39;49;00mtargets for 6 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 6 added, 0 changed, 0 removed
+[2K[01mreading sources... [39;49;00m[ 17%] [35mconfiguration[39;49;00m
+[2K[01mreading sources... [39;49;00m[ 33%] [35mcost_functions[39;49;00m
+[2K[01mreading sources... [39;49;00m[ 50%] [35mevaluation[39;49;00m
+[2K[01mreading sources... [39;49;00m[ 67%] [35mindex[39;49;00m
+[2K[01mreading sources... [39;49;00m[ 83%] [35mpbstream_migration[39;49;00m
+[2K[01mreading sources... [39;49;00m[100%] [35mterminology[39;49;00m
+
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mcopying assets... [39;49;00m
+[01mcopying static files... [39;49;00m
+Writing evaluated template result to /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/html/_static/documentation_options.js
+Writing evaluated template result to /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/html/_static/language_data.js
+Writing evaluated template result to /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/html/_static/basic.css
+Writing evaluated template result to /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/html/_static/sidebar.js
+Writing evaluated template result to /home/lesmakiller-u/robotica/cartographer_ws/build/cartographer/docs/html/_static/classic.css
+[01mcopying static files: [39;49;00mdone
+[01mcopying extra files... [39;49;00m
+[01mcopying extra files: [39;49;00mdone
+[01mcopying assets: [39;49;00mdone
+[2K[01mwriting output... [39;49;00m[ 17%] [32mconfiguration[39;49;00m
+[2K[01mwriting output... [39;49;00m[ 33%] [32mcost_functions[39;49;00m
+[2K[01mwriting output... [39;49;00m[ 50%] [32mevaluation[39;49;00m
+[2K[01mwriting output... [39;49;00m[ 67%] [32mindex[39;49;00m
+[2K[01mwriting output... [39;49;00m[ 83%] [32mpbstream_migration[39;49;00m
+[2K[01mwriting output... [39;49;00m[100%] [32mterminology[39;49;00m
+
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[2K[01mcopying images... [39;49;00m[ 50%] [33mautogenerate_groundtruth.png[39;49;00m
+[2K[01mcopying images... [39;49;00m[100%] [33mhigh_level_system_overview.png[39;49;00m
+
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in html.
+[ 13%] Built target build_doc
