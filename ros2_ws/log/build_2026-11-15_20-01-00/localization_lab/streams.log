@@ -1,0 +1,18 @@
+[1.008s] Invoking command in '/home/lesmakiller-u/robotica/ros2_ws/build/localization_lab': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/build --no-deps symlink_data
+[1.275s] running develop
+[1.424s] running egg_info
+[1.442s] writing localization_lab.egg-info/PKG-INFO
+[1.443s] writing dependency_links to localization_lab.egg-info/dependency_links.txt
+[1.443s] writing entry points to localization_lab.egg-info/entry_points.txt
+[1.443s] writing requirements to localization_lab.egg-info/requires.txt
+[1.443s] writing top-level names to localization_lab.egg-info/top_level.txt
+[1.477s] reading manifest file 'localization_lab.egg-info/SOURCES.txt'
+[1.478s] writing manifest file 'localization_lab.egg-info/SOURCES.txt'
+[1.496s] running build_ext
+[1.496s] Creating /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/python3.14/site-packages/localization-lab.egg-link (link to .)
+[1.496s] Installing reactive_controller script to /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/localization_lab
+[1.496s] Installing simple_controller script to /home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/localization_lab
+[1.497s] 
+[1.497s] Installed /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab
+[1.497s] running symlink_data
+[1.540s] Invoked command in '/home/lesmakiller-u/robotica/ros2_ws/build/localization_lab' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lesmakiller-u/robotica/ros2_ws/install/localization_lab/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lesmakiller-u/robotica/ros2_ws/build/localization_lab/build --no-deps symlink_data
